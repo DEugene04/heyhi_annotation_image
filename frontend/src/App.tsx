@@ -24,7 +24,7 @@ import { SAMPLE_PAYLOAD } from "./fixture";
 import { toAnnotations } from "./annotations";
 import { CATEGORY_STYLE } from "./categories";
 import { FeedbackPanel } from "./FeedbackPanel";
-import type { Category } from "./types";
+import type { AnnotationPayload, Category } from "./types";
 import "./App.css";
 
 function Viewer() {
@@ -32,7 +32,16 @@ function Viewer() {
   const selection = useSelection<ImageAnnotation>();
   const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
 
-  const payload = SAMPLE_PAYLOAD;
+  // Load the real fused payload (Mathpix shapes + GPT-5 text) if it has been
+  // exported into public/; otherwise fall back to the hand-made fixture.
+  const [payload, setPayload] = useState<AnnotationPayload>(SAMPLE_PAYLOAD);
+  useEffect(() => {
+    fetch("/fusion-payload.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then(setPayload)
+      .catch(() => setPayload(SAMPLE_PAYLOAD));
+  }, []);
+
   const annotations = useMemo(() => toAnnotations(payload), [payload]);
 
   // Load the shapes once the annotator is ready.
@@ -82,7 +91,7 @@ function Viewer() {
     <div className="viewer">
       <div className="viewer__image">
         <ImageAnnotator drawingEnabled={false}>
-          <img src="/sample-answer.svg" alt="Student's answer" />
+          <img src="/fusion-image.png" alt="Student's answer" />
         </ImageAnnotator>
       </div>
       <FeedbackPanel

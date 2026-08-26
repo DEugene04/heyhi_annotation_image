@@ -21,3 +21,5 @@ dist/
 # OS
 .DS_Store
 corpus/fusion/
+frontend/public/fusion-payload.json
+frontend/public/fusion-image.png
