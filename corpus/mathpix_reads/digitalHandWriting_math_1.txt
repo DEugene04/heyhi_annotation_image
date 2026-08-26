@@ -1,0 +1,59 @@
+[text   ] (13w) 7. Matuaga spant kah 150 in paying 2 peas and 4 excelse books from Banni supermaket. If Nyongess
+[text   ] (16w) bought 4 more pens and a 3 and Tess than Matunga from the same super market and spont kiths 30 more than
+[text   ] (14w) what Matings spont, By letting the prices of a pen and an extrcise book be \( p \) and b respectively.
+[text   ] (2w) (a) Form a ratrix equation from the above statement,
+[text   ] (2w) (1 mak)
+[math   ] (0w) \left(
+2 & 4
+[math   ] (0w) 6 & 3
+\right)\binom{p}{b}=\binom{150}{180} B_{1}
+[text   ] (0w) (b) Hence find the unit price of each item using matrix method.
+[text   ] (3w) (3 marks)
+[math   ] (1w) -\frac{1}{18}\left(
+3 & -4
+[math   ] (1w) -6 & a
+\right)\left(
+2 & 4
+[math   ] (0w) 6 & 3
+\right)\binom{f}{b} & =-\frac{1}{18}\left(
+3 & -4
+[math   ] (0w) -6 & 2
+\right)\binom{150}{180} M_{1}
+[math   ] (0w) \binom{p}{b} & =\binom{15}{30}-A_{1}
+[math   ] (0w) \text { Apric } & =\text { sh. 15, } A_{1} \text { Breash brove }=\text { sh. } 30 .{ }^{3} \underline{B_{1}}
+[text   ] (17w) 8. For bells ring at intervals of \( 5,15,20 \) and 25 minutes. It the bells rung together at 10.00 per on
+[text   ] (10w) Sunday, find the time and day bey will together ring again.
+[text   ] (1w) (3marks)
+[text   ] (14w) \begin{tabular}[t]{|l|l|l|l|}
+\hline 5 & 15 & 20 & 25 \\
+\hline 1 & 3 I & ↑ 4 1 & 5 5 5 Lem = 300 mink \( =5 \mathrm{hrs} \) \\
+\hline
+\end{tabular}
+[text   ] (0w) 5
+[text   ] (0w) 15
+[text   ] (0w) 20
+[text   ] (0w) 25
+[text   ] (0w) 1
+[text   ] (0w) 3 I
+[text   ] (0w) 3
+[text   ] (0w) I
+[text   ] (0w) ↑ 4 1
+[text   ] (0w) ↑
+[text   ] (0w) 4
+[text   ] (0w) 1
+[text   ] (0w) 5 5 5 Lem = 300 mink \( =5 \mathrm{hrs} \)
+[text   ] (0w) 5
+[text   ] (0w) 5
+[text   ] (0w) 5
+[text   ] (1w) Lem = 300 mink
+[text   ] (0w) \( =5 \mathrm{hrs} \)
+[math   ] (5w) =\frac{10.00 \mathrm{P}^{2}}{5.00}+\mathrm{M}
+[math   ] (1w) 3.00 \mathrm{Am} \text { Menday. } \frac{-\mathrm{A}_{1}}{\mathrm{Q} 3}
+[text   ] (12w) 9. Solve the incqualities \( x-5 \leq 3 x-8<2 x-3 \), hence represent your solution on a number line.
+[math   ] (1w) x-5 & \leqslant 3 x-8
+[math   ] (1w) -2 x & \leqslant-3
+[math   ] (1w) x & \geqslant 11 / 2
+[math   ] (2w) 3 x-8 & <2 x-3
+[math   ] (1w) x & <5
+[text   ] (1w) 4
+[diagram] (figure)

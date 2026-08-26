@@ -1,0 +1,2131 @@
+{
+  "line": {
+    "request_id": "286b446b-58ec-47c5-bf0e-4f92d1d75831",
+    "version": "SuperNet-200",
+    "is_printed": false,
+    "is_handwritten": true,
+    "auto_rotate_confidence": 0,
+    "auto_rotate_degrees": 0,
+    "image_height": 720,
+    "image_width": 405,
+    "confidence": 0.27791595458984375,
+    "confidence_rate": 0.9274468450736864,
+    "text": "GK Questions And Answers\n1. What is the colour of a leaf?\n\nGreen..\n2. Which fruit is orange in colour and name\nnst. Orange.\nWhat do we wear in the rain?\nRaincoat.\nWhat is opposite of fast?\nSlow.\nWhat do we use food?\n\nSpoon.\nWhich shape is round?\n\nCircle.\n\nWhat is the colour of milk?\n\nWhite.\n\nWhat is the first day of the week?",
+    "line_data": [
+      {
+        "type": "text",
+        "cnt": [
+          [
+            55,
+            37
+          ],
+          [
+            340,
+            37
+          ],
+          [
+            340,
+            73
+          ],
+          [
+            55,
+            73
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "cc206063e5f7465791a06e979bb07854",
+        "text": "GK Questions And Answers",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            1,
+            82
+          ],
+          [
+            313,
+            82
+          ],
+          [
+            313,
+            108
+          ],
+          [
+            1,
+            108
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "866ccfe26bff4f9d9769160843bd7ba7",
+        "text": "\n1. What is the colour of a leaf?",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            27,
+            124
+          ],
+          [
+            95,
+            124
+          ],
+          [
+            95,
+            146
+          ],
+          [
+            27,
+            146
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "7227e27a3a254524b8bca4d81a284200",
+        "text": "\n\nGreen..",
+        "after_hyphen": false,
+        "confidence": 0.978515625,
+        "confidence_rate": 0.9981917598435087
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            1,
+            155
+          ],
+          [
+            405,
+            155
+          ],
+          [
+            405,
+            185
+          ],
+          [
+            1,
+            185
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "1d6e514dfd3e4673badd669e0719952c",
+        "text": "\n2. Which fruit is orange in colour and name",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            1,
+            200
+          ],
+          [
+            102,
+            200
+          ],
+          [
+            102,
+            233
+          ],
+          [
+            1,
+            233
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "7f310c3031cd4a69ac9e07896a2b70b8",
+        "text": "\nnst. Orange.",
+        "after_hyphen": false,
+        "confidence": 0.27791595458984375,
+        "confidence_rate": 0.9274468450736864
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            21,
+            237
+          ],
+          [
+            332,
+            237
+          ],
+          [
+            332,
+            261
+          ],
+          [
+            21,
+            261
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "811e5d9b8dd346c0b41c5c5f7767ae35",
+        "text": "\nWhat do we wear in the rain?",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            23,
+            279
+          ],
+          [
+            109,
+            279
+          ],
+          [
+            109,
+            301
+          ],
+          [
+            23,
+            301
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "058d5c26adcf4b6698eb6798c8a9c1be",
+        "text": "\nRaincoat.",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            21,
+            318
+          ],
+          [
+            316,
+            318
+          ],
+          [
+            316,
+            346
+          ],
+          [
+            21,
+            346
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "476fc422831543af9c2b5020cc23be45",
+        "text": "\nWhat is opposite of fast?",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            21,
+            361
+          ],
+          [
+            74,
+            361
+          ],
+          [
+            74,
+            383
+          ],
+          [
+            21,
+            383
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "91b6ec294ca246bc83b58525b64ebc31",
+        "text": "\nSlow.",
+        "after_hyphen": false,
+        "confidence": 0.99951171875,
+        "confidence_rate": 0.9999511611428449
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            20,
+            400
+          ],
+          [
+            332,
+            400
+          ],
+          [
+            332,
+            424
+          ],
+          [
+            20,
+            424
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "c0eb189e3820491296341a77a322fa4c",
+        "text": "\nWhat do we use food?",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            20,
+            444
+          ],
+          [
+            78,
+            444
+          ],
+          [
+            78,
+            472
+          ],
+          [
+            20,
+            472
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "3af835ebc65449c68caeda9f7864b20c",
+        "text": "\n\nSpoon.",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            19,
+            485
+          ],
+          [
+            246,
+            485
+          ],
+          [
+            246,
+            513
+          ],
+          [
+            19,
+            513
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "9615d0eba8e34299aa36a1e33c0a773b",
+        "text": "\nWhich shape is round?",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            21,
+            532
+          ],
+          [
+            82,
+            532
+          ],
+          [
+            82,
+            554
+          ],
+          [
+            21,
+            554
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "a2e5253b38fa412cadace9795f98d0d2",
+        "text": "\n\nCircle.",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            17,
+            573
+          ],
+          [
+            307,
+            573
+          ],
+          [
+            307,
+            597
+          ],
+          [
+            17,
+            597
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "2c579d70c40342fcb277d6d7db547cfb",
+        "text": "\n\nWhat is the colour of milk?",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            20,
+            616
+          ],
+          [
+            84,
+            616
+          ],
+          [
+            84,
+            641
+          ],
+          [
+            20,
+            641
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "ae146f4243e9439bbdf749eb319e6d18",
+        "text": "\n\nWhite.",
+        "after_hyphen": false,
+        "confidence": 0.99951171875,
+        "confidence_rate": 0.9999556009403848
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            17,
+            661
+          ],
+          [
+            392,
+            661
+          ],
+          [
+            392,
+            692
+          ],
+          [
+            17,
+            692
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "ca9d8feac5ae4361992ac23e26226308",
+        "text": "\n\nWhat is the first day of the week?",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      }
+    ]
+  },
+  "word": [
+    {
+      "type": "text",
+      "cnt": [
+        [
+          56,
+          44
+        ],
+        [
+          92,
+          44
+        ],
+        [
+          92,
+          68
+        ],
+        [
+          56,
+          68
+        ]
+      ],
+      "text": "\\( G K \\)",
+      "confidence": 0.62255859375,
+      "confidence_rate": 0.7890238233095374
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          110,
+          42
+        ],
+        [
+          198,
+          42
+        ],
+        [
+          198,
+          72
+        ],
+        [
+          110,
+          72
+        ]
+      ],
+      "text": "Questions",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          212,
+          39
+        ],
+        [
+          248,
+          39
+        ],
+        [
+          248,
+          65
+        ],
+        [
+          212,
+          65
+        ]
+      ],
+      "text": "And",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          265,
+          61
+        ],
+        [
+          266,
+          37
+        ],
+        [
+          339,
+          39
+        ],
+        [
+          338,
+          63
+        ]
+      ],
+      "text": "Answers",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          2,
+          91
+        ],
+        [
+          18,
+          91
+        ],
+        [
+          18,
+          105
+        ],
+        [
+          2,
+          105
+        ]
+      ],
+      "text": "1.",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          26,
+          85
+        ],
+        [
+          72,
+          85
+        ],
+        [
+          72,
+          107
+        ],
+        [
+          26,
+          107
+        ]
+      ],
+      "text": "What",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          88,
+          90
+        ],
+        [
+          102,
+          90
+        ],
+        [
+          102,
+          104
+        ],
+        [
+          88,
+          104
+        ]
+      ],
+      "text": "is",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9997906051143848
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          117,
+          88
+        ],
+        [
+          143,
+          88
+        ],
+        [
+          143,
+          104
+        ],
+        [
+          117,
+          104
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          155,
+          86
+        ],
+        [
+          199,
+          86
+        ],
+        [
+          199,
+          102
+        ],
+        [
+          155,
+          102
+        ]
+      ],
+      "text": "colour",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          210,
+          84
+        ],
+        [
+          230,
+          84
+        ],
+        [
+          230,
+          100
+        ],
+        [
+          210,
+          100
+        ]
+      ],
+      "text": "of",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          242,
+          88
+        ],
+        [
+          252,
+          88
+        ],
+        [
+          252,
+          100
+        ],
+        [
+          242,
+          100
+        ]
+      ],
+      "text": "\\( a \\)",
+      "confidence": 0.9951171875,
+      "confidence_rate": 0.9951171875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          267,
+          83
+        ],
+        [
+          311,
+          83
+        ],
+        [
+          311,
+          99
+        ],
+        [
+          267,
+          99
+        ]
+      ],
+      "text": "Leaf?",
+      "confidence": 0.8173828125,
+      "confidence_rate": 0.9800371758354972
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          2,
+          130
+        ],
+        [
+          20,
+          130
+        ],
+        [
+          20,
+          142
+        ],
+        [
+          2,
+          142
+        ]
+      ],
+      "text": "nst.",
+      "confidence": 0.8822666278574616,
+      "confidence_rate": 0.9861785204942313
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          28,
+          124
+        ],
+        [
+          84,
+          124
+        ],
+        [
+          84,
+          144
+        ],
+        [
+          28,
+          144
+        ]
+      ],
+      "text": "Green.",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          4,
+          172
+        ],
+        [
+          6,
+          172
+        ],
+        [
+          6,
+          174
+        ],
+        [
+          4,
+          174
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.40380859375,
+      "confidence_rate": 0.40380859375
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          24,
+          164
+        ],
+        [
+          72,
+          164
+        ],
+        [
+          72,
+          182
+        ],
+        [
+          24,
+          182
+        ]
+      ],
+      "text": "Which",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          86,
+          159
+        ],
+        [
+          126,
+          159
+        ],
+        [
+          126,
+          181
+        ],
+        [
+          86,
+          181
+        ]
+      ],
+      "text": "fruit",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          137,
+          163
+        ],
+        [
+          153,
+          163
+        ],
+        [
+          153,
+          179
+        ],
+        [
+          137,
+          179
+        ]
+      ],
+      "text": "is",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          166,
+          164
+        ],
+        [
+          220,
+          164
+        ],
+        [
+          220,
+          184
+        ],
+        [
+          166,
+          184
+        ]
+      ],
+      "text": "orange",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          232,
+          163
+        ],
+        [
+          248,
+          163
+        ],
+        [
+          248,
+          177
+        ],
+        [
+          232,
+          177
+        ]
+      ],
+      "text": "\\( i n \\)",
+      "confidence": 0.96240234375,
+      "confidence_rate": 0.9810210720213914
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          262,
+          160
+        ],
+        [
+          310,
+          160
+        ],
+        [
+          310,
+          176
+        ],
+        [
+          262,
+          176
+        ]
+      ],
+      "text": "colour",
+      "confidence": 0.982421875,
+      "confidence_rate": 0.9983890757572919
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          320,
+          157
+        ],
+        [
+          348,
+          157
+        ],
+        [
+          348,
+          173
+        ],
+        [
+          320,
+          173
+        ]
+      ],
+      "text": "and",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          359,
+          160
+        ],
+        [
+          403,
+          160
+        ],
+        [
+          403,
+          174
+        ],
+        [
+          359,
+          174
+        ]
+      ],
+      "text": "name",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          2,
+          208
+        ],
+        [
+          20,
+          208
+        ],
+        [
+          20,
+          220
+        ],
+        [
+          2,
+          220
+        ]
+      ],
+      "text": "nst",
+      "confidence": 0.8074899500818447,
+      "confidence_rate": 0.9736259502894181
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          29,
+          200
+        ],
+        [
+          99,
+          200
+        ],
+        [
+          99,
+          230
+        ],
+        [
+          29,
+          230
+        ]
+      ],
+      "text": "Orange.",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9999185833438636
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          22,
+          242
+        ],
+        [
+          66,
+          242
+        ],
+        [
+          66,
+          260
+        ],
+        [
+          22,
+          260
+        ]
+      ],
+      "text": "What",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          80,
+          240
+        ],
+        [
+          102,
+          240
+        ],
+        [
+          102,
+          260
+        ],
+        [
+          80,
+          260
+        ]
+      ],
+      "text": "do",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          115,
+          245
+        ],
+        [
+          137,
+          245
+        ],
+        [
+          137,
+          259
+        ],
+        [
+          115,
+          259
+        ]
+      ],
+      "text": "we",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          154,
+          244
+        ],
+        [
+          194,
+          244
+        ],
+        [
+          194,
+          258
+        ],
+        [
+          154,
+          258
+        ]
+      ],
+      "text": "wear",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          211,
+          242
+        ],
+        [
+          227,
+          242
+        ],
+        [
+          227,
+          256
+        ],
+        [
+          211,
+          256
+        ]
+      ],
+      "text": "in",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999302309342446
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          242,
+          238
+        ],
+        [
+          270,
+          238
+        ],
+        [
+          270,
+          258
+        ],
+        [
+          242,
+          258
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          286,
+          236
+        ],
+        [
+          332,
+          236
+        ],
+        [
+          332,
+          256
+        ],
+        [
+          286,
+          256
+        ]
+      ],
+      "text": "rain?",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          2,
+          286
+        ],
+        [
+          16,
+          286
+        ],
+        [
+          16,
+          298
+        ],
+        [
+          2,
+          298
+        ]
+      ],
+      "text": "S-",
+      "confidence": 0.4578094482421875,
+      "confidence_rate": 0.8943888843067497
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          25,
+          279
+        ],
+        [
+          109,
+          279
+        ],
+        [
+          109,
+          301
+        ],
+        [
+          25,
+          301
+        ]
+      ],
+      "text": "Raincoat.",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          21,
+          322
+        ],
+        [
+          63,
+          322
+        ],
+        [
+          63,
+          340
+        ],
+        [
+          21,
+          340
+        ]
+      ],
+      "text": "What",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          80,
+          325
+        ],
+        [
+          94,
+          325
+        ],
+        [
+          94,
+          339
+        ],
+        [
+          80,
+          339
+        ]
+      ],
+      "text": "is",
+      "confidence": 0.9599990844726562,
+      "confidence_rate": 0.9941851224843745
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          148,
+          319
+        ],
+        [
+          216,
+          319
+        ],
+        [
+          216,
+          345
+        ],
+        [
+          148,
+          345
+        ]
+      ],
+      "text": "opposite",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          230,
+          316
+        ],
+        [
+          250,
+          316
+        ],
+        [
+          250,
+          336
+        ],
+        [
+          230,
+          336
+        ]
+      ],
+      "text": "of",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          266,
+          315
+        ],
+        [
+          314,
+          315
+        ],
+        [
+          314,
+          337
+        ],
+        [
+          266,
+          337
+        ]
+      ],
+      "text": "fast?",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          3,
+          370
+        ],
+        [
+          13,
+          370
+        ],
+        [
+          13,
+          380
+        ],
+        [
+          3,
+          380
+        ]
+      ],
+      "text": "G",
+      "confidence": 0.5961956977844238,
+      "confidence_rate": 0.9174128233675566
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          24,
+          362
+        ],
+        [
+          72,
+          362
+        ],
+        [
+          72,
+          382
+        ],
+        [
+          24,
+          382
+        ]
+      ],
+      "text": "Slow.",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9998534189757986
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          20,
+          402
+        ],
+        [
+          64,
+          402
+        ],
+        [
+          64,
+          424
+        ],
+        [
+          20,
+          424
+        ]
+      ],
+      "text": "What",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          81,
+          404
+        ],
+        [
+          103,
+          404
+        ],
+        [
+          103,
+          422
+        ],
+        [
+          81,
+          422
+        ]
+      ],
+      "text": "do",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999302309342446
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          120,
+          408
+        ],
+        [
+          144,
+          408
+        ],
+        [
+          144,
+          422
+        ],
+        [
+          120,
+          422
+        ]
+      ],
+      "text": "we",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          162,
+          408
+        ],
+        [
+          190,
+          408
+        ],
+        [
+          190,
+          420
+        ],
+        [
+          162,
+          420
+        ]
+      ],
+      "text": "use",
+      "confidence": 0.9970703125,
+      "confidence_rate": 0.999633318814636
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          286,
+          398
+        ],
+        [
+          330,
+          398
+        ],
+        [
+          330,
+          420
+        ],
+        [
+          286,
+          420
+        ]
+      ],
+      "text": "food?",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          3,
+          454
+        ],
+        [
+          13,
+          454
+        ],
+        [
+          13,
+          462
+        ],
+        [
+          3,
+          462
+        ]
+      ],
+      "text": "\\( S_{-} \\)",
+      "confidence": 0.939453125,
+      "confidence_rate": 0.9930843180510054
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          20,
+          445
+        ],
+        [
+          76,
+          445
+        ],
+        [
+          76,
+          471
+        ],
+        [
+          20,
+          471
+        ]
+      ],
+      "text": "Spoon.",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          18,
+          487
+        ],
+        [
+          68,
+          487
+        ],
+        [
+          68,
+          509
+        ],
+        [
+          18,
+          509
+        ]
+      ],
+      "text": "Which",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          85,
+          487
+        ],
+        [
+          133,
+          487
+        ],
+        [
+          133,
+          511
+        ],
+        [
+          85,
+          511
+        ]
+      ],
+      "text": "shape",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          149,
+          490
+        ],
+        [
+          165,
+          490
+        ],
+        [
+          165,
+          506
+        ],
+        [
+          149,
+          506
+        ]
+      ],
+      "text": "is",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          184,
+          484
+        ],
+        [
+          244,
+          484
+        ],
+        [
+          244,
+          508
+        ],
+        [
+          184,
+          508
+        ]
+      ],
+      "text": "round?",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          20,
+          531
+        ],
+        [
+          80,
+          531
+        ],
+        [
+          80,
+          553
+        ],
+        [
+          20,
+          553
+        ]
+      ],
+      "text": "Circle.",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          18,
+          573
+        ],
+        [
+          62,
+          573
+        ],
+        [
+          62,
+          595
+        ],
+        [
+          18,
+          595
+        ]
+      ],
+      "text": "What",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          76,
+          579
+        ],
+        [
+          94,
+          579
+        ],
+        [
+          94,
+          595
+        ],
+        [
+          76,
+          595
+        ]
+      ],
+      "text": "Is",
+      "confidence": 0.939023494720459,
+      "confidence_rate": 0.9910524441845487
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          106,
+          576
+        ],
+        [
+          138,
+          576
+        ],
+        [
+          138,
+          596
+        ],
+        [
+          106,
+          596
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          152,
+          576
+        ],
+        [
+          202,
+          576
+        ],
+        [
+          202,
+          594
+        ],
+        [
+          152,
+          594
+        ]
+      ],
+      "text": "colour",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          218,
+          572
+        ],
+        [
+          242,
+          572
+        ],
+        [
+          242,
+          594
+        ],
+        [
+          218,
+          594
+        ]
+      ],
+      "text": "of",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          254,
+          572
+        ],
+        [
+          306,
+          572
+        ],
+        [
+          306,
+          594
+        ],
+        [
+          254,
+          594
+        ]
+      ],
+      "text": "milk?",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          20,
+          616
+        ],
+        [
+          82,
+          616
+        ],
+        [
+          82,
+          640
+        ],
+        [
+          20,
+          640
+        ]
+      ],
+      "text": "White.",
+      "confidence": 0.913780927658081,
+      "confidence_rate": 0.9918367362910275
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          17,
+          661
+        ],
+        [
+          63,
+          661
+        ],
+        [
+          63,
+          685
+        ],
+        [
+          17,
+          685
+        ]
+      ],
+      "text": "What",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          79,
+          666
+        ],
+        [
+          95,
+          666
+        ],
+        [
+          95,
+          684
+        ],
+        [
+          79,
+          684
+        ]
+      ],
+      "text": "is",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          110,
+          664
+        ],
+        [
+          140,
+          664
+        ],
+        [
+          140,
+          682
+        ],
+        [
+          110,
+          682
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          154,
+          661
+        ],
+        [
+          196,
+          661
+        ],
+        [
+          196,
+          683
+        ],
+        [
+          154,
+          683
+        ]
+      ],
+      "text": "first",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          206,
+          662
+        ],
+        [
+          240,
+          662
+        ],
+        [
+          240,
+          692
+        ],
+        [
+          206,
+          692
+        ]
+      ],
+      "text": "day",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          256,
+          661
+        ],
+        [
+          278,
+          661
+        ],
+        [
+          278,
+          683
+        ],
+        [
+          256,
+          683
+        ]
+      ],
+      "text": "of",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          292,
+          662
+        ],
+        [
+          318,
+          662
+        ],
+        [
+          318,
+          682
+        ],
+        [
+          292,
+          682
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          333,
+          666
+        ],
+        [
+          389,
+          666
+        ],
+        [
+          389,
+          684
+        ],
+        [
+          333,
+          684
+        ]
+      ],
+      "text": "week?",
+      "confidence": 1,
+      "confidence_rate": 1
+    }
+  ]
+}

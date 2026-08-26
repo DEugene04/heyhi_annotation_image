@@ -1,0 +1,23 @@
+xy' + 2y = 1 / (x^2 log x)
+
+STANDART FORM OF THE EQUATION:
+y' + 2y/x = 1 / (x^3 log x)
+
+THEN, INTEGRATING FACTOR:
+I.F = e^(∫ 2/x dx) = e^(2 log x) = x^2
+
+y * I.F = ∫ x^2 * 1/(x^3 log x) dx + c
+y x^2 = ∫ 1/(x log x) dx + c
+
+LET log x BE "m", THEN
+y x^2 = ∫ 1/m * dm + c = log m + c
+y x^2 = log (log x) + c
+
+iF y(e) = 0, THEN
+y(e) * e^2 = log_e (log e) + c
+0 = log_e (1) + c
+0 = 0 + c
+
+c = 0, SO
+y x^2 = log (log x)
+y = log (log x) / x^2

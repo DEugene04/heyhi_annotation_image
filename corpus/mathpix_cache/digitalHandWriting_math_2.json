@@ -1,0 +1,1784 @@
+{
+  "line": {
+    "request_id": "f0a00bf5-69df-47e8-9e3d-148c3b9d6cf7",
+    "version": "SuperNet-200",
+    "is_printed": true,
+    "is_handwritten": false,
+    "auto_rotate_confidence": 5.377725784756933e-14,
+    "auto_rotate_degrees": 0,
+    "image_height": 386,
+    "image_width": 686,
+    "confidence": 0.388278465829593,
+    "confidence_rate": 0.9939924333068181,
+    "text": "Bilal (message...\n\nThe equation of a circle is \\( x^{2}+y^{2}-4 x+6 y-77=0 \\).\n(a) Find the \\( x \\)-coordinates of the points \\( A \\) and \\( B \\) where the circle intersects the \\( x \\)-axis.\n(b) Find the point of intersection of the tangents to the circle at \\( A \\) and \\( B \\).\n\\[\n\\begin{array}{l}\nx^{2}+y^{2}-4 x+6 y-77=0 \\\\\n\\operatorname{Rut} y=0 \\\\\nx^{2}+0^{2}-4 x+6(0)-77=0 \\\\\nx^{2}-4 x-77=0 \\\\\nx^{2}-11 x+7 x-77=0 \\\\\n(x-11)(x+7)=0 \\\\\nx=11, \\quad x=-7\n\\end{array}\n\\]\n(ii) \\( x^{2}+y^{2}-4 x+6 y-77=0 \\)\n\\[\nx^{2}-4 x+(2)^{2}-(2)^{2}+y^{2}+6 y+(2)^{2}-(3)^{2}=77\n\\]",
+    "line_data": [
+      {
+        "type": "page_info",
+        "cnt": [
+          [
+            566,
+            52
+          ],
+          [
+            633,
+            52
+          ],
+          [
+            633,
+            65
+          ],
+          [
+            566,
+            65
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "3d89aa344a4d462bbe9b4a6ac58f81fb",
+        "text": "Bilal (message...",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            100,
+            68
+          ],
+          [
+            328,
+            68
+          ],
+          [
+            328,
+            84
+          ],
+          [
+            100,
+            84
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "e8e91d1ea2434285a517c33b0db3e01e",
+        "text": "\n\nThe equation of a circle is \\( x^{2}+y^{2}-4 x+6 y-77=0 \\).",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            101,
+            93
+          ],
+          [
+            472,
+            93
+          ],
+          [
+            472,
+            106
+          ],
+          [
+            101,
+            106
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "e43a97cecf7d4ff89fe7d00b4054078c",
+        "text": "\n(a) Find the \\( x \\)-coordinates of the points \\( A \\) and \\( B \\) where the circle intersects the \\( x \\)-axis.",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            100,
+            115
+          ],
+          [
+            415,
+            115
+          ],
+          [
+            415,
+            128
+          ],
+          [
+            100,
+            128
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "ba339b86d15e4a5e94552944d8a185b3",
+        "text": "\n(b) Find the point of intersection of the tangents to the circle at \\( A \\) and \\( B \\).",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            180,
+            147
+          ],
+          [
+            354,
+            147
+          ],
+          [
+            354,
+            289
+          ],
+          [
+            180,
+            289
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "484b5e43a6f34474951678cc1d6e1541",
+        "text": "\n\\[\n\\begin{array}{l}\nx^{2}+y^{2}-4 x+6 y-77=0 \\\\\n\\operatorname{Rut} y=0 \\\\\nx^{2}+0^{2}-4 x+6(0)-77=0 \\\\\nx^{2}-4 x-77=0 \\\\\nx^{2}-11 x+7 x-77=0 \\\\\n(x-11)(x+7)=0 \\\\\nx=11, \\quad x=-7\n\\end{array}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.388278465829593,
+        "confidence_rate": 0.9939924333068181
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            106,
+            307
+          ],
+          [
+            321,
+            307
+          ],
+          [
+            321,
+            332
+          ],
+          [
+            106,
+            332
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "fd53c949493043c980586de64609dffe",
+        "text": "\n(ii) \\( x^{2}+y^{2}-4 x+6 y-77=0 \\)",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            137,
+            343
+          ],
+          [
+            411,
+            343
+          ],
+          [
+            411,
+            370
+          ],
+          [
+            137,
+            370
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "5999e9cddda84a119f4da16217852718",
+        "text": "\n\\[\nx^{2}-4 x+(2)^{2}-(2)^{2}+y^{2}+6 y+(2)^{2}-(3)^{2}=77\n\\]",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      }
+    ]
+  },
+  "word": [
+    {
+      "type": "header",
+      "cnt": [
+        [
+          92,
+          17
+        ],
+        [
+          96,
+          17
+        ],
+        [
+          96,
+          21
+        ],
+        [
+          92,
+          21
+        ]
+      ],
+      "text": "\\( \\alpha \\)",
+      "confidence": 0.40185546875,
+      "confidence_rate": 0.40185546875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          348,
+          14
+        ],
+        [
+          356,
+          14
+        ],
+        [
+          356,
+          22
+        ],
+        [
+          348,
+          22
+        ]
+      ],
+      "text": "vs",
+      "confidence": 0.5334889662107116,
+      "confidence_rate": 0.9141509611779511
+    },
+    {
+      "type": "equation_number",
+      "cnt": [
+        [
+          555,
+          16
+        ],
+        [
+          559,
+          16
+        ],
+        [
+          559,
+          22
+        ],
+        [
+          555,
+          22
+        ]
+      ],
+      "text": "\\( \\theta \\)",
+      "confidence": 0.285400390625,
+      "confidence_rate": 0.285400390625
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          144,
+          32
+        ],
+        [
+          152,
+          32
+        ],
+        [
+          152,
+          38
+        ],
+        [
+          144,
+          38
+        ]
+      ],
+      "text": "T",
+      "confidence": 0.8292675018310547,
+      "confidence_rate": 0.96927967869935
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          161,
+          32
+        ],
+        [
+          169,
+          32
+        ],
+        [
+          169,
+          38
+        ],
+        [
+          161,
+          38
+        ]
+      ],
+      "text": "m",
+      "confidence": 0.13201857218518853,
+      "confidence_rate": 0.7135742535835393,
+      "latex": "\\text { m }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          179,
+          33
+        ],
+        [
+          183,
+          33
+        ],
+        [
+          183,
+          37
+        ],
+        [
+          179,
+          37
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.89990234375,
+      "confidence_rate": 0.89990234375,
+      "latex": "="
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          205,
+          34
+        ],
+        [
+          207,
+          34
+        ],
+        [
+          207,
+          36
+        ],
+        [
+          205,
+          36
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.3581439123627206,
+      "confidence_rate": 0.8427063418617686
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          226,
+          30
+        ],
+        [
+          364,
+          30
+        ],
+        [
+          364,
+          48
+        ],
+        [
+          226,
+          48
+        ]
+      ],
+      "text": "LLA LLA L",
+      "confidence": 0.06472685720722418,
+      "confidence_rate": 0.8223893276667782,
+      "latex": "\\text { LLA LLA L }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          392,
+          34
+        ],
+        [
+          402,
+          34
+        ],
+        [
+          402,
+          42
+        ],
+        [
+          392,
+          42
+        ]
+      ],
+      "text": "A",
+      "confidence": 0.8693802356719971,
+      "confidence_rate": 0.9769409043036146,
+      "latex": "\\text { A }"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          408,
+          34
+        ],
+        [
+          418,
+          34
+        ],
+        [
+          418,
+          42
+        ],
+        [
+          408,
+          42
+        ]
+      ],
+      "text": "A",
+      "confidence": 0.4233211278915405,
+      "confidence_rate": 0.8665194673822018
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          426,
+          32
+        ],
+        [
+          450,
+          32
+        ],
+        [
+          450,
+          44
+        ],
+        [
+          426,
+          44
+        ]
+      ],
+      "text": "\u25b3",
+      "confidence": 0.5000991167034954,
+      "confidence_rate": 0.890928150024137,
+      "latex": "\\text { \u25b3 }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          464,
+          32
+        ],
+        [
+          490,
+          32
+        ],
+        [
+          490,
+          44
+        ],
+        [
+          464,
+          44
+        ]
+      ],
+      "text": "L",
+      "confidence": 0.7503489136754524,
+      "confidence_rate": 0.9532581851271467,
+      "latex": "\\text { L }"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          528,
+          31
+        ],
+        [
+          538,
+          31
+        ],
+        [
+          538,
+          39
+        ],
+        [
+          528,
+          39
+        ]
+      ],
+      "text": "\u09eb",
+      "confidence": 0.3307324240449816,
+      "confidence_rate": 0.8315967735220188
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          570,
+          57
+        ],
+        [
+          576,
+          57
+        ],
+        [
+          576,
+          61
+        ],
+        [
+          570,
+          61
+        ]
+      ],
+      "text": "zi",
+      "confidence": 0.29782667854578904,
+      "confidence_rate": 0.841108346492677
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          588,
+          57
+        ],
+        [
+          596,
+          57
+        ],
+        [
+          596,
+          61
+        ],
+        [
+          588,
+          61
+        ]
+      ],
+      "text": "m",
+      "confidence": 0.9277811050415039,
+      "confidence_rate": 0.9875844745330373
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          102,
+          71
+        ],
+        [
+          118,
+          71
+        ],
+        [
+          118,
+          79
+        ],
+        [
+          102,
+          79
+        ]
+      ],
+      "text": "The",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9998778775015811
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          120,
+          70
+        ],
+        [
+          158,
+          70
+        ],
+        [
+          158,
+          80
+        ],
+        [
+          120,
+          80
+        ]
+      ],
+      "text": "equation",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          158,
+          68
+        ],
+        [
+          204,
+          68
+        ],
+        [
+          204,
+          80
+        ],
+        [
+          158,
+          80
+        ]
+      ],
+      "text": "of a circle",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          202,
+          68
+        ],
+        [
+          326,
+          68
+        ],
+        [
+          326,
+          80
+        ],
+        [
+          202,
+          80
+        ]
+      ],
+      "text": "is \\( x^{2}+y^{2}-4 x+6 y-77=0 \\).",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9999772784058643,
+      "latex": "\\text { is } x^{2}+y^{2}-4 x+6 y-77=0 \\text {. }"
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          102,
+          94
+        ],
+        [
+          114,
+          94
+        ],
+        [
+          114,
+          104
+        ],
+        [
+          102,
+          104
+        ]
+      ],
+      "text": "(a)",
+      "confidence": 0.9722070568241179,
+      "confidence_rate": 0.9964828900987368
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          122,
+          92
+        ],
+        [
+          144,
+          92
+        ],
+        [
+          144,
+          104
+        ],
+        [
+          122,
+          104
+        ]
+      ],
+      "text": "Find",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          146,
+          95
+        ],
+        [
+          158,
+          95
+        ],
+        [
+          158,
+          103
+        ],
+        [
+          146,
+          103
+        ]
+      ],
+      "text": "the",
+      "confidence": 0.98388671875,
+      "confidence_rate": 0.9979714962280039
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          161,
+          92
+        ],
+        [
+          219,
+          92
+        ],
+        [
+          219,
+          104
+        ],
+        [
+          161,
+          104
+        ]
+      ],
+      "text": "\\( x \\)-coordinates",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999728670071003
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          220,
+          92
+        ],
+        [
+          232,
+          92
+        ],
+        [
+          232,
+          104
+        ],
+        [
+          220,
+          104
+        ]
+      ],
+      "text": "of",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          229,
+          94
+        ],
+        [
+          245,
+          94
+        ],
+        [
+          245,
+          104
+        ],
+        [
+          229,
+          104
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          248,
+          94
+        ],
+        [
+          274,
+          94
+        ],
+        [
+          274,
+          104
+        ],
+        [
+          248,
+          104
+        ]
+      ],
+      "text": "points",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          276,
+          96
+        ],
+        [
+          284,
+          96
+        ],
+        [
+          284,
+          102
+        ],
+        [
+          276,
+          102
+        ]
+      ],
+      "text": "\\( A \\)",
+      "confidence": 0.99072265625,
+      "confidence_rate": 0.99072265625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          286,
+          95
+        ],
+        [
+          302,
+          95
+        ],
+        [
+          302,
+          103
+        ],
+        [
+          286,
+          103
+        ]
+      ],
+      "text": "and",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          304,
+          94
+        ],
+        [
+          312,
+          94
+        ],
+        [
+          312,
+          102
+        ],
+        [
+          304,
+          102
+        ]
+      ],
+      "text": "\\( B \\)",
+      "confidence": 0.994140625,
+      "confidence_rate": 0.994140625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          313,
+          95
+        ],
+        [
+          339,
+          95
+        ],
+        [
+          339,
+          103
+        ],
+        [
+          313,
+          103
+        ]
+      ],
+      "text": "where",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          342,
+          95
+        ],
+        [
+          356,
+          95
+        ],
+        [
+          356,
+          103
+        ],
+        [
+          342,
+          103
+        ]
+      ],
+      "text": "the",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9998778775015811
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          356,
+          92
+        ],
+        [
+          382,
+          92
+        ],
+        [
+          382,
+          104
+        ],
+        [
+          356,
+          104
+        ]
+      ],
+      "text": "circle",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          384,
+          95
+        ],
+        [
+          422,
+          95
+        ],
+        [
+          422,
+          103
+        ],
+        [
+          384,
+          103
+        ]
+      ],
+      "text": "intersects",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9999022769297106
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          426,
+          95
+        ],
+        [
+          438,
+          95
+        ],
+        [
+          438,
+          103
+        ],
+        [
+          426,
+          103
+        ]
+      ],
+      "text": "the",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999389518012535
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          442,
+          92
+        ],
+        [
+          470,
+          92
+        ],
+        [
+          470,
+          104
+        ],
+        [
+          442,
+          104
+        ]
+      ],
+      "text": "x-axis.",
+      "confidence": 0.6809506416320801,
+      "confidence_rate": 0.9684851577635496
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          516,
+          94
+        ],
+        [
+          530,
+          94
+        ],
+        [
+          530,
+          104
+        ],
+        [
+          516,
+          104
+        ]
+      ],
+      "text": "\\( [2] \\)",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9998372130851916
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          102,
+          116
+        ],
+        [
+          114,
+          116
+        ],
+        [
+          114,
+          126
+        ],
+        [
+          102,
+          126
+        ]
+      ],
+      "text": "(b)",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          122,
+          114
+        ],
+        [
+          144,
+          114
+        ],
+        [
+          144,
+          126
+        ],
+        [
+          122,
+          126
+        ]
+      ],
+      "text": "Find",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          144,
+          117
+        ],
+        [
+          158,
+          117
+        ],
+        [
+          158,
+          125
+        ],
+        [
+          144,
+          125
+        ]
+      ],
+      "text": "th",
+      "confidence": 0.9463150501251221,
+      "confidence_rate": 0.9921481691647973
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          160,
+          127
+        ],
+        [
+          160,
+          116
+        ],
+        [
+          246,
+          115
+        ],
+        [
+          246,
+          126
+        ]
+      ],
+      "text": "point of intersection",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          247,
+          117
+        ],
+        [
+          257,
+          117
+        ],
+        [
+          257,
+          125
+        ],
+        [
+          247,
+          125
+        ]
+      ],
+      "text": "of",
+      "confidence": 0.99609375,
+      "confidence_rate": 0.9994410278087485
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          258,
+          116
+        ],
+        [
+          272,
+          116
+        ],
+        [
+          272,
+          126
+        ],
+        [
+          258,
+          126
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          275,
+          116
+        ],
+        [
+          311,
+          116
+        ],
+        [
+          311,
+          128
+        ],
+        [
+          275,
+          128
+        ]
+      ],
+      "text": "tangents",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          311,
+          116
+        ],
+        [
+          323,
+          116
+        ],
+        [
+          323,
+          126
+        ],
+        [
+          311,
+          126
+        ]
+      ],
+      "text": "to",
+      "confidence": 0.837890625,
+      "confidence_rate": 0.9750497192725202
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          324,
+          116
+        ],
+        [
+          338,
+          116
+        ],
+        [
+          338,
+          126
+        ],
+        [
+          324,
+          126
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          339,
+          117
+        ],
+        [
+          363,
+          117
+        ],
+        [
+          363,
+          125
+        ],
+        [
+          339,
+          125
+        ]
+      ],
+      "text": "circle",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          366,
+          117
+        ],
+        [
+          384,
+          117
+        ],
+        [
+          384,
+          125
+        ],
+        [
+          366,
+          125
+        ]
+      ],
+      "text": "at \\( A \\)",
+      "confidence": 0.9921875,
+      "confidence_rate": 0.999020083249672
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          385,
+          117
+        ],
+        [
+          401,
+          117
+        ],
+        [
+          401,
+          125
+        ],
+        [
+          385,
+          125
+        ]
+      ],
+      "text": "and",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          402,
+          116
+        ],
+        [
+          412,
+          116
+        ],
+        [
+          412,
+          126
+        ],
+        [
+          402,
+          126
+        ]
+      ],
+      "text": "B.",
+      "confidence": 0.6842946719843894,
+      "confidence_rate": 0.94724715236082,
+      "latex": "\\text { B. }"
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          516,
+          118
+        ],
+        [
+          528,
+          118
+        ],
+        [
+          528,
+          126
+        ],
+        [
+          516,
+          126
+        ]
+      ],
+      "text": "\\( [0 \\)",
+      "confidence": 0.9805352687835693,
+      "confidence_rate": 0.9902198083171077
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          108,
+          151
+        ],
+        [
+          120,
+          151
+        ],
+        [
+          120,
+          167
+        ],
+        [
+          108,
+          167
+        ]
+      ],
+      "text": "(i)",
+      "confidence": 0.99560546875,
+      "confidence_rate": 0.9994496245640373
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          186,
+          148
+        ],
+        [
+          342,
+          148
+        ],
+        [
+          342,
+          174
+        ],
+        [
+          186,
+          174
+        ]
+      ],
+      "text": "\\( x^{2}+y^{2}-4 x+6 y-77=0 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x^{2}+y^{2}-4 x+6 y-77=0"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          218,
+          174
+        ],
+        [
+          236,
+          174
+        ],
+        [
+          236,
+          186
+        ],
+        [
+          218,
+          186
+        ]
+      ],
+      "text": "Put",
+      "confidence": 0.7909843921661377,
+      "confidence_rate": 0.9711157309606143,
+      "latex": "\\text { Put }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          246,
+          175
+        ],
+        [
+          276,
+          175
+        ],
+        [
+          276,
+          191
+        ],
+        [
+          246,
+          191
+        ]
+      ],
+      "text": "\\( y=0 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "y=0"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          184,
+          207
+        ],
+        [
+          184,
+          187
+        ],
+        [
+          348,
+          185
+        ],
+        [
+          348,
+          205
+        ]
+      ],
+      "text": "\\( x^{2}+0^{2}-4 x+6(0)-77=0 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x^{2}+0^{2}-4 x+6(0)-77=0"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          187,
+          210
+        ],
+        [
+          281,
+          210
+        ],
+        [
+          281,
+          226
+        ],
+        [
+          187,
+          226
+        ]
+      ],
+      "text": "\\( x^{2}-4 x-77=0 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x^{2}-4 x-77=0"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          184,
+          228
+        ],
+        [
+          316,
+          228
+        ],
+        [
+          316,
+          246
+        ],
+        [
+          184,
+          246
+        ]
+      ],
+      "text": "\\( x^{2}-11 x+7 x-77=0 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x^{2}-11 x+7 x-77=0"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          181,
+          248
+        ],
+        [
+          287,
+          248
+        ],
+        [
+          287,
+          268
+        ],
+        [
+          181,
+          268
+        ]
+      ],
+      "text": "\\( (x-11)(x+7)=0 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "(x-11)(x+7)=0"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          187,
+          286
+        ],
+        [
+          187,
+          273
+        ],
+        [
+          241,
+          272
+        ],
+        [
+          241,
+          285
+        ]
+      ],
+      "text": "\\( x=11 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x=11"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          240,
+          269
+        ],
+        [
+          284,
+          269
+        ],
+        [
+          284,
+          285
+        ],
+        [
+          240,
+          285
+        ]
+      ],
+      "text": "\\( x=-7 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x=-7"
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          106,
+          308
+        ],
+        [
+          126,
+          308
+        ],
+        [
+          126,
+          326
+        ],
+        [
+          106,
+          326
+        ]
+      ],
+      "text": "(ii)",
+      "confidence": 0.998046875,
+      "confidence_rate": 0.9997827974990123
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          150,
+          330
+        ],
+        [
+          150,
+          308
+        ],
+        [
+          320,
+          306
+        ],
+        [
+          320,
+          328
+        ]
+      ],
+      "text": "\\( x^{2}+y^{2}-4 x+6 y-77=0 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x^{2}+y^{2}-4 x+6 y-77=0"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          139,
+          342
+        ],
+        [
+          411,
+          342
+        ],
+        [
+          411,
+          368
+        ],
+        [
+          139,
+          368
+        ]
+      ],
+      "text": "\\( x^{2}-4 x+(2)^{2}-(2)^{2}+y^{2}+6 y+(2)^{2}-(3)^{2}=77 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x^{2}-4 x+(2)^{2}-(2)^{2}+y^{2}+6 y+(2)^{2}-(3)^{2}=77"
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          636,
+          345
+        ],
+        [
+          646,
+          345
+        ],
+        [
+          646,
+          357
+        ],
+        [
+          636,
+          357
+        ]
+      ],
+      "text": "11",
+      "confidence": 0.7094721794128418,
+      "confidence_rate": 0.8423017151904902
+    }
+  ]
+}

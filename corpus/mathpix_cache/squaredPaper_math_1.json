@@ -1,0 +1,2620 @@
+{
+  "line": {
+    "request_id": "7c446b87-77f4-4ff3-81b7-b743660dca7f",
+    "version": "SuperNet-200",
+    "is_printed": false,
+    "is_handwritten": true,
+    "auto_rotate_confidence": 9.565488592183646e-13,
+    "auto_rotate_degrees": 0,
+    "image_height": 842,
+    "image_width": 595,
+    "confidence": 0.6165453668218106,
+    "confidence_rate": 0.9938946644537139,
+    "text": "\\[\nx y^{\\prime}+2 y=\\frac{1}{x^{2} \\log x}\n\\]\n\nSTANDART FORM OF THE EQUATION:\n\\[\ny^{\\prime}+\\frac{2 y}{x}=\\frac{1}{x^{3} \\log x}\n\\]\n\nTHEN, integrating factor:\n\\[\n\\begin{array}{l}\nI \\cdot F=e^{\\int \\frac{2}{x} d x}=e^{2 \\log x}=x^{2} \\\\\ny \\cdot I \\cdot F=\\int x^{2} \\cdot x^{\\frac{1}{3 \\log x} d x+c} \\\\\ny x^{2}=\\int \\frac{1}{x \\log x} d x+c\n\\end{array}\n\\]\n\nLET \\( \\log _{x} \\) BE \" \\( m \\) \", THEN\n\\[\n\\begin{array}{l}\ny x^{2}=\\int \\frac{1}{m} \\cdot d m+c=\\log m+c \\\\\ny x^{2}=\\log (\\log x)+c\n\\end{array}\n\\]\nif \\( y(E)=0 \\), THEN\n\\[\n\\begin{array}{c}\ny(e) \\cdot e^{2}=\\log _{e}(\\log e)+c \\\\\n0=\\log _{e}(1)+c \\\\\n0=0+c \\\\\nc=0, \\text { so } \\\\\ny x^{2}=\\log \\left(\\log _{x}\\right) \\\\\ny=\\frac{\\log (\\log x)}{x^{2}}\n\\end{array}\n\\]",
+    "line_data": [
+      {
+        "type": "math",
+        "cnt": [
+          [
+            109,
+            207
+          ],
+          [
+            317,
+            207
+          ],
+          [
+            317,
+            255
+          ],
+          [
+            109,
+            255
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "3e847dd4f62445b9a80972ec35fb636d",
+        "text": "\\[\nx y^{\\prime}+2 y=\\frac{1}{x^{2} \\log x}\n\\]",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            104,
+            242
+          ],
+          [
+            432,
+            258
+          ],
+          [
+            430,
+            281
+          ],
+          [
+            103,
+            263
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "e8c77e960b0b4b7bad935755583d4d33",
+        "text": "\n\nSTANDART FORM OF THE EQUATION:",
+        "after_hyphen": false,
+        "confidence": 0.99267578125,
+        "confidence_rate": 0.9997899885546044
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            117,
+            266
+          ],
+          [
+            289,
+            266
+          ],
+          [
+            289,
+            311
+          ],
+          [
+            117,
+            311
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "9c2a1190decb4f0ea03c79a698353307",
+        "text": "\n\\[\ny^{\\prime}+\\frac{2 y}{x}=\\frac{1}{x^{3} \\log x}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.87939453125,
+        "confidence_rate": 0.9968702337911232
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            115,
+            305
+          ],
+          [
+            380,
+            305
+          ],
+          [
+            380,
+            335
+          ],
+          [
+            115,
+            335
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "096a96d5411e4729969667518b129f7c",
+        "text": "\n\nTHEN, integrating factor:",
+        "after_hyphen": false,
+        "confidence": 0.9578995853662491,
+        "confidence_rate": 0.9985672832050497
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            125,
+            327
+          ],
+          [
+            377,
+            327
+          ],
+          [
+            377,
+            430
+          ],
+          [
+            125,
+            430
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "238e2bf8987147b49f6449eaf80730b2",
+        "text": "\n\\[\n\\begin{array}{l}\nI \\cdot F=e^{\\int \\frac{2}{x} d x}=e^{2 \\log x}=x^{2} \\\\\ny \\cdot I \\cdot F=\\int x^{2} \\cdot x^{\\frac{1}{3 \\log x} d x+c} \\\\\ny x^{2}=\\int \\frac{1}{x \\log x} d x+c\n\\end{array}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.6165453668218106,
+        "confidence_rate": 0.9964240137790408
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            123,
+            426
+          ],
+          [
+            346,
+            426
+          ],
+          [
+            346,
+            458
+          ],
+          [
+            123,
+            458
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "78984582c4f34eed94ab53adcfc0cbdf",
+        "text": "\n\nLET \\( \\log _{x} \\) BE \" \\( m \\) \", THEN",
+        "after_hyphen": false,
+        "confidence": 0.9291794300079346,
+        "confidence_rate": 0.998331996855998
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            120,
+            451
+          ],
+          [
+            386,
+            451
+          ],
+          [
+            386,
+            519
+          ],
+          [
+            120,
+            519
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "503f838783374406a92b51e4a08768a9",
+        "text": "\n\\[\n\\begin{array}{l}\ny x^{2}=\\int \\frac{1}{m} \\cdot d m+c=\\log m+c \\\\\ny x^{2}=\\log (\\log x)+c\n\\end{array}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.9892578125,
+        "confidence_rate": 0.9998500070646379
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            129,
+            516
+          ],
+          [
+            300,
+            516
+          ],
+          [
+            300,
+            544
+          ],
+          [
+            129,
+            544
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "dfc22613c22641fab9a259094da68270",
+        "text": "\nif \\( y(E)=0 \\), THEN",
+        "after_hyphen": false,
+        "confidence": 0.8633136749267578,
+        "confidence_rate": 0.9938946644537139
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            126,
+            539
+          ],
+          [
+            356,
+            539
+          ],
+          [
+            356,
+            741
+          ],
+          [
+            126,
+            741
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "c256f818440a44f58e0a117ac7ae09f7",
+        "text": "\n\\[\n\\begin{array}{c}\ny(e) \\cdot e^{2}=\\log _{e}(\\log e)+c \\\\\n0=\\log _{e}(1)+c \\\\\n0=0+c \\\\\nc=0, \\text { so } \\\\\ny x^{2}=\\log \\left(\\log _{x}\\right) \\\\\ny=\\frac{\\log (\\log x)}{x^{2}}\n\\end{array}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.7402902509260524,
+        "confidence_rate": 0.9981568360621388
+      }
+    ]
+  },
+  "word": [
+    {
+      "type": "math",
+      "cnt": [
+        [
+          131,
+          218
+        ],
+        [
+          137,
+          218
+        ],
+        [
+          137,
+          222
+        ],
+        [
+          131,
+          222
+        ]
+      ],
+      "text": "\\( \\varepsilon \\)",
+      "confidence": 0.54150390625,
+      "confidence_rate": 0.54150390625,
+      "latex": "\\varepsilon"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          188,
+          221
+        ],
+        [
+          196,
+          221
+        ],
+        [
+          196,
+          229
+        ],
+        [
+          188,
+          229
+        ]
+      ],
+      "text": "2",
+      "confidence": 0.96533203125,
+      "confidence_rate": 0.96533203125,
+      "latex": "2"
+    },
+    {
+      "type": "diagram",
+      "cnt": [
+        [
+          263,
+          238
+        ],
+        [
+          265,
+          227
+        ],
+        [
+          281,
+          230
+        ],
+        [
+          279,
+          241
+        ]
+      ],
+      "error_id": "image_not_supported"
+    },
+    {
+      "type": "diagram",
+      "cnt": [
+        [
+          278,
+          226
+        ],
+        [
+          308,
+          226
+        ],
+        [
+          308,
+          248
+        ],
+        [
+          278,
+          248
+        ]
+      ],
+      "error_id": "image_not_supported"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          105,
+          245
+        ],
+        [
+          141,
+          245
+        ],
+        [
+          141,
+          261
+        ],
+        [
+          105,
+          261
+        ]
+      ],
+      "text": "STA",
+      "confidence": 0.82666015625,
+      "confidence_rate": 0.9764856730554122
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          140,
+          248
+        ],
+        [
+          170,
+          248
+        ],
+        [
+          170,
+          264
+        ],
+        [
+          140,
+          264
+        ]
+      ],
+      "text": "ND",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          168,
+          249
+        ],
+        [
+          184,
+          249
+        ],
+        [
+          184,
+          265
+        ],
+        [
+          168,
+          265
+        ]
+      ],
+      "text": "A",
+      "confidence": 0.5576171875,
+      "confidence_rate": 0.9072410487210505
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          177,
+          249
+        ],
+        [
+          201,
+          249
+        ],
+        [
+          201,
+          265
+        ],
+        [
+          177,
+          265
+        ]
+      ],
+      "text": "IRT",
+      "confidence": 0.95361328125,
+      "confidence_rate": 0.9940804580288409
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          224,
+          266
+        ],
+        [
+          224,
+          256
+        ],
+        [
+          262,
+          258
+        ],
+        [
+          262,
+          268
+        ]
+      ],
+      "text": "FORM",
+      "confidence": 0.744025707244873,
+      "confidence_rate": 0.9676805087678084,
+      "latex": "\\text { FORM }"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          283,
+          260
+        ],
+        [
+          301,
+          260
+        ],
+        [
+          301,
+          270
+        ],
+        [
+          283,
+          270
+        ]
+      ],
+      "text": "\\( O F \\)",
+      "confidence": 0.99609375,
+      "confidence_rate": 0.998044963916957
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          182,
+          291
+        ],
+        [
+          179,
+          271
+        ],
+        [
+          196,
+          269
+        ],
+        [
+          199,
+          289
+        ]
+      ],
+      "text": "\\( \\frac{2 y}{x} \\)",
+      "confidence": 0.8116565425698354,
+      "confidence_rate": 0.9742525175474898,
+      "latex": "\\frac{2 y}{x}"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          310,
+          260
+        ],
+        [
+          338,
+          260
+        ],
+        [
+          338,
+          272
+        ],
+        [
+          310,
+          272
+        ]
+      ],
+      "text": "THE",
+      "confidence": 0.90087890625,
+      "confidence_rate": 0.9870367031045779
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          348,
+          262
+        ],
+        [
+          358,
+          262
+        ],
+        [
+          358,
+          272
+        ],
+        [
+          348,
+          272
+        ]
+      ],
+      "text": "E",
+      "confidence": 0.9980478286743164,
+      "confidence_rate": 0.9996743731453273
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          360,
+          262
+        ],
+        [
+          426,
+          262
+        ],
+        [
+          426,
+          274
+        ],
+        [
+          360,
+          274
+        ]
+      ],
+      "text": "QUATION:",
+      "confidence": 0.9541015625,
+      "confidence_rate": 0.9963922809318829
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          240,
+          278
+        ],
+        [
+          282,
+          278
+        ],
+        [
+          282,
+          302
+        ],
+        [
+          240,
+          302
+        ]
+      ],
+      "text": "\\( \\frac{1}{x^{2} \\log x} \\)",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9999555900930661,
+      "latex": "\\frac{1}{x^{2} \\log x}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          238,
+          286
+        ],
+        [
+          248,
+          286
+        ],
+        [
+          248,
+          290
+        ],
+        [
+          238,
+          290
+        ]
+      ],
+      "text": "\\( ] \\)",
+      "confidence": 0.1705322265625,
+      "confidence_rate": 0.1705322265625,
+      "latex": "]"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          120,
+          312
+        ],
+        [
+          128,
+          312
+        ],
+        [
+          128,
+          322
+        ],
+        [
+          120,
+          322
+        ]
+      ],
+      "text": "1",
+      "confidence": 0.75927734375,
+      "confidence_rate": 0.75927734375
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          129,
+          309
+        ],
+        [
+          151,
+          309
+        ],
+        [
+          151,
+          325
+        ],
+        [
+          129,
+          325
+        ]
+      ],
+      "text": "HE",
+      "confidence": 0.9960973262786865,
+      "confidence_rate": 0.9994415404217354
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          151,
+          312
+        ],
+        [
+          161,
+          312
+        ],
+        [
+          161,
+          322
+        ],
+        [
+          151,
+          322
+        ]
+      ],
+      "text": "\\( N \\)",
+      "confidence": 0.94677734375,
+      "confidence_rate": 0.94677734375
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          186,
+          311
+        ],
+        [
+          214,
+          311
+        ],
+        [
+          214,
+          327
+        ],
+        [
+          186,
+          327
+        ]
+      ],
+      "text": "\\( I N T \\)",
+      "confidence": 0.6365847587585449,
+      "confidence_rate": 0.8602382424308753,
+      "latex": "I N T"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          218,
+          315
+        ],
+        [
+          222,
+          315
+        ],
+        [
+          222,
+          323
+        ],
+        [
+          218,
+          323
+        ]
+      ],
+      "text": "\\( \\bar{\\theta} \\)",
+      "confidence": 0.2731982469558716,
+      "confidence_rate": 0.7229686693439452
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          229,
+          314
+        ],
+        [
+          237,
+          314
+        ],
+        [
+          237,
+          326
+        ],
+        [
+          229,
+          326
+        ]
+      ],
+      "text": "\\( \\theta \\)",
+      "confidence": 0.7763671875,
+      "confidence_rate": 0.7763671875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          238,
+          310
+        ],
+        [
+          296,
+          310
+        ],
+        [
+          296,
+          330
+        ],
+        [
+          238,
+          330
+        ]
+      ],
+      "text": "RATING",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          315,
+          317
+        ],
+        [
+          369,
+          317
+        ],
+        [
+          369,
+          333
+        ],
+        [
+          315,
+          333
+        ]
+      ],
+      "text": "FA cTOR",
+      "confidence": 0.5494628311134875,
+      "confidence_rate": 0.9513234305320408
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          133,
+          338
+        ],
+        [
+          151,
+          338
+        ],
+        [
+          151,
+          352
+        ],
+        [
+          133,
+          352
+        ]
+      ],
+      "text": "\\( F \\)",
+      "confidence": 0.426513671875,
+      "confidence_rate": 0.426513671875,
+      "latex": "F"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          210,
+          334
+        ],
+        [
+          254,
+          334
+        ],
+        [
+          254,
+          350
+        ],
+        [
+          210,
+          350
+        ]
+      ],
+      "text": "\\( \\int \\frac{2}{x} d x \\)",
+      "confidence": 0.5570755004882812,
+      "confidence_rate": 0.9431731001122793,
+      "latex": "\\int \\frac{2}{x} d x"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          296,
+          346
+        ],
+        [
+          298,
+          346
+        ],
+        [
+          298,
+          348
+        ],
+        [
+          296,
+          348
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.41202491777949035,
+      "confidence_rate": 0.8626220996920002,
+      "latex": "\\text { - }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          304,
+          352
+        ],
+        [
+          303,
+          342
+        ],
+        [
+          324,
+          340
+        ],
+        [
+          325,
+          350
+        ]
+      ],
+      "text": "\\( \\log \\)",
+      "confidence": 0.9423828125,
+      "confidence_rate": 0.9901581339201075,
+      "latex": "\\log"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          330,
+          347
+        ],
+        [
+          332,
+          347
+        ],
+        [
+          332,
+          349
+        ],
+        [
+          330,
+          349
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.4774584025144577,
+      "confidence_rate": 0.8840752993886937,
+      "latex": "\\text { - }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          331,
+          346
+        ],
+        [
+          337,
+          346
+        ],
+        [
+          337,
+          352
+        ],
+        [
+          331,
+          352
+        ]
+      ],
+      "text": "R",
+      "confidence": 0.12653911113739014,
+      "confidence_rate": 0.7085504799977618,
+      "latex": "\\text { R }"
+    },
+    {
+      "type": "diagram",
+      "cnt": [
+        [
+          349,
+          345
+        ],
+        [
+          361,
+          345
+        ],
+        [
+          361,
+          355
+        ],
+        [
+          349,
+          355
+        ]
+      ],
+      "error_id": "image_not_supported"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          140,
+          373
+        ],
+        [
+          144,
+          373
+        ],
+        [
+          144,
+          381
+        ],
+        [
+          140,
+          381
+        ]
+      ],
+      "text": ",",
+      "confidence": 0.4980602404302772,
+      "confidence_rate": 0.8903217416676651,
+      "latex": "\\text { , }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          142,
+          372
+        ],
+        [
+          158,
+          372
+        ],
+        [
+          158,
+          382
+        ],
+        [
+          142,
+          382
+        ]
+      ],
+      "text": ".",
+      "confidence": 0.6154005714884647,
+      "confidence_rate": 0.9222733282372787,
+      "latex": "\\text { . }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          154,
+          367
+        ],
+        [
+          260,
+          367
+        ],
+        [
+          260,
+          389
+        ],
+        [
+          154,
+          389
+        ]
+      ],
+      "text": "\\( I \\cdot F=\\int x^{2} \\cdot x \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "I \\cdot F=\\int x^{2} \\cdot x"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          251,
+          388
+        ],
+        [
+          253,
+          370
+        ],
+        [
+          291,
+          374
+        ],
+        [
+          289,
+          392
+        ]
+      ],
+      "text": "\\( x^{3} \\log \\)",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9999348661447799,
+      "latex": "x^{3} \\log"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          311,
+          370
+        ],
+        [
+          325,
+          370
+        ],
+        [
+          325,
+          382
+        ],
+        [
+          311,
+          382
+        ]
+      ],
+      "text": "d)",
+      "confidence": 0.5445423680357635,
+      "confidence_rate": 0.916833005710625
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          138,
+          398
+        ],
+        [
+          160,
+          398
+        ],
+        [
+          160,
+          414
+        ],
+        [
+          138,
+          414
+        ]
+      ],
+      "text": "\\( y x \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "y x"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          154,
+          414
+        ],
+        [
+          153,
+          398
+        ],
+        [
+          186,
+          396
+        ],
+        [
+          187,
+          412
+        ]
+      ],
+      "text": "\\( x^{2}= \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x^{2}="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          185,
+          412
+        ],
+        [
+          183,
+          400
+        ],
+        [
+          193,
+          398
+        ],
+        [
+          195,
+          410
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.962890625,
+      "confidence_rate": 0.962890625,
+      "latex": "="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          188,
+          397
+        ],
+        [
+          214,
+          397
+        ],
+        [
+          214,
+          413
+        ],
+        [
+          188,
+          413
+        ]
+      ],
+      "text": "\\( \\int \\)",
+      "confidence": 0.96484375,
+      "confidence_rate": 0.96484375,
+      "latex": "\\int"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          211,
+          409
+        ],
+        [
+          210,
+          405
+        ],
+        [
+          221,
+          403
+        ],
+        [
+          222,
+          407
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.998046875,
+      "confidence_rate": 0.998046875,
+      "latex": "="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          217,
+          421
+        ],
+        [
+          216,
+          400
+        ],
+        [
+          257,
+          397
+        ],
+        [
+          258,
+          418
+        ]
+      ],
+      "text": "\\( \\log x \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\log x"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          124,
+          431
+        ],
+        [
+          158,
+          431
+        ],
+        [
+          158,
+          447
+        ],
+        [
+          124,
+          447
+        ]
+      ],
+      "text": "LET",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9998167770770583
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          176,
+          430
+        ],
+        [
+          198,
+          430
+        ],
+        [
+          198,
+          452
+        ],
+        [
+          176,
+          452
+        ]
+      ],
+      "text": "\\( \\log \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\log"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          228,
+          436
+        ],
+        [
+          244,
+          436
+        ],
+        [
+          244,
+          446
+        ],
+        [
+          228,
+          446
+        ]
+      ],
+      "text": "\\( B E \\)",
+      "confidence": 0.9497785568237305,
+      "confidence_rate": 0.9745658299077238
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          259,
+          434
+        ],
+        [
+          281,
+          434
+        ],
+        [
+          281,
+          448
+        ],
+        [
+          259,
+          448
+        ]
+      ],
+      "text": "m\"",
+      "confidence": 0.6779508590698242,
+      "confidence_rate": 0.9459876340492708,
+      "latex": "\\text { m\" }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          282,
+          441
+        ],
+        [
+          284,
+          441
+        ],
+        [
+          284,
+          443
+        ],
+        [
+          282,
+          443
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.64013671875,
+      "confidence_rate": 0.64013671875,
+      "latex": "="
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          302,
+          434
+        ],
+        [
+          342,
+          434
+        ],
+        [
+          342,
+          448
+        ],
+        [
+          302,
+          448
+        ]
+      ],
+      "text": "THEN",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          130,
+          459
+        ],
+        [
+          172,
+          459
+        ],
+        [
+          172,
+          481
+        ],
+        [
+          130,
+          481
+        ]
+      ],
+      "text": "\\( y x^{2}= \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "y x^{2}="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          171,
+          476
+        ],
+        [
+          169,
+          465
+        ],
+        [
+          185,
+          462
+        ],
+        [
+          187,
+          473
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          186,
+          475
+        ],
+        [
+          184,
+          462
+        ],
+        [
+          204,
+          459
+        ],
+        [
+          206,
+          472
+        ]
+      ],
+      "text": "1",
+      "confidence": 0.7509765625,
+      "confidence_rate": 0.7509765625,
+      "latex": "1"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          213,
+          468
+        ],
+        [
+          217,
+          468
+        ],
+        [
+          217,
+          470
+        ],
+        [
+          213,
+          470
+        ]
+      ],
+      "text": "\"",
+      "confidence": 0.4806326627731323,
+      "confidence_rate": 0.8850521882698942,
+      "latex": "\\text { \" }"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          272,
+          464
+        ],
+        [
+          278,
+          464
+        ],
+        [
+          278,
+          470
+        ],
+        [
+          272,
+          470
+        ]
+      ],
+      "text": "\\( \\eta \\)",
+      "confidence": 0.469482421875,
+      "confidence_rate": 0.469482421875
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          283,
+          463
+        ],
+        [
+          293,
+          463
+        ],
+        [
+          293,
+          475
+        ],
+        [
+          283,
+          475
+        ]
+      ],
+      "text": "C",
+      "confidence": 0.8352452712133527,
+      "confidence_rate": 0.9704407040924298,
+      "latex": "\\text { C }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          322,
+          460
+        ],
+        [
+          342,
+          460
+        ],
+        [
+          342,
+          480
+        ],
+        [
+          322,
+          480
+        ]
+      ],
+      "text": "\\( \\log \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\log"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          320,
+          465
+        ],
+        [
+          328,
+          465
+        ],
+        [
+          328,
+          473
+        ],
+        [
+          320,
+          473
+        ]
+      ],
+      "text": "C",
+      "confidence": 0.7017850875854492,
+      "confidence_rate": 0.9426866481021208,
+      "latex": "\\text { C }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          339,
+          469
+        ],
+        [
+          343,
+          469
+        ],
+        [
+          343,
+          471
+        ],
+        [
+          339,
+          471
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.4981398742231704,
+      "confidence_rate": 0.8903454653622964,
+      "latex": "\\text { - }"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          344,
+          461
+        ],
+        [
+          378,
+          461
+        ],
+        [
+          378,
+          477
+        ],
+        [
+          344,
+          477
+        ]
+      ],
+      "text": "\\( m+c \\)",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9995114801372057
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          140,
+          491
+        ],
+        [
+          164,
+          491
+        ],
+        [
+          164,
+          507
+        ],
+        [
+          140,
+          507
+        ]
+      ],
+      "text": "\\( c^{2}= \\)",
+      "confidence": 0.9892578125,
+      "confidence_rate": 0.9989205528875564,
+      "latex": "c^{2}="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          166,
+          494
+        ],
+        [
+          196,
+          494
+        ],
+        [
+          196,
+          506
+        ],
+        [
+          166,
+          506
+        ]
+      ],
+      "text": "co",
+      "confidence": 0.6538891792297363,
+      "confidence_rate": 0.9411166351945589,
+      "latex": "\\text { co }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          191,
+          494
+        ],
+        [
+          201,
+          494
+        ],
+        [
+          201,
+          504
+        ],
+        [
+          191,
+          504
+        ]
+      ],
+      "text": "\\( D a \\)",
+      "confidence": 0.36438989639282227,
+      "confidence_rate": 0.6036471621674555,
+      "latex": "D a"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          200,
+          506
+        ],
+        [
+          198,
+          495
+        ],
+        [
+          238,
+          490
+        ],
+        [
+          240,
+          501
+        ]
+      ],
+      "text": "\\( +\\ln \\)",
+      "confidence": 0.5100650787353516,
+      "confidence_rate": 0.893862940462173,
+      "latex": "+\\ln"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          237,
+          495
+        ],
+        [
+          239,
+          495
+        ],
+        [
+          239,
+          497
+        ],
+        [
+          237,
+          497
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.7412109375,
+      "confidence_rate": 0.7412109375,
+      "latex": "="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          269,
+          494
+        ],
+        [
+          277,
+          494
+        ],
+        [
+          277,
+          502
+        ],
+        [
+          269,
+          502
+        ]
+      ],
+      "text": "C",
+      "confidence": 0.7665777206420898,
+      "confidence_rate": 0.9566638547663336,
+      "latex": "\\text { C }"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          134,
+          524
+        ],
+        [
+          150,
+          524
+        ],
+        [
+          150,
+          538
+        ],
+        [
+          134,
+          538
+        ]
+      ],
+      "text": "F",
+      "confidence": 0.7258927822113037,
+      "confidence_rate": 0.9480081690135458
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          177,
+          518
+        ],
+        [
+          207,
+          518
+        ],
+        [
+          207,
+          544
+        ],
+        [
+          177,
+          544
+        ]
+      ],
+      "text": "\\( y(E) \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "y(E)"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          222,
+          522
+        ],
+        [
+          250,
+          522
+        ],
+        [
+          250,
+          536
+        ],
+        [
+          222,
+          536
+        ]
+      ],
+      "text": "\\( =0 \\).",
+      "confidence": 0.6676387786865234,
+      "confidence_rate": 0.8740048675545944,
+      "latex": "=0 ."
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          261,
+          520
+        ],
+        [
+          297,
+          520
+        ],
+        [
+          297,
+          534
+        ],
+        [
+          261,
+          534
+        ]
+      ],
+      "text": "THEN",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\text { THEN }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          142,
+          557
+        ],
+        [
+          146,
+          557
+        ],
+        [
+          146,
+          567
+        ],
+        [
+          142,
+          567
+        ]
+      ],
+      "text": "i",
+      "confidence": 0.3026188632939011,
+      "confidence_rate": 0.8193749186911322,
+      "latex": "\\text { i }"
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          147,
+          550
+        ],
+        [
+          173,
+          550
+        ],
+        [
+          173,
+          574
+        ],
+        [
+          147,
+          574
+        ]
+      ],
+      "text": "\\( (e) \\)",
+      "confidence": 0.9592044353485107,
+      "confidence_rate": 0.9862122500952292
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          188,
+          548
+        ],
+        [
+          214,
+          548
+        ],
+        [
+          214,
+          568
+        ],
+        [
+          188,
+          568
+        ]
+      ],
+      "text": "\\( e^{2}= \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "e^{2}="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          220,
+          558
+        ],
+        [
+          222,
+          558
+        ],
+        [
+          222,
+          560
+        ],
+        [
+          220,
+          560
+        ]
+      ],
+      "text": ".",
+      "confidence": 0.5107421875,
+      "confidence_rate": 0.5107421875,
+      "latex": "."
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          223,
+          564
+        ],
+        [
+          225,
+          549
+        ],
+        [
+          247,
+          552
+        ],
+        [
+          245,
+          567
+        ]
+      ],
+      "text": "4",
+      "confidence": 0.89794921875,
+      "confidence_rate": 0.89794921875,
+      "latex": "4"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          234,
+          545
+        ],
+        [
+          266,
+          545
+        ],
+        [
+          266,
+          575
+        ],
+        [
+          234,
+          575
+        ]
+      ],
+      "text": "\\( \\log _{e} \\)",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999651148586358,
+      "latex": "\\log _{e}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          266,
+          554
+        ],
+        [
+          276,
+          554
+        ],
+        [
+          276,
+          562
+        ],
+        [
+          266,
+          562
+        ]
+      ],
+      "text": "I",
+      "confidence": 0.2721416484564543,
+      "confidence_rate": 0.805006094883022,
+      "latex": "\\text { I }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          274,
+          548
+        ],
+        [
+          302,
+          548
+        ],
+        [
+          302,
+          566
+        ],
+        [
+          274,
+          566
+        ]
+      ],
+      "text": "\\( \\left(l_{o q}\\right. \\)",
+      "confidence": 0.3932572086341679,
+      "confidence_rate": 0.9186549649649288,
+      "latex": "\\left(l_{o q}\\right."
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          298,
+          564
+        ],
+        [
+          296,
+          553
+        ],
+        [
+          314,
+          550
+        ],
+        [
+          316,
+          561
+        ]
+      ],
+      "text": "ie",
+      "confidence": 0.6491165065672249,
+      "confidence_rate": 0.9401322491320357,
+      "latex": "\\text { ie }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          187,
+          580
+        ],
+        [
+          209,
+          580
+        ],
+        [
+          209,
+          600
+        ],
+        [
+          187,
+          600
+        ]
+      ],
+      "text": "\\( 0= \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "0="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          207,
+          609
+        ],
+        [
+          205,
+          579
+        ],
+        [
+          257,
+          575
+        ],
+        [
+          259,
+          605
+        ]
+      ],
+      "text": "\\( =\\log _{e} \\)",
+      "confidence": 0.9990236759185791,
+      "confidence_rate": 0.999934882053851,
+      "latex": "=\\log _{e}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          244,
+          578
+        ],
+        [
+          276,
+          578
+        ],
+        [
+          276,
+          598
+        ],
+        [
+          244,
+          598
+        ]
+      ],
+      "text": "3e (1",
+      "confidence": 0.5463442645113901,
+      "confidence_rate": 0.9413402718819225,
+      "latex": "\\text { 3e (1 }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          271,
+          583
+        ],
+        [
+          281,
+          583
+        ],
+        [
+          281,
+          593
+        ],
+        [
+          271,
+          593
+        ]
+      ],
+      "text": "\\( \\eta \\)",
+      "confidence": 0.36474609375,
+      "confidence_rate": 0.36474609375,
+      "latex": "\\eta"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          279,
+          582
+        ],
+        [
+          289,
+          582
+        ],
+        [
+          289,
+          594
+        ],
+        [
+          279,
+          594
+        ]
+      ],
+      "text": "I.",
+      "confidence": 0.14021372489105488,
+      "confidence_rate": 0.7552886047186298,
+      "latex": "\\text { I. }"
+    },
+    {
+      "type": "diagram",
+      "cnt": [
+        [
+          285,
+          591
+        ],
+        [
+          287,
+          580
+        ],
+        [
+          301,
+          583
+        ],
+        [
+          299,
+          594
+        ]
+      ],
+      "error_id": "image_not_supported"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          192,
+          612
+        ],
+        [
+          212,
+          612
+        ],
+        [
+          212,
+          628
+        ],
+        [
+          192,
+          628
+        ]
+      ],
+      "text": "\\( 0= \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "0="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          232,
+          612
+        ],
+        [
+          266,
+          612
+        ],
+        [
+          266,
+          624
+        ],
+        [
+          232,
+          624
+        ]
+      ],
+      "text": "\\( 0+c \\)",
+      "confidence": 0.7502689361572266,
+      "confidence_rate": 0.9086688810892736,
+      "latex": "0+c"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          216,
+          646
+        ],
+        [
+          236,
+          646
+        ],
+        [
+          236,
+          654
+        ],
+        [
+          216,
+          654
+        ]
+      ],
+      "text": "\\( =0 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "=0"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          272,
+          644
+        ],
+        [
+          288,
+          644
+        ],
+        [
+          288,
+          654
+        ],
+        [
+          272,
+          654
+        ]
+      ],
+      "text": "50",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "50"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          142,
+          678
+        ],
+        [
+          154,
+          678
+        ],
+        [
+          154,
+          686
+        ],
+        [
+          142,
+          686
+        ]
+      ],
+      "text": "\u00bb",
+      "confidence": 0.2810218334197998,
+      "confidence_rate": 0.8093257228248588,
+      "latex": "\\text { \u00bb }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          159,
+          678
+        ],
+        [
+          161,
+          678
+        ],
+        [
+          161,
+          680
+        ],
+        [
+          159,
+          680
+        ]
+      ],
+      "text": "<<",
+      "confidence": 0.21961030016228733,
+      "confidence_rate": 0.8052864405898221,
+      "latex": "\\text { << }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          190,
+          680
+        ],
+        [
+          192,
+          680
+        ],
+        [
+          192,
+          682
+        ],
+        [
+          190,
+          682
+        ]
+      ],
+      "text": ".",
+      "confidence": 0.3759765625,
+      "confidence_rate": 0.3759765625,
+      "latex": "."
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          196,
+          678
+        ],
+        [
+          206,
+          678
+        ],
+        [
+          206,
+          690
+        ],
+        [
+          196,
+          690
+        ]
+      ],
+      "text": "\\( D \\)",
+      "confidence": 0.34423828125,
+      "confidence_rate": 0.34423828125,
+      "latex": "D"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          204,
+          674
+        ],
+        [
+          224,
+          674
+        ],
+        [
+          224,
+          688
+        ],
+        [
+          204,
+          688
+        ]
+      ],
+      "text": "\\( 9( \\)",
+      "confidence": 0.2754940986633301,
+      "confidence_rate": 0.524875317254803,
+      "latex": "9("
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          214,
+          668
+        ],
+        [
+          252,
+          668
+        ],
+        [
+          252,
+          694
+        ],
+        [
+          214,
+          694
+        ]
+      ],
+      "text": "\\( \\left(\\log _{x}\\right. \\)",
+      "confidence": 0.8173828125,
+      "confidence_rate": 0.9866467736854644,
+      "latex": "\\left(\\log _{x}\\right."
+    },
+    {
+      "type": "diagram",
+      "cnt": [
+        [
+          184,
+          701
+        ],
+        [
+          222,
+          701
+        ],
+        [
+          222,
+          729
+        ],
+        [
+          184,
+          729
+        ]
+      ],
+      "error_id": "image_not_supported"
+    },
+    {
+      "type": "diagram",
+      "cnt": [
+        [
+          209,
+          696
+        ],
+        [
+          271,
+          696
+        ],
+        [
+          271,
+          734
+        ],
+        [
+          209,
+          734
+        ]
+      ],
+      "error_id": "image_not_supported"
+    }
+  ]
+}

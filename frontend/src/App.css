@@ -1,0 +1,107 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1f2937;
+}
+
+.app__header h1 {
+  font-size: 22px;
+  margin: 0 0 4px;
+}
+
+.app__header p {
+  margin: 0 0 20px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Image on top, panel below — the panel works on touch, unlike a hover tooltip. */
+.viewer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* The image scales to fit; the annotation overlay tracks it automatically. */
+.viewer__image {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.viewer__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.panel__heading {
+  font-size: 16px;
+  margin: 0 0 2px;
+}
+
+.panel__subheading {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #9ca3af;
+  margin: 12px 0 2px;
+}
+
+/* Each feedback item is a card, its left edge coloured by category. */
+.card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #9ca3af;
+  border-radius: 6px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: box-shadow 0.12s, border-color 0.12s;
+}
+
+.card:hover {
+  border-color: #d1d5db;
+}
+
+.card--selected {
+  box-shadow: 0 0 0 2px rgba(31, 41, 55, 0.12);
+  background: #f9fafb;
+}
+
+.chip {
+  display: inline-block;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.card__comment {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.card__note {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #9ca3af;
+  font-style: italic;
+}

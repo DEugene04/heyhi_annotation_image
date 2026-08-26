@@ -1,0 +1,4119 @@
+{
+  "line": {
+    "request_id": "67437000-edcf-4032-b13e-a1aeb390655e",
+    "version": "SuperNet-200",
+    "is_printed": false,
+    "is_handwritten": true,
+    "auto_rotate_confidence": 0.00018093215476255864,
+    "auto_rotate_degrees": 0,
+    "image_height": 1440,
+    "image_width": 1080,
+    "confidence": 0.19873619079589844,
+    "confidence_rate": 0.9223884328265692,
+    "text": "I love honest conversations with myself. I talk to myself a lot-I reflect a to some point you will act is essential because discovering 'hapbiness' by doing so. Mentally talking about the work fourageously you stand wh for whaters, the struggles you have grown the struggles you have grown over things and to self-respect. to self-respect. happy when happend to me because of this and and chat need to I am able to know that is that. Because you sels, So choose to chat wing thing, an energy Because you sels. So choose to chat thing an energy ome time, it's a living, - Lanjida within.",
+    "line_data": [
+      {
+        "type": "text",
+        "cnt": [
+          [
+            9,
+            205
+          ],
+          [
+            757,
+            64
+          ],
+          [
+            767,
+            134
+          ],
+          [
+            19,
+            268
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "a7d349a167e74b019dc6071a65a33c3c",
+        "text": "I love honest conversations with myself. I talk to",
+        "after_hyphen": false,
+        "confidence": 0.9990236759185791,
+        "confidence_rate": 0.9999822401395951
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            28,
+            282
+          ],
+          [
+            774,
+            158
+          ],
+          [
+            786,
+            226
+          ],
+          [
+            38,
+            350
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "187d33563ff2482893d4e5283399982f",
+        "text": " myself a lot-I reflect a to some point you will",
+        "after_hyphen": false,
+        "confidence": 0.4111656655441656,
+        "confidence_rate": 0.9830537109408157
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            47,
+            327
+          ],
+          [
+            849,
+            200
+          ],
+          [
+            861,
+            278
+          ],
+          [
+            47,
+            379
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "d35fae120e8d40038965f8c56c8b6613",
+        "text": " act is essential because discovering 'hapbiness' by doing",
+        "after_hyphen": false,
+        "confidence": 0.2531787306070328,
+        "confidence_rate": 0.978087837180164
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            73,
+            421
+          ],
+          [
+            894,
+            280
+          ],
+          [
+            908,
+            348
+          ],
+          [
+            103,
+            543
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "4a764bf735644ea3b0df0e0d528d18b0",
+        "text": " so. Mentally talking about the work fourageously you stand wh for whaters,",
+        "after_hyphen": false,
+        "confidence": 0.22850534995059332,
+        "confidence_rate": 0.9814874803691522
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            113,
+            527
+          ],
+          [
+            934,
+            393
+          ],
+          [
+            948,
+            466
+          ],
+          [
+            125,
+            614
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "1e563a0655ab4d09bd4791333b368c0e",
+        "text": " the struggles you have grown",
+        "after_hyphen": false,
+        "confidence": 0.92724609375,
+        "confidence_rate": 0.9977136396717377
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            113,
+            527
+          ],
+          [
+            934,
+            393
+          ],
+          [
+            948,
+            466
+          ],
+          [
+            125,
+            614
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "661ec017837c4a468696d88f88216d89",
+        "text": " the struggles you have grown",
+        "after_hyphen": false,
+        "confidence": 0.92724609375,
+        "confidence_rate": 0.9977136396717377
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            153,
+            661
+          ],
+          [
+            957,
+            555
+          ],
+          [
+            974,
+            616
+          ],
+          [
+            181,
+            783
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "227cd495d986476a8dbde1ba5be29ca9",
+        "text": " over things and",
+        "after_hyphen": false,
+        "confidence": 0.19873619079589844,
+        "confidence_rate": 0.9223884328265692
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            169,
+            706
+          ],
+          [
+            442,
+            640
+          ],
+          [
+            459,
+            710
+          ],
+          [
+            179,
+            783
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "4b2340769ac24dcfa4c06d62334ec18a",
+        "text": " to self-respect.",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            172,
+            713
+          ],
+          [
+            442,
+            642
+          ],
+          [
+            459,
+            713
+          ],
+          [
+            179,
+            786
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "80f2ae8858c845b7a2e533c157fcc695",
+        "text": " to self-respect.",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            235,
+            908
+          ],
+          [
+            1011,
+            767
+          ],
+          [
+            1021,
+            826
+          ],
+          [
+            268,
+            1033
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "afc061fde286489bba77ac87f140e72f",
+        "text": " happy when happend to me because of this and and chat",
+        "after_hyphen": false,
+        "confidence": 0.3914210437159227,
+        "confidence_rate": 0.983958141728999
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            226,
+            887
+          ],
+          [
+            993,
+            717
+          ],
+          [
+            1002,
+            781
+          ],
+          [
+            228,
+            931
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "0dbc29a6e86b4ae1bf5556be09d42cfc",
+        "text": " need to I am able to know that is that.",
+        "after_hyphen": false,
+        "confidence": 0.49453227232959707,
+        "confidence_rate": 0.9841241246102107
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            270,
+            1025
+          ],
+          [
+            1068,
+            866
+          ],
+          [
+            1087,
+            941
+          ],
+          [
+            287,
+            1091
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "50c2e350d3794732a9bd2d449d26734e",
+        "text": " Because you sels, So choose to chat wing thing, an energy",
+        "after_hyphen": false,
+        "confidence": 0.5444648030193093,
+        "confidence_rate": 0.9902422418073421
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            270,
+            1028
+          ],
+          [
+            1070,
+            870
+          ],
+          [
+            1087,
+            941
+          ],
+          [
+            287,
+            1091
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "88ab5c85d8d848dd8f954240f1b6cb33",
+        "text": " Because you sels. So choose to chat thing an energy",
+        "after_hyphen": false,
+        "confidence": 0.6003651630725289,
+        "confidence_rate": 0.9909303580949834
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            400,
+            1105
+          ],
+          [
+            710,
+            1014
+          ],
+          [
+            729,
+            1072
+          ],
+          [
+            327,
+            1200
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "19191854a2fe4079a672fd416592ebaa",
+        "text": " ome time, it's a living,",
+        "after_hyphen": false,
+        "confidence": 0.69384765625,
+        "confidence_rate": 0.9874755452377194
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            896,
+            1044
+          ],
+          [
+            1077,
+            1000
+          ],
+          [
+            1087,
+            1098
+          ],
+          [
+            917,
+            1129
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "0e41ecc43711437d81a023101d4ba76e",
+        "text": " - Lanjida",
+        "after_hyphen": false,
+        "confidence": 0.9946351032704115,
+        "confidence_rate": 0.9996158352768091
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            327,
+            1200
+          ],
+          [
+            445,
+            1157
+          ],
+          [
+            459,
+            1202
+          ],
+          [
+            346,
+            1249
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "f135bdddbff14796a7457629e4335633",
+        "text": " within.",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      }
+    ]
+  },
+  "word": [
+    {
+      "type": "text",
+      "cnt": [
+        [
+          672,
+          90
+        ],
+        [
+          708,
+          90
+        ],
+        [
+          708,
+          122
+        ],
+        [
+          672,
+          122
+        ]
+      ],
+      "text": "all",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999389518012535
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          968,
+          88
+        ],
+        [
+          972,
+          88
+        ],
+        [
+          972,
+          92
+        ],
+        [
+          968,
+          92
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.681640625,
+      "confidence_rate": 0.681640625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          737,
+          95
+        ],
+        [
+          741,
+          95
+        ],
+        [
+          741,
+          101
+        ],
+        [
+          737,
+          101
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          469,
+          133
+        ],
+        [
+          499,
+          125
+        ],
+        [
+          507,
+          157
+        ],
+        [
+          477,
+          165
+        ]
+      ],
+      "text": "th",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          755,
+          139
+        ],
+        [
+          759,
+          139
+        ],
+        [
+          759,
+          143
+        ],
+        [
+          755,
+          143
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.4720377456396818,
+      "confidence_rate": 0.882394490787901
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          758,
+          139
+        ],
+        [
+          762,
+          139
+        ],
+        [
+          762,
+          143
+        ],
+        [
+          758,
+          143
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.264170465990901,
+      "confidence_rate": 0.8010274095916363
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          541,
+          173
+        ],
+        [
+          557,
+          173
+        ],
+        [
+          557,
+          191
+        ],
+        [
+          541,
+          191
+        ]
+      ],
+      "text": "\\( x \\)",
+      "confidence": 0.412353515625,
+      "confidence_rate": 0.412353515625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          538,
+          173
+        ],
+        [
+          548,
+          173
+        ],
+        [
+          548,
+          183
+        ],
+        [
+          538,
+          183
+        ]
+      ],
+      "text": "^ T",
+      "confidence": 0.17142741838732808,
+      "confidence_rate": 0.8021582151733084
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          554,
+          185
+        ],
+        [
+          572,
+          185
+        ],
+        [
+          572,
+          195
+        ],
+        [
+          554,
+          195
+        ]
+      ],
+      "text": "\\( m \\)",
+      "confidence": 0.8310546875,
+      "confidence_rate": 0.8310546875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          570,
+          186
+        ],
+        [
+          574,
+          186
+        ],
+        [
+          574,
+          190
+        ],
+        [
+          570,
+          190
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.5807970400201157,
+      "confidence_rate": 0.9134204539219553
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          757,
+          194
+        ],
+        [
+          761,
+          194
+        ],
+        [
+          761,
+          198
+        ],
+        [
+          757,
+          198
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.55126953125,
+      "confidence_rate": 0.55126953125
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          29,
+          210
+        ],
+        [
+          45,
+          210
+        ],
+        [
+          45,
+          230
+        ],
+        [
+          29,
+          230
+        ]
+      ],
+      "text": "\\( u \\)",
+      "confidence": 0.386962890625,
+      "confidence_rate": 0.386962890625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          68,
+          200
+        ],
+        [
+          132,
+          200
+        ],
+        [
+          132,
+          250
+        ],
+        [
+          68,
+          250
+        ]
+      ],
+      "text": "love",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          193,
+          214
+        ],
+        [
+          199,
+          214
+        ],
+        [
+          199,
+          218
+        ],
+        [
+          193,
+          218
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.5908203125,
+      "confidence_rate": 0.5908203125
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          198,
+          214
+        ],
+        [
+          206,
+          214
+        ],
+        [
+          206,
+          218
+        ],
+        [
+          198,
+          218
+        ]
+      ],
+      "text": "\"",
+      "confidence": 0.405149900354445,
+      "confidence_rate": 0.8602063075503414
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          209,
+          211
+        ],
+        [
+          219,
+          211
+        ],
+        [
+          219,
+          221
+        ],
+        [
+          209,
+          221
+        ]
+      ],
+      "text": "\\( \\nu \\)",
+      "confidence": 0.47705078125,
+      "confidence_rate": 0.47705078125000006
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          338,
+          256
+        ],
+        [
+          329,
+          222
+        ],
+        [
+          392,
+          206
+        ],
+        [
+          401,
+          240
+        ]
+      ],
+      "text": "effec",
+      "confidence": 0.5174389432112321,
+      "confidence_rate": 0.9362372386784218
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          425,
+          211
+        ],
+        [
+          445,
+          211
+        ],
+        [
+          445,
+          231
+        ],
+        [
+          425,
+          231
+        ]
+      ],
+      "text": "\\( a \\)",
+      "confidence": 0.587890625,
+      "confidence_rate": 0.587890625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          460,
+          180
+        ],
+        [
+          508,
+          180
+        ],
+        [
+          508,
+          224
+        ],
+        [
+          460,
+          224
+        ]
+      ],
+      "text": "lot.",
+      "confidence": 0.998046875,
+      "confidence_rate": 0.9997827974990123
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          26,
+          233
+        ],
+        [
+          48,
+          233
+        ],
+        [
+          48,
+          253
+        ],
+        [
+          26,
+          253
+        ]
+      ],
+      "text": "\\( y \\)",
+      "confidence": 0.439697265625,
+      "confidence_rate": 0.439697265625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          507,
+          265
+        ],
+        [
+          504,
+          240
+        ],
+        [
+          567,
+          233
+        ],
+        [
+          570,
+          258
+        ]
+      ],
+      "text": "some",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          590,
+          204
+        ],
+        [
+          648,
+          204
+        ],
+        [
+          648,
+          246
+        ],
+        [
+          590,
+          246
+        ]
+      ],
+      "text": "boint",
+      "confidence": 0.98193359375,
+      "confidence_rate": 0.9981785013073162
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          730,
+          236
+        ],
+        [
+          756,
+          236
+        ],
+        [
+          756,
+          262
+        ],
+        [
+          730,
+          262
+        ]
+      ],
+      "text": "by",
+      "confidence": 0.8368873596191406,
+      "confidence_rate": 0.9748828485343864
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          774,
+          214
+        ],
+        [
+          838,
+          214
+        ],
+        [
+          838,
+          264
+        ],
+        [
+          774,
+          264
+        ]
+      ],
+      "text": "doing",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          46,
+          253
+        ],
+        [
+          146,
+          253
+        ],
+        [
+          146,
+          335
+        ],
+        [
+          46,
+          335
+        ]
+      ],
+      "text": "nystelf.",
+      "confidence": 0.4902390241622925,
+      "confidence_rate": 0.9466408064191711
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          157,
+          268
+        ],
+        [
+          181,
+          268
+        ],
+        [
+          181,
+          288
+        ],
+        [
+          157,
+          288
+        ]
+      ],
+      "text": "\\( a \\)",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.99951171875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          252,
+          274
+        ],
+        [
+          312,
+          274
+        ],
+        [
+          312,
+          322
+        ],
+        [
+          252,
+          322
+        ]
+      ],
+      "text": "tial",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          332,
+          260
+        ],
+        [
+          436,
+          260
+        ],
+        [
+          436,
+          304
+        ],
+        [
+          332,
+          304
+        ]
+      ],
+      "text": "because",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          454,
+          234
+        ],
+        [
+          490,
+          234
+        ],
+        [
+          490,
+          276
+        ],
+        [
+          454,
+          276
+        ]
+      ],
+      "text": "at",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          573,
+          306
+        ],
+        [
+          570,
+          253
+        ],
+        [
+          701,
+          246
+        ],
+        [
+          704,
+          299
+        ]
+      ],
+      "text": "hapbiness",
+      "confidence": 0.5382731147110462,
+      "confidence_rate": 0.9567223206661652
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          418,
+          288
+        ],
+        [
+          558,
+          288
+        ],
+        [
+          558,
+          348
+        ],
+        [
+          418,
+          348
+        ]
+      ],
+      "text": "discovering",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          724,
+          264
+        ],
+        [
+          794,
+          264
+        ],
+        [
+          794,
+          312
+        ],
+        [
+          724,
+          312
+        ]
+      ],
+      "text": "flach",
+      "confidence": 0.53955078125,
+      "confidence_rate": 0.9401631666672168
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          766,
+          268
+        ],
+        [
+          818,
+          268
+        ],
+        [
+          818,
+          304
+        ],
+        [
+          766,
+          304
+        ]
+      ],
+      "text": "chme",
+      "confidence": 0.97412109375,
+      "confidence_rate": 0.9970909443225388
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          48,
+          370
+        ],
+        [
+          40,
+          318
+        ],
+        [
+          100,
+          308
+        ],
+        [
+          108,
+          360
+        ]
+      ],
+      "text": "act",
+      "confidence": 0.92236328125,
+      "confidence_rate": 0.9899488391330348
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          128,
+          320
+        ],
+        [
+          162,
+          320
+        ],
+        [
+          162,
+          346
+        ],
+        [
+          128,
+          346
+        ]
+      ],
+      "text": "is",
+      "confidence": 0.9346315877046436,
+      "confidence_rate": 0.9903889342060489
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          288,
+          340
+        ],
+        [
+          340,
+          340
+        ],
+        [
+          340,
+          390
+        ],
+        [
+          288,
+          390
+        ]
+      ],
+      "text": "you",
+      "confidence": 0.96044921875,
+      "confidence_rate": 0.9949684299988378
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          448,
+          338
+        ],
+        [
+          520,
+          338
+        ],
+        [
+          520,
+          380
+        ],
+        [
+          448,
+          380
+        ]
+      ],
+      "text": "about",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          534,
+          330
+        ],
+        [
+          580,
+          330
+        ],
+        [
+          580,
+          360
+        ],
+        [
+          534,
+          360
+        ]
+      ],
+      "text": "the",
+      "confidence": 0.7760970060480759,
+      "confidence_rate": 0.9688119811181103
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          622,
+          354
+        ],
+        [
+          613,
+          311
+        ],
+        [
+          688,
+          296
+        ],
+        [
+          697,
+          339
+        ]
+      ],
+      "text": "gorlally",
+      "confidence": 0.2855664707402453,
+      "confidence_rate": 0.9080950830671042
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          726,
+          318
+        ],
+        [
+          784,
+          318
+        ],
+        [
+          784,
+          368
+        ],
+        [
+          726,
+          368
+        ]
+      ],
+      "text": "what",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9998371335216855
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          826,
+          302
+        ],
+        [
+          894,
+          302
+        ],
+        [
+          894,
+          340
+        ],
+        [
+          826,
+          340
+        ]
+      ],
+      "text": "Hers",
+      "confidence": 0.9946331977844238,
+      "confidence_rate": 0.9994022614688112
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          66,
+          362
+        ],
+        [
+          180,
+          362
+        ],
+        [
+          180,
+          410
+        ],
+        [
+          66,
+          410
+        ]
+      ],
+      "text": "realise",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          198,
+          338
+        ],
+        [
+          268,
+          338
+        ],
+        [
+          268,
+          388
+        ],
+        [
+          198,
+          388
+        ]
+      ],
+      "text": "that",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          350,
+          326
+        ],
+        [
+          398,
+          326
+        ],
+        [
+          398,
+          352
+        ],
+        [
+          350,
+          352
+        ]
+      ],
+      "text": "are",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          160,
+          396
+        ],
+        [
+          290,
+          396
+        ],
+        [
+          290,
+          462
+        ],
+        [
+          160,
+          462
+        ]
+      ],
+      "text": "Centally",
+      "confidence": 0.7401251792907715,
+      "confidence_rate": 0.9771169617409363
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          327,
+          370
+        ],
+        [
+          425,
+          370
+        ],
+        [
+          425,
+          418
+        ],
+        [
+          327,
+          418
+        ]
+      ],
+      "text": "talking",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          531,
+          368
+        ],
+        [
+          605,
+          368
+        ],
+        [
+          605,
+          416
+        ],
+        [
+          531,
+          416
+        ]
+      ],
+      "text": "stand",
+      "confidence": 0.671875,
+      "confidence_rate": 0.9610120829646304
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          618,
+          362
+        ],
+        [
+          648,
+          362
+        ],
+        [
+          648,
+          398
+        ],
+        [
+          618,
+          398
+        ]
+      ],
+      "text": "ub",
+      "confidence": 0.9025611877441406,
+      "confidence_rate": 0.9854611824413568
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          664,
+          352
+        ],
+        [
+          700,
+          352
+        ],
+        [
+          700,
+          400
+        ],
+        [
+          664,
+          400
+        ]
+      ],
+      "text": "for",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999389518012535
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          722,
+          390
+        ],
+        [
+          764,
+          390
+        ],
+        [
+          764,
+          426
+        ],
+        [
+          722,
+          426
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          784,
+          370
+        ],
+        [
+          838,
+          370
+        ],
+        [
+          838,
+          414
+        ],
+        [
+          784,
+          414
+        ]
+      ],
+      "text": "steps",
+      "confidence": 0.9727277755737305,
+      "confidence_rate": 0.9972387179332862
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1049,
+          373
+        ],
+        [
+          1059,
+          373
+        ],
+        [
+          1059,
+          387
+        ],
+        [
+          1049,
+          387
+        ]
+      ],
+      "text": ",",
+      "confidence": 0.7440290451049805,
+      "confidence_rate": 0.9519153169173267
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          98,
+          452
+        ],
+        [
+          118,
+          452
+        ],
+        [
+          118,
+          462
+        ],
+        [
+          98,
+          462
+        ]
+      ],
+      "text": "x",
+      "confidence": 0.383394718170166,
+      "confidence_rate": 0.8523298287444976
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          468,
+          458
+        ],
+        [
+          463,
+          412
+        ],
+        [
+          500,
+          408
+        ],
+        [
+          505,
+          454
+        ]
+      ],
+      "text": "you",
+      "confidence": 0.94677734375,
+      "confidence_rate": 0.9931868987688536
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          620,
+          458
+        ],
+        [
+          616,
+          426
+        ],
+        [
+          702,
+          416
+        ],
+        [
+          706,
+          448
+        ]
+      ],
+      "text": "throwigh",
+      "confidence": 0.751225758755254,
+      "confidence_rate": 0.9782365432146557
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          94,
+          472
+        ],
+        [
+          168,
+          472
+        ],
+        [
+          168,
+          520
+        ],
+        [
+          94,
+          520
+        ]
+      ],
+      "text": "lond",
+      "confidence": 0.819483133032918,
+      "confidence_rate": 0.978122694263269
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          192,
+          464
+        ],
+        [
+          254,
+          464
+        ],
+        [
+          254,
+          500
+        ],
+        [
+          192,
+          500
+        ]
+      ],
+      "text": "how",
+      "confidence": 0.9951171875,
+      "confidence_rate": 0.9993883405928387
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          282,
+          512
+        ],
+        [
+          268,
+          451
+        ],
+        [
+          404,
+          420
+        ],
+        [
+          418,
+          481
+        ]
+      ],
+      "text": "Courageous",
+      "confidence": 0.7437512129545212,
+      "confidence_rate": 0.9804569118235573
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          384,
+          438
+        ],
+        [
+          444,
+          438
+        ],
+        [
+          444,
+          480
+        ],
+        [
+          384,
+          480
+        ]
+      ],
+      "text": "usry",
+      "confidence": 0.366455078125,
+      "confidence_rate": 0.8944536908679167
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          425,
+          462
+        ],
+        [
+          505,
+          462
+        ],
+        [
+          505,
+          506
+        ],
+        [
+          425,
+          506
+        ]
+      ],
+      "text": "Thave",
+      "confidence": 0.70751953125,
+      "confidence_rate": 0.9659926974402343
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          533,
+          474
+        ],
+        [
+          531,
+          462
+        ],
+        [
+          561,
+          458
+        ],
+        [
+          563,
+          470
+        ]
+      ],
+      "text": "R\u1ed0",
+      "confidence": 0.3571774781153181,
+      "confidence_rate": 0.8919088060331279
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          690,
+          473
+        ],
+        [
+          694,
+          473
+        ],
+        [
+          694,
+          479
+        ],
+        [
+          690,
+          479
+        ]
+      ],
+      "text": "\"",
+      "confidence": 0.24296164512634277,
+      "confidence_rate": 0.7899318409558166
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          894,
+          456
+        ],
+        [
+          944,
+          456
+        ],
+        [
+          944,
+          492
+        ],
+        [
+          894,
+          492
+        ]
+      ],
+      "text": "able",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          217,
+          594
+        ],
+        [
+          204,
+          520
+        ],
+        [
+          339,
+          496
+        ],
+        [
+          352,
+          570
+        ]
+      ],
+      "text": "struggles",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999651148586358
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          634,
+          492
+        ],
+        [
+          664,
+          492
+        ],
+        [
+          664,
+          508
+        ],
+        [
+          634,
+          508
+        ]
+      ],
+      "text": "\\( n \\)",
+      "confidence": 0.9013671875,
+      "confidence_rate": 0.9013671875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          850,
+          482
+        ],
+        [
+          882,
+          482
+        ],
+        [
+          882,
+          506
+        ],
+        [
+          850,
+          506
+        ]
+      ],
+      "text": "am",
+      "confidence": 0.6674432754516602,
+      "confidence_rate": 0.9438790296933682
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          370,
+          504
+        ],
+        [
+          414,
+          504
+        ],
+        [
+          414,
+          546
+        ],
+        [
+          370,
+          546
+        ]
+      ],
+      "text": "you",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          503,
+          540
+        ],
+        [
+          507,
+          508
+        ],
+        [
+          517,
+          510
+        ],
+        [
+          513,
+          542
+        ]
+      ],
+      "text": "\\( f \\)",
+      "confidence": 0.86181640625,
+      "confidence_rate": 0.86181640625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          548,
+          504
+        ],
+        [
+          596,
+          504
+        ],
+        [
+          596,
+          534
+        ],
+        [
+          548,
+          534
+        ]
+      ],
+      "text": "\\( \\lim 0 \\)",
+      "confidence": 0.9426383972167969,
+      "confidence_rate": 0.9915965749991231
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          388,
+          530
+        ],
+        [
+          486,
+          530
+        ],
+        [
+          486,
+          588
+        ],
+        [
+          388,
+          588
+        ]
+      ],
+      "text": "netimes",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          715,
+          504
+        ],
+        [
+          803,
+          504
+        ],
+        [
+          803,
+          546
+        ],
+        [
+          715,
+          546
+        ]
+      ],
+      "text": "because",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          126,
+          534
+        ],
+        [
+          188,
+          534
+        ],
+        [
+          188,
+          584
+        ],
+        [
+          126,
+          584
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          342,
+          547
+        ],
+        [
+          386,
+          539
+        ],
+        [
+          394,
+          581
+        ],
+        [
+          350,
+          589
+        ]
+      ],
+      "text": "\\( \\sum_{o m} \\)",
+      "confidence": 0.5566559567937475,
+      "confidence_rate": 0.9431020439456665
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          553,
+          526
+        ],
+        [
+          573,
+          526
+        ],
+        [
+          573,
+          548
+        ],
+        [
+          553,
+          548
+        ]
+      ],
+      "text": "\\( \\omega \\)",
+      "confidence": 0.1934814453125,
+      "confidence_rate": 0.1934814453125
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          214,
+          640
+        ],
+        [
+          211,
+          585
+        ],
+        [
+          312,
+          580
+        ],
+        [
+          315,
+          635
+        ]
+      ],
+      "text": "taking",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          475,
+          566
+        ],
+        [
+          549,
+          566
+        ],
+        [
+          549,
+          614
+        ],
+        [
+          475,
+          614
+        ]
+      ],
+      "text": "makes",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          562,
+          566
+        ],
+        [
+          602,
+          566
+        ],
+        [
+          602,
+          590
+        ],
+        [
+          562,
+          590
+        ]
+      ],
+      "text": "me",
+      "confidence": 0.9912302494049072,
+      "confidence_rate": 0.9987424440770111
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          620,
+          538
+        ],
+        [
+          694,
+          538
+        ],
+        [
+          694,
+          588
+        ],
+        [
+          620,
+          588
+        ]
+      ],
+      "text": "habby",
+      "confidence": 0.9810161590576172,
+      "confidence_rate": 0.9980852008188612
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          144,
+          616
+        ],
+        [
+          194,
+          616
+        ],
+        [
+          194,
+          642
+        ],
+        [
+          144,
+          642
+        ]
+      ],
+      "text": "are",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          426,
+          590
+        ],
+        [
+          456,
+          590
+        ],
+        [
+          456,
+          634
+        ],
+        [
+          426,
+          634
+        ]
+      ],
+      "text": "it",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          876,
+          613
+        ],
+        [
+          904,
+          613
+        ],
+        [
+          904,
+          629
+        ],
+        [
+          876,
+          629
+        ]
+      ],
+      "text": "\\( \\lambda \\mu \\)",
+      "confidence": 0.3831052780151367,
+      "confidence_rate": 0.6189549886826479
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          243,
+          701
+        ],
+        [
+          238,
+          651
+        ],
+        [
+          317,
+          643
+        ],
+        [
+          322,
+          693
+        ]
+      ],
+      "text": "thing:",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          717,
+          656
+        ],
+        [
+          737,
+          656
+        ],
+        [
+          737,
+          684
+        ],
+        [
+          717,
+          684
+        ]
+      ],
+      "text": "\\( t_{0} \\)",
+      "confidence": 0.5949408926535398,
+      "confidence_rate": 0.9439337961487052
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          756,
+          656
+        ],
+        [
+          780,
+          656
+        ],
+        [
+          780,
+          672
+        ],
+        [
+          756,
+          672
+        ]
+      ],
+      "text": "\\( m \\)",
+      "confidence": 0.98095703125,
+      "confidence_rate": 0.98095703125
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          380,
+          668
+        ],
+        [
+          436,
+          668
+        ],
+        [
+          436,
+          712
+        ],
+        [
+          380,
+          712
+        ]
+      ],
+      "text": "best",
+      "confidence": 0.94873046875,
+      "confidence_rate": 0.9941692278997524
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          872,
+          660
+        ],
+        [
+          924,
+          660
+        ],
+        [
+          924,
+          684
+        ],
+        [
+          872,
+          684
+        ]
+      ],
+      "text": "f am",
+      "confidence": 0.9718826322861651,
+      "confidence_rate": 0.9968361012112338
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          171,
+          705
+        ],
+        [
+          169,
+          685
+        ],
+        [
+          217,
+          679
+        ],
+        [
+          219,
+          699
+        ]
+      ],
+      "text": "over",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          671,
+          689
+        ],
+        [
+          689,
+          689
+        ],
+        [
+          689,
+          699
+        ],
+        [
+          671,
+          699
+        ]
+      ],
+      "text": "\\( n \\)",
+      "confidence": 0.984375,
+      "confidence_rate": 0.984375
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          625,
+          705
+        ],
+        [
+          629,
+          705
+        ],
+        [
+          629,
+          715
+        ],
+        [
+          625,
+          715
+        ]
+      ],
+      "text": "R",
+      "confidence": 0.27225494384765625,
+      "confidence_rate": 0.8050619405946104
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          908,
+          709
+        ],
+        [
+          942,
+          709
+        ],
+        [
+          942,
+          725
+        ],
+        [
+          908,
+          725
+        ]
+      ],
+      "text": "cue",
+      "confidence": 0.875058186871911,
+      "confidence_rate": 0.9834552804936357
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          194,
+          730
+        ],
+        [
+          214,
+          730
+        ],
+        [
+          214,
+          756
+        ],
+        [
+          194,
+          756
+        ]
+      ],
+      "text": "\\( t_{1} \\)",
+      "confidence": 0.5246561518384851,
+      "confidence_rate": 0.9308398647572224
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          239,
+          693
+        ],
+        [
+          325,
+          693
+        ],
+        [
+          325,
+          769
+        ],
+        [
+          239,
+          769
+        ]
+      ],
+      "text": "self-",
+      "confidence": 0.9794921875,
+      "confidence_rate": 0.9979300435570777
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          733,
+          727
+        ],
+        [
+          737,
+          727
+        ],
+        [
+          737,
+          731
+        ],
+        [
+          733,
+          731
+        ]
+      ],
+      "text": "\"",
+      "confidence": 0.5015325546264648,
+      "confidence_rate": 0.8913532549677533
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          413,
+          791
+        ],
+        [
+          408,
+          749
+        ],
+        [
+          473,
+          741
+        ],
+        [
+          478,
+          783
+        ]
+      ],
+      "text": "rtant",
+      "confidence": 0.5328404903411865,
+      "confidence_rate": 0.9389873076678897
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          574,
+          770
+        ],
+        [
+          610,
+          770
+        ],
+        [
+          610,
+          790
+        ],
+        [
+          574,
+          790
+        ]
+      ],
+      "text": "\\( a m \\)",
+      "confidence": 0.78173828125,
+      "confidence_rate": 0.8841596469246943
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          930,
+          778
+        ],
+        [
+          926,
+          757
+        ],
+        [
+          968,
+          750
+        ],
+        [
+          972,
+          771
+        ]
+      ],
+      "text": "hat",
+      "confidence": 0.9794921875,
+      "confidence_rate": 0.997413224280563
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          200,
+          802
+        ],
+        [
+          262,
+          802
+        ],
+        [
+          262,
+          856
+        ],
+        [
+          200,
+          856
+        ]
+      ],
+      "text": "Oh",
+      "confidence": 0.9931640625,
+      "confidence_rate": 0.9990205643104266
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          278,
+          792
+        ],
+        [
+          330,
+          792
+        ],
+        [
+          330,
+          830
+        ],
+        [
+          278,
+          830
+        ]
+      ],
+      "text": "how",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          360,
+          792
+        ],
+        [
+          366,
+          792
+        ],
+        [
+          366,
+          796
+        ],
+        [
+          360,
+          796
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          456,
+          782
+        ],
+        [
+          516,
+          782
+        ],
+        [
+          516,
+          830
+        ],
+        [
+          456,
+          830
+        ]
+      ],
+      "text": "that",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          608,
+          796
+        ],
+        [
+          638,
+          796
+        ],
+        [
+          638,
+          834
+        ],
+        [
+          608,
+          834
+        ]
+      ],
+      "text": "to",
+      "confidence": 0.6513671875,
+      "confidence_rate": 0.9405972328414411
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          690,
+          793
+        ],
+        [
+          706,
+          793
+        ],
+        [
+          706,
+          803
+        ],
+        [
+          690,
+          803
+        ]
+      ],
+      "text": "\\( n \\)",
+      "confidence": 0.35546875,
+      "confidence_rate": 0.35546874999999994
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          796,
+          796
+        ],
+        [
+          834,
+          796
+        ],
+        [
+          834,
+          822
+        ],
+        [
+          796,
+          822
+        ]
+      ],
+      "text": "thi",
+      "confidence": 0.8955585956573486,
+      "confidence_rate": 0.9863061720392063
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          962,
+          819
+        ],
+        [
+          959,
+          789
+        ],
+        [
+          1002,
+          785
+        ],
+        [
+          1005,
+          815
+        ]
+      ],
+      "text": "hat",
+      "confidence": 0.9765846675727516,
+      "confidence_rate": 0.9970426531807698
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          404,
+          829
+        ],
+        [
+          430,
+          829
+        ],
+        [
+          430,
+          849
+        ],
+        [
+          404,
+          849
+        ]
+      ],
+      "text": "die",
+      "confidence": 0.26039747634959576,
+      "confidence_rate": 0.8451904794872704
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          262,
+          860
+        ],
+        [
+          286,
+          860
+        ],
+        [
+          286,
+          892
+        ],
+        [
+          262,
+          892
+        ]
+      ],
+      "text": "od",
+      "confidence": 0.5604872703552246,
+      "confidence_rate": 0.9206208827635448
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          318,
+          842
+        ],
+        [
+          344,
+          842
+        ],
+        [
+          344,
+          878
+        ],
+        [
+          318,
+          878
+        ]
+      ],
+      "text": "\\( t_{0} \\)",
+      "confidence": 0.9727277755737305,
+      "confidence_rate": 0.9969323798595148
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          376,
+          828
+        ],
+        [
+          420,
+          828
+        ],
+        [
+          420,
+          858
+        ],
+        [
+          376,
+          858
+        ]
+      ],
+      "text": "kno",
+      "confidence": 0.9907441139221191,
+      "confidence_rate": 0.9988383017991888
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          540,
+          814
+        ],
+        [
+          586,
+          814
+        ],
+        [
+          586,
+          856
+        ],
+        [
+          540,
+          856
+        ]
+      ],
+      "text": "able",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9998914459315497
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          858,
+          851
+        ],
+        [
+          862,
+          851
+        ],
+        [
+          862,
+          855
+        ],
+        [
+          858,
+          855
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.351806640625,
+      "confidence_rate": 0.351806640625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          454,
+          857
+        ],
+        [
+          464,
+          857
+        ],
+        [
+          464,
+          871
+        ],
+        [
+          454,
+          871
+        ]
+      ],
+      "text": "A",
+      "confidence": 0.51894386485219,
+      "confidence_rate": 0.8964375988610035
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          484,
+          854
+        ],
+        [
+          524,
+          854
+        ],
+        [
+          524,
+          878
+        ],
+        [
+          484,
+          878
+        ]
+      ],
+      "text": "am",
+      "confidence": 0.9716796875,
+      "confidence_rate": 0.9959042578900551
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          652,
+          848
+        ],
+        [
+          676,
+          848
+        ],
+        [
+          676,
+          876
+        ],
+        [
+          652,
+          876
+        ]
+      ],
+      "text": "\\( D_{x} \\)",
+      "confidence": 0.5906131426627326,
+      "confidence_rate": 0.9431683835206338
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          686,
+          842
+        ],
+        [
+          726,
+          842
+        ],
+        [
+          726,
+          874
+        ],
+        [
+          686,
+          874
+        ]
+      ],
+      "text": "aus",
+      "confidence": 0.8848216533660889,
+      "confidence_rate": 0.9848202448638629
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          858,
+          855
+        ],
+        [
+          862,
+          855
+        ],
+        [
+          862,
+          859
+        ],
+        [
+          858,
+          859
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.5390513443853706,
+      "confidence_rate": 0.9021353251094817
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          252,
+          906
+        ],
+        [
+          340,
+          906
+        ],
+        [
+          340,
+          972
+        ],
+        [
+          252,
+          972
+        ]
+      ],
+      "text": "habby",
+      "confidence": 0.970703125,
+      "confidence_rate": 0.9970309564592158
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          366,
+          880
+        ],
+        [
+          430,
+          880
+        ],
+        [
+          430,
+          924
+        ],
+        [
+          366,
+          924
+        ]
+      ],
+      "text": "when",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          455,
+          878
+        ],
+        [
+          459,
+          878
+        ],
+        [
+          459,
+          882
+        ],
+        [
+          455,
+          882
+        ]
+      ],
+      "text": "\"",
+      "confidence": 0.4582115411758423,
+      "confidence_rate": 0.8780333340310812
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          550,
+          876
+        ],
+        [
+          582,
+          876
+        ],
+        [
+          582,
+          916
+        ],
+        [
+          550,
+          916
+        ]
+      ],
+      "text": "to",
+      "confidence": 0.955078125,
+      "confidence_rate": 0.9934554898364216
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          594,
+          876
+        ],
+        [
+          630,
+          876
+        ],
+        [
+          630,
+          900
+        ],
+        [
+          594,
+          900
+        ]
+      ],
+      "text": "me",
+      "confidence": 0.9765737056732178,
+      "confidence_rate": 0.9966192914967845
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          929,
+          878
+        ],
+        [
+          933,
+          878
+        ],
+        [
+          933,
+          882
+        ],
+        [
+          929,
+          882
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.7727459154557437,
+      "confidence_rate": 0.9579425252940487
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          961,
+          872
+        ],
+        [
+          971,
+          872
+        ],
+        [
+          971,
+          884
+        ],
+        [
+          961,
+          884
+        ]
+      ],
+      "text": ".",
+      "confidence": 0.295654296875,
+      "confidence_rate": 0.295654296875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          718,
+          894
+        ],
+        [
+          744,
+          894
+        ],
+        [
+          744,
+          910
+        ],
+        [
+          718,
+          910
+        ]
+      ],
+      "text": "\\( d^{\\prime \\prime} \\)",
+      "confidence": 0.9384863474406302,
+      "confidence_rate": 0.9936714133687607
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          842,
+          890
+        ],
+        [
+          874,
+          890
+        ],
+        [
+          874,
+          922
+        ],
+        [
+          842,
+          922
+        ]
+      ],
+      "text": "ith",
+      "confidence": 0.8681788685498759,
+      "confidence_rate": 0.9824855040706143
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          914,
+          901
+        ],
+        [
+          924,
+          901
+        ],
+        [
+          924,
+          911
+        ],
+        [
+          914,
+          911
+        ]
+      ],
+      "text": "\u03bc",
+      "confidence": 0.13926509802695364,
+      "confidence_rate": 0.7199578115967
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          608,
+          931
+        ],
+        [
+          634,
+          931
+        ],
+        [
+          634,
+          951
+        ],
+        [
+          608,
+          951
+        ]
+      ],
+      "text": "\\( w^{2} \\)",
+      "confidence": 0.39181263167265,
+      "confidence_rate": 0.9011280170144945
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          952,
+          921
+        ],
+        [
+          976,
+          921
+        ],
+        [
+          976,
+          937
+        ],
+        [
+          952,
+          937
+        ]
+      ],
+      "text": "\\( a n \\)",
+      "confidence": 0.4245412349700928,
+      "confidence_rate": 0.6515682888002552
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          982,
+          886
+        ],
+        [
+          1072,
+          886
+        ],
+        [
+          1072,
+          944
+        ],
+        [
+          982,
+          944
+        ]
+      ],
+      "text": "energy",
+      "confidence": 0.996584415435791,
+      "confidence_rate": 0.9996890091867981
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          440,
+          947
+        ],
+        [
+          446,
+          947
+        ],
+        [
+          446,
+          951
+        ],
+        [
+          440,
+          951
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.4815390887670219,
+      "confidence_rate": 0.8853301568404217
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          292,
+          962
+        ],
+        [
+          382,
+          962
+        ],
+        [
+          382,
+          1006
+        ],
+        [
+          292,
+          1006
+        ]
+      ],
+      "text": "stance",
+      "confidence": 0.90869140625,
+      "confidence_rate": 0.9913332537936581
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          714,
+          952
+        ],
+        [
+          732,
+          952
+        ],
+        [
+          732,
+          968
+        ],
+        [
+          714,
+          968
+        ]
+      ],
+      "text": "x",
+      "confidence": 0.14891663068556227,
+      "confidence_rate": 0.7280432844639843
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          485,
+          999
+        ],
+        [
+          483,
+          977
+        ],
+        [
+          523,
+          973
+        ],
+        [
+          525,
+          995
+        ]
+      ],
+      "text": "sel:",
+      "confidence": 0.64306640625,
+      "confidence_rate": 0.9521274615834171
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          616,
+          968
+        ],
+        [
+          690,
+          968
+        ],
+        [
+          690,
+          1004
+        ],
+        [
+          616,
+          1004
+        ]
+      ],
+      "text": "hoose",
+      "confidence": 0.9316163904732093,
+      "confidence_rate": 0.9929416135289354
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          756,
+          962
+        ],
+        [
+          844,
+          962
+        ],
+        [
+          844,
+          1026
+        ],
+        [
+          756,
+          1026
+        ]
+      ],
+      "text": "eathing",
+      "confidence": 0.98095703125,
+      "confidence_rate": 0.9983990644213656
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          856,
+          930
+        ],
+        [
+          932,
+          930
+        ],
+        [
+          932,
+          986
+        ],
+        [
+          856,
+          986
+        ]
+      ],
+      "text": "thing",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          568,
+          994
+        ],
+        [
+          592,
+          994
+        ],
+        [
+          592,
+          1024
+        ],
+        [
+          568,
+          1024
+        ]
+      ],
+      "text": "\\( \\alpha \\)",
+      "confidence": 0.65966796875,
+      "confidence_rate": 0.65966796875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          283,
+          1085
+        ],
+        [
+          277,
+          1026
+        ],
+        [
+          395,
+          1013
+        ],
+        [
+          401,
+          1072
+        ]
+      ],
+      "text": "Decoese",
+      "confidence": 0.3988383285280861,
+      "confidence_rate": 0.9262603503302803
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          490,
+          1060
+        ],
+        [
+          483,
+          1034
+        ],
+        [
+          530,
+          1022
+        ],
+        [
+          537,
+          1048
+        ]
+      ],
+      "text": "the",
+      "confidence": 0.474882176931942,
+      "confidence_rate": 0.9111150778978921
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          59,
+          1067
+        ],
+        [
+          71,
+          1067
+        ],
+        [
+          71,
+          1077
+        ],
+        [
+          59,
+          1077
+        ]
+      ],
+      "text": "\"",
+      "confidence": 0.8988189697265625,
+      "confidence_rate": 0.9823781739762137
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          617,
+          1026
+        ],
+        [
+          701,
+          1026
+        ],
+        [
+          701,
+          1080
+        ],
+        [
+          617,
+          1080
+        ]
+      ],
+      "text": "living",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          324,
+          1076
+        ],
+        [
+          362,
+          1076
+        ],
+        [
+          362,
+          1120
+        ],
+        [
+          324,
+          1120
+        ]
+      ],
+      "text": "\\( t \\)",
+      "confidence": 0.86669921875,
+      "confidence_rate": 0.86669921875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          508,
+          1068
+        ],
+        [
+          562,
+          1068
+        ],
+        [
+          562,
+          1112
+        ],
+        [
+          508,
+          1112
+        ]
+      ],
+      "text": "it's",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          584,
+          1062
+        ],
+        [
+          604,
+          1062
+        ],
+        [
+          604,
+          1082
+        ],
+        [
+          584,
+          1082
+        ]
+      ],
+      "text": "\\( \\alpha \\)",
+      "confidence": 0.72412109375,
+      "confidence_rate": 0.72412109375
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          934,
+          1075
+        ],
+        [
+          944,
+          1075
+        ],
+        [
+          944,
+          1085
+        ],
+        [
+          934,
+          1085
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.47119140625,
+      "confidence_rate": 0.47119140625
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          961,
+          1094
+        ],
+        [
+          953,
+          1048
+        ],
+        [
+          1011,
+          1038
+        ],
+        [
+          1019,
+          1084
+        ]
+      ],
+      "text": "Lam",
+      "confidence": 0.7470428943634033,
+      "confidence_rate": 0.9642023650360787
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          412,
+          1108
+        ],
+        [
+          498,
+          1108
+        ],
+        [
+          498,
+          1150
+        ],
+        [
+          412,
+          1150
+        ]
+      ],
+      "text": "time,",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          366,
+          1160
+        ],
+        [
+          370,
+          1160
+        ],
+        [
+          370,
+          1164
+        ],
+        [
+          366,
+          1164
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.497314453125,
+      "confidence_rate": 0.497314453125
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          368,
+          1155
+        ],
+        [
+          380,
+          1155
+        ],
+        [
+          380,
+          1165
+        ],
+        [
+          368,
+          1165
+        ]
+      ],
+      "text": "n",
+      "confidence": 0.4198598861694336,
+      "confidence_rate": 0.8653345896880696
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          86,
+          1184
+        ],
+        [
+          106,
+          1184
+        ],
+        [
+          106,
+          1200
+        ],
+        [
+          86,
+          1200
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.4270277463365346,
+      "confidence_rate": 0.8677794255091337
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          356,
+          1182
+        ],
+        [
+          400,
+          1182
+        ],
+        [
+          400,
+          1228
+        ],
+        [
+          356,
+          1228
+        ]
+      ],
+      "text": "ith",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          388,
+          1184
+        ],
+        [
+          444,
+          1184
+        ],
+        [
+          444,
+          1226
+        ],
+        [
+          388,
+          1226
+        ]
+      ],
+      "text": "fin.",
+      "confidence": 0.5325266453437507,
+      "confidence_rate": 0.9323811451914822
+    }
+  ]
+}

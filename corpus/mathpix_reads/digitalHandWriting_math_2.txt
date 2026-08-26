@@ -1,0 +1,15 @@
+[text   ] (15w) Bilal (message...
+[text   ] (4w) The equation of a circle is \( x^{2}+y^{2}-4 x+6 y-77=0 \).
+[text   ] (17w) (a) Find the \( x \)-coordinates of the points \( A \) and \( B \) where the circle intersects the \( x \)-axis.
+[text   ] (15w) (b) Find the point of intersection of the tangents to the circle at \( A \) and \( B \).
+[math   ] (1w) x^{2}+y^{2}-4 x+6 y-77=0
+[math   ] (2w) \operatorname{Rut} y=0
+[math   ] (1w) x^{2}+0^{2}-4 x+6(0)-77=0
+[math   ] (1w) x^{2}-4 x-77=0
+[math   ] (1w) x^{2}-11 x+7 x-77=0
+[math   ] (1w) (x-11)(x+7)=0
+[math   ] (2w) x=11, \quad x=-7
+[text   ] (2w) (ii) \( x^{2}+y^{2}-4 x+6 y-77=0 \)
+[math   ] (2w) \[
+x^{2}-4 x+(2)^{2}-(2)^{2}+y^{2}+6 y+(2)^{2}-(3)^{2}=77
+\]

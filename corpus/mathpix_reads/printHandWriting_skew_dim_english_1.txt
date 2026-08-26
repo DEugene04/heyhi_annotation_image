@@ -1,0 +1,17 @@
+[text   ] (6w) B. Write questions for the following answers:
+[text   ] (1w) 1
+[text   ] (7w) Who works at the hospital every day?
+[text   ] (7w) Doctors work at the hospital every day.
+[text   ] (1w) 2
+[text   ] (9w) Do you go to the beach in the summer?
+[text   ] (9w) Yes, we go to the beach in the summer.
+[text   ] (1w) 3
+[text   ] (3w) Do you go
+[text   ] (7w) in the sammer to the beach?
+[text   ] (9w) Yes, we go to the beach in the summer.
+[text   ] (1w) 4.
+[text   ] (10w) Are you going to the beach in the summer?
+[text   ] (9w) Yes, we go to the beach in the summer.
+[text   ] (1w) 5
+[text   ] (5w) Who is buying flowers?
+[text   ] (6w) Sara and Dana are buying flowers.

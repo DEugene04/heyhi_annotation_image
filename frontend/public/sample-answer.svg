@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <!-- A stand-in "cleaned answer" image until the real corpus is ready.
+       The handwriting sits at fixed positions that the fixture payload's
+       shapes are drawn to match, so the overlay lands on the writing. -->
+  <rect width="800" height="1000" fill="#fbfbf9"/>
+
+  <!-- faint ruled paper lines -->
+  <g stroke="#e3e6ec" stroke-width="1">
+    <line x1="0" y1="170" x2="800" y2="170"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="330" x2="800" y2="330"/>
+    <line x1="0" y1="410" x2="800" y2="410"/>
+    <line x1="0" y1="490" x2="800" y2="490"/>
+  </g>
+
+  <text x="70" y="60" font-family="Georgia, serif" font-size="26" fill="#6b7280">Q1. Solve for x:  2x + 4 = 10</text>
+
+  <g font-family="'Bradley Hand','Comic Sans MS',cursive" font-size="34" fill="#1f2d4d">
+    <text x="80" y="150">2x + 4 = 10</text>
+    <text x="80" y="230">2x = 4</text>
+    <text x="80" y="310">x = 2</text>
+    <text x="80" y="390">check: 2(2) + 4 = 8</text>
+    <text x="80" y="470">final answer:  x = 2</text>
+  </g>
+</svg>

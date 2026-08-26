@@ -1,0 +1,21 @@
+[math   ] (5w) \[
+x y^{\prime}+2 y=\frac{1}{x^{2} \log x}
+\]
+[text   ] (9w) STANDART FORM OF THE EQUATION:
+[math   ] (2w) \[
+y^{\prime}+\frac{2 y}{x}=\frac{1}{x^{3} \log x}
+\]
+[text   ] (8w) THEN, integrating factor:
+[math   ] (7w) I \cdot F=e^{\int \frac{2}{x} d x}=e^{2 \log x}=x^{2}
+[math   ] (5w) y \cdot I \cdot F=\int x^{2} \cdot x^{\frac{1}{3 \log x} d x+c}
+[math   ] (6w) y x^{2}=\int \frac{1}{x \log x} d x+c
+[text   ] (6w) LET \( \log _{x} \) BE " \( m \) ", THEN
+[math   ] (10w) y x^{2}=\int \frac{1}{m} \cdot d m+c=\log m+c
+[math   ] (6w) y x^{2}=\log (\log x)+c
+[text   ] (4w) if \( y(E)=0 \), THEN
+[math   ] (9w) y(e) \cdot e^{2}=\log _{e}(\log e)+c
+[math   ] (6w) 0=\log _{e}(1)+c
+[math   ] (2w) 0=0+c
+[math   ] (2w) c=0, \text { so }
+[math   ] (6w) y x^{2}=\log \left(\log _{x}\right)
+[math   ] (2w) y=\frac{\log (\log x)}{x^{2}}

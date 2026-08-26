@@ -1,0 +1,3884 @@
+{
+  "line": {
+    "request_id": "99ebf3b6-9095-4982-bdbc-e0a862ff5a5c",
+    "version": "SuperNet-200",
+    "is_printed": false,
+    "is_handwritten": true,
+    "auto_rotate_confidence": 3.630418014821668e-12,
+    "auto_rotate_degrees": 0,
+    "image_height": 447,
+    "image_width": 447,
+    "confidence": 0.13025671368979677,
+    "confidence_rate": 0.9700364675668111,
+    "text": "Answer No-11 [Shart answer-Vistas]\nQuestion [a]-How can one buy old money, as described charl Anwwer [a]- According to the writer 'Jack Finey' by 'The third level Charley buys old money to use in the past He goes to a coin dealer and buy's blus and coins from the 1090s. This way, he can use the old mancy in the world he believes he found on the third level of Grand Central Station.\n\nQuestion[b] - What is the old raying that the Maharaja Ker Answer [b] - In the view of 'kalki'' the writis of levon 'The tiger king: The Maharaja knew the old saying, ' you may kill wen a cow in self-defence'. There could certainly be no objection to killing tigers in self-defence. The Maharaja started ouf on a tiger hunt. The mabaraia was thrilled beyond measure when he killed his Arst tiger.",
+    "line_data": [
+      {
+        "type": "text",
+        "cnt": [
+          [
+            116,
+            47
+          ],
+          [
+            395,
+            47
+          ],
+          [
+            395,
+            68
+          ],
+          [
+            116,
+            68
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "33192d70eb5c4ec087e3126cca4d34d0",
+        "text": "Answer No-11 [Shart answer-Vistas]",
+        "after_hyphen": false,
+        "confidence": 0.9970734105447718,
+        "confidence_rate": 0.9999248520470342
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            26,
+            78
+          ],
+          [
+            443,
+            78
+          ],
+          [
+            443,
+            107
+          ],
+          [
+            26,
+            107
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "353c97d4a7014f08b273a094d2b0801f",
+        "text": "\nQuestion [a]-How can one buy old money, as described charl",
+        "after_hyphen": false,
+        "confidence": 0.6076985783232778,
+        "confidence_rate": 0.9921251973178894
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            23,
+            96
+          ],
+          [
+            441,
+            96
+          ],
+          [
+            441,
+            121
+          ],
+          [
+            23,
+            121
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "4d5b6e4e672b43089ffefba721322f82",
+        "text": " Anwwer [a]- According to the writer 'Jack Finey' by 'The third",
+        "after_hyphen": false,
+        "confidence": 0.13025671368979677,
+        "confidence_rate": 0.9700364675668111
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            26,
+            113
+          ],
+          [
+            415,
+            113
+          ],
+          [
+            415,
+            137
+          ],
+          [
+            26,
+            137
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "28bf90d2962c410fb437723e9c27b931",
+        "text": " level Charley buys old money to use in the past He",
+        "after_hyphen": false,
+        "confidence": 0.5649127960205078,
+        "confidence_rate": 0.9896703771261739
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            27,
+            128
+          ],
+          [
+            443,
+            128
+          ],
+          [
+            443,
+            152
+          ],
+          [
+            27,
+            152
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "74a238fb8a704a079af357b4d004adcd",
+        "text": " goes to a coin dealer and buy's blus and coins from the",
+        "after_hyphen": false,
+        "confidence": 0.46672146022319794,
+        "confidence_rate": 0.9873799320438776
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            31,
+            143
+          ],
+          [
+            409,
+            143
+          ],
+          [
+            409,
+            167
+          ],
+          [
+            31,
+            167
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "708bae9f8ea949c2b94ec5c6cc3a39bc",
+        "text": " 1090s. This way, he can use the old mancy in the",
+        "after_hyphen": false,
+        "confidence": 0.24134586260414537,
+        "confidence_rate": 0.9735352819555854
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            28,
+            158
+          ],
+          [
+            442,
+            158
+          ],
+          [
+            442,
+            175
+          ],
+          [
+            28,
+            175
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "28bf1929328845419336685e3a25b209",
+        "text": " world he believes he found on the third level of Grand",
+        "after_hyphen": false,
+        "confidence": 0.970703125,
+        "confidence_rate": 0.9994961507214312
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            27,
+            173
+          ],
+          [
+            134,
+            173
+          ],
+          [
+            134,
+            190
+          ],
+          [
+            27,
+            190
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "ba1d19a31d144b94bf9fe8ec5b9a0ba2",
+        "text": " Central Station.",
+        "after_hyphen": false,
+        "confidence": 0.9990234375,
+        "confidence_rate": 0.999953475384788
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            24,
+            228
+          ],
+          [
+            444,
+            228
+          ],
+          [
+            444,
+            257
+          ],
+          [
+            24,
+            257
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "a91a8e195fa2429f99726f5b4ebb1631",
+        "text": "\n\nQuestion[b] - What is the old raying that the Maharaja Ker",
+        "after_hyphen": false,
+        "confidence": 0.1595206831633015,
+        "confidence_rate": 0.9712841497466234
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            22,
+            246
+          ],
+          [
+            431,
+            246
+          ],
+          [
+            431,
+            266
+          ],
+          [
+            22,
+            266
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "42ee612c553e4d2c95106bff0ea5d4ec",
+        "text": " Answer [b] - In the view of 'kalki'' the writis of levon",
+        "after_hyphen": false,
+        "confidence": 0.25534479298120716,
+        "confidence_rate": 0.977869207306899
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            25,
+            262
+          ],
+          [
+            444,
+            262
+          ],
+          [
+            444,
+            290
+          ],
+          [
+            25,
+            290
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "efcfa46bf9c842559c53655a74f54649",
+        "text": " 'The tiger king: The Maharaja knew the old saying, ' you may",
+        "after_hyphen": false,
+        "confidence": 0.4995927688989876,
+        "confidence_rate": 0.9893804517441768
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            28,
+            277
+          ],
+          [
+            438,
+            277
+          ],
+          [
+            438,
+            303
+          ],
+          [
+            28,
+            303
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "11f56fa2e71a4c819d28ec02dcf0c25e",
+        "text": " kill wen a cow in self-defence'. There could certainly",
+        "after_hyphen": false,
+        "confidence": 0.6057638168108669,
+        "confidence_rate": 0.9915399703586133
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            26,
+            292
+          ],
+          [
+            410,
+            292
+          ],
+          [
+            410,
+            318
+          ],
+          [
+            26,
+            318
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "3fac578f905c4879b60a380d81ff4c5e",
+        "text": " be no objection to killing tigers in self-defence. The",
+        "after_hyphen": false,
+        "confidence": 0.9011871638249431,
+        "confidence_rate": 0.9982381248774428
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            25,
+            307
+          ],
+          [
+            443,
+            307
+          ],
+          [
+            443,
+            331
+          ],
+          [
+            25,
+            331
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "ce66eb813b7a4afa8e7deae0236156b4",
+        "text": " Maharaja started ouf on a tiger hunt. The mabaraia",
+        "after_hyphen": false,
+        "confidence": 0.7393579286272578,
+        "confidence_rate": 0.994524624204527
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            24,
+            323
+          ],
+          [
+            439,
+            323
+          ],
+          [
+            439,
+            347
+          ],
+          [
+            24,
+            347
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "fe43f646a08c4acc9e29373e580e83e8",
+        "text": " was thrilled beyond measure when he killed his Arst",
+        "after_hyphen": false,
+        "confidence": 0.99853515625,
+        "confidence_rate": 0.9999738232411441
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            28,
+            340
+          ],
+          [
+            72,
+            340
+          ],
+          [
+            72,
+            361
+          ],
+          [
+            28,
+            361
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "462b6377985b4dc1a7535ad5294e10ea",
+        "text": " tiger.",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      }
+    ]
+  },
+  "word": [
+    {
+      "type": "text",
+      "cnt": [
+        [
+          118,
+          48
+        ],
+        [
+          178,
+          48
+        ],
+        [
+          178,
+          68
+        ],
+        [
+          118,
+          68
+        ]
+      ],
+      "text": "Answer",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9998667436355548
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          181,
+          48
+        ],
+        [
+          227,
+          48
+        ],
+        [
+          227,
+          66
+        ],
+        [
+          181,
+          66
+        ]
+      ],
+      "text": "No - 11",
+      "confidence": 0.5025921317283064,
+      "confidence_rate": 0.939372386328653
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          230,
+          46
+        ],
+        [
+          280,
+          46
+        ],
+        [
+          280,
+          68
+        ],
+        [
+          230,
+          68
+        ]
+      ],
+      "text": "[Short",
+      "confidence": 0.42058322482625954,
+      "confidence_rate": 0.9242824831183909
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          274,
+          48
+        ],
+        [
+          334,
+          48
+        ],
+        [
+          334,
+          68
+        ],
+        [
+          274,
+          68
+        ]
+      ],
+      "text": "answer-",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          339,
+          48
+        ],
+        [
+          393,
+          48
+        ],
+        [
+          393,
+          66
+        ],
+        [
+          339,
+          66
+        ]
+      ],
+      "text": "Vistas]",
+      "confidence": 0.6416015625,
+      "confidence_rate": 0.9636931775408302
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          26,
+          95
+        ],
+        [
+          26,
+          78
+        ],
+        [
+          84,
+          79
+        ],
+        [
+          84,
+          96
+        ]
+      ],
+      "text": "Question",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          88,
+          95
+        ],
+        [
+          89,
+          78
+        ],
+        [
+          178,
+          83
+        ],
+        [
+          177,
+          100
+        ]
+      ],
+      "text": "[a]- How can",
+      "confidence": 0.9824981689453125,
+      "confidence_rate": 0.9989619039649169
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          180,
+          87
+        ],
+        [
+          208,
+          87
+        ],
+        [
+          208,
+          99
+        ],
+        [
+          180,
+          99
+        ]
+      ],
+      "text": "one",
+      "confidence": 0.96875,
+      "confidence_rate": 0.9960392771462079
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          210,
+          84
+        ],
+        [
+          236,
+          84
+        ],
+        [
+          236,
+          106
+        ],
+        [
+          210,
+          106
+        ]
+      ],
+      "text": "bry",
+      "confidence": 0.93212890625,
+      "confidence_rate": 0.9912529596081636
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          239,
+          84
+        ],
+        [
+          263,
+          84
+        ],
+        [
+          263,
+          100
+        ],
+        [
+          239,
+          100
+        ]
+      ],
+      "text": "\\( o / d \\)",
+      "confidence": 0.8572777360677719,
+      "confidence_rate": 0.9499640747514465
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          321,
+          87
+        ],
+        [
+          339,
+          87
+        ],
+        [
+          339,
+          99
+        ],
+        [
+          321,
+          99
+        ]
+      ],
+      "text": "as",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          182,
+          100
+        ],
+        [
+          198,
+          100
+        ],
+        [
+          198,
+          112
+        ],
+        [
+          182,
+          112
+        ]
+      ],
+      "text": "to",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          204,
+          101
+        ],
+        [
+          222,
+          101
+        ],
+        [
+          222,
+          113
+        ],
+        [
+          204,
+          113
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          229,
+          98
+        ],
+        [
+          273,
+          98
+        ],
+        [
+          273,
+          114
+        ],
+        [
+          229,
+          114
+        ]
+      ],
+      "text": "writter",
+      "confidence": 0.67919921875,
+      "confidence_rate": 0.9682773318894726
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          266,
+          103
+        ],
+        [
+          267,
+          87
+        ],
+        [
+          318,
+          89
+        ],
+        [
+          317,
+          105
+        ]
+      ],
+      "text": "money.",
+      "confidence": 0.9810428619384766,
+      "confidence_rate": 0.9982615920316025
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          340,
+          84
+        ],
+        [
+          440,
+          84
+        ],
+        [
+          440,
+          100
+        ],
+        [
+          340,
+          100
+        ]
+      ],
+      "text": "described Charl",
+      "confidence": 0.6032536029815674,
+      "confidence_rate": 0.97504575576677
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          22,
+          96
+        ],
+        [
+          100,
+          96
+        ],
+        [
+          100,
+          116
+        ],
+        [
+          22,
+          116
+        ]
+      ],
+      "text": "Answer \\( [a] \\)",
+      "confidence": 0.35112762451171875,
+      "confidence_rate": 0.9279684570032233
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          102,
+          118
+        ],
+        [
+          102,
+          99
+        ],
+        [
+          176,
+          100
+        ],
+        [
+          176,
+          119
+        ]
+      ],
+      "text": "- According",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999694754347522
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          274,
+          98
+        ],
+        [
+          312,
+          98
+        ],
+        [
+          312,
+          114
+        ],
+        [
+          274,
+          114
+        ]
+      ],
+      "text": "Jack",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999457347503998
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          316,
+          100
+        ],
+        [
+          348,
+          100
+        ],
+        [
+          348,
+          118
+        ],
+        [
+          316,
+          118
+        ]
+      ],
+      "text": "Biney",
+      "confidence": 0.98291015625,
+      "confidence_rate": 0.9982777287622276
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          359,
+          102
+        ],
+        [
+          371,
+          102
+        ],
+        [
+          371,
+          116
+        ],
+        [
+          359,
+          116
+        ]
+      ],
+      "text": "\\( b y \\)",
+      "confidence": 0.70556640625,
+      "confidence_rate": 0.8399800034822258
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          377,
+          113
+        ],
+        [
+          377,
+          102
+        ],
+        [
+          401,
+          101
+        ],
+        [
+          401,
+          112
+        ]
+      ],
+      "text": "The",
+      "confidence": 0.986328125,
+      "confidence_rate": 0.9982807052130152
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          405,
+          101
+        ],
+        [
+          439,
+          101
+        ],
+        [
+          439,
+          113
+        ],
+        [
+          405,
+          113
+        ]
+      ],
+      "text": "third",
+      "confidence": 0.9563083648681641,
+      "confidence_rate": 0.9955424783169672
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          28,
+          115
+        ],
+        [
+          64,
+          115
+        ],
+        [
+          64,
+          127
+        ],
+        [
+          28,
+          127
+        ]
+      ],
+      "text": "level",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9999023008080943
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          67,
+          114
+        ],
+        [
+          115,
+          114
+        ],
+        [
+          115,
+          132
+        ],
+        [
+          67,
+          132
+        ]
+      ],
+      "text": "Charley",
+      "confidence": 0.99609375,
+      "confidence_rate": 0.9996738949070672
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          124,
+          116
+        ],
+        [
+          156,
+          116
+        ],
+        [
+          156,
+          134
+        ],
+        [
+          124,
+          134
+        ]
+      ],
+      "text": "buys",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          167,
+          114
+        ],
+        [
+          195,
+          114
+        ],
+        [
+          195,
+          128
+        ],
+        [
+          167,
+          128
+        ]
+      ],
+      "text": "\\( 0 \\mid \\alpha \\)",
+      "confidence": 0.5279636383056641,
+      "confidence_rate": 0.8082294498684102
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          200,
+          118
+        ],
+        [
+          244,
+          118
+        ],
+        [
+          244,
+          134
+        ],
+        [
+          200,
+          134
+        ]
+      ],
+      "text": "maney",
+      "confidence": 0.99072265625,
+      "confidence_rate": 0.9990683696039592
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          250,
+          116
+        ],
+        [
+          264,
+          116
+        ],
+        [
+          264,
+          128
+        ],
+        [
+          250,
+          128
+        ]
+      ],
+      "text": "to",
+      "confidence": 0.841796875,
+      "confidence_rate": 0.9756978092969624
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          272,
+          117
+        ],
+        [
+          296,
+          117
+        ],
+        [
+          296,
+          129
+        ],
+        [
+          272,
+          129
+        ]
+      ],
+      "text": "wee",
+      "confidence": 0.48831222485750914,
+      "confidence_rate": 0.9142967997056493
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          305,
+          116
+        ],
+        [
+          319,
+          116
+        ],
+        [
+          319,
+          128
+        ],
+        [
+          305,
+          128
+        ]
+      ],
+      "text": "in",
+      "confidence": 0.9985356330871582,
+      "confidence_rate": 0.9997906733196109
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          328,
+          116
+        ],
+        [
+          346,
+          116
+        ],
+        [
+          346,
+          128
+        ],
+        [
+          328,
+          128
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          352,
+          116
+        ],
+        [
+          384,
+          116
+        ],
+        [
+          384,
+          132
+        ],
+        [
+          352,
+          132
+        ]
+      ],
+      "text": "past",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          393,
+          116
+        ],
+        [
+          413,
+          116
+        ],
+        [
+          413,
+          128
+        ],
+        [
+          393,
+          128
+        ]
+      ],
+      "text": "He",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          28,
+          130
+        ],
+        [
+          54,
+          130
+        ],
+        [
+          54,
+          146
+        ],
+        [
+          28,
+          146
+        ]
+      ],
+      "text": "goes",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          66,
+          130
+        ],
+        [
+          80,
+          130
+        ],
+        [
+          80,
+          142
+        ],
+        [
+          66,
+          142
+        ]
+      ],
+      "text": "to",
+      "confidence": 0.99072265625,
+      "confidence_rate": 0.9986693651758404
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          88,
+          131
+        ],
+        [
+          100,
+          131
+        ],
+        [
+          100,
+          141
+        ],
+        [
+          88,
+          141
+        ]
+      ],
+      "text": "\\( a \\)",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.99951171875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          110,
+          128
+        ],
+        [
+          140,
+          128
+        ],
+        [
+          140,
+          142
+        ],
+        [
+          110,
+          142
+        ]
+      ],
+      "text": "coin",
+      "confidence": 0.9863748550415039,
+      "confidence_rate": 0.9984768479418119
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          150,
+          131
+        ],
+        [
+          192,
+          131
+        ],
+        [
+          192,
+          143
+        ],
+        [
+          150,
+          143
+        ]
+      ],
+      "text": "dealer",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          200,
+          132
+        ],
+        [
+          230,
+          132
+        ],
+        [
+          230,
+          144
+        ],
+        [
+          200,
+          144
+        ]
+      ],
+      "text": "and",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          276,
+          131
+        ],
+        [
+          304,
+          131
+        ],
+        [
+          304,
+          143
+        ],
+        [
+          276,
+          143
+        ]
+      ],
+      "text": "blees",
+      "confidence": 0.8524309083586559,
+      "confidence_rate": 0.9841604739910886
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          311,
+          131
+        ],
+        [
+          339,
+          131
+        ],
+        [
+          339,
+          143
+        ],
+        [
+          311,
+          143
+        ]
+      ],
+      "text": "and",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          343,
+          130
+        ],
+        [
+          377,
+          130
+        ],
+        [
+          377,
+          142
+        ],
+        [
+          343,
+          142
+        ]
+      ],
+      "text": "coins",
+      "confidence": 0.5066871643066406,
+      "confidence_rate": 0.9342734132902409
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          382,
+          128
+        ],
+        [
+          418,
+          128
+        ],
+        [
+          418,
+          144
+        ],
+        [
+          382,
+          144
+        ]
+      ],
+      "text": "From",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9998371335216855
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          424,
+          129
+        ],
+        [
+          440,
+          129
+        ],
+        [
+          440,
+          141
+        ],
+        [
+          424,
+          141
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          34,
+          142
+        ],
+        [
+          74,
+          142
+        ],
+        [
+          74,
+          158
+        ],
+        [
+          34,
+          158
+        ]
+      ],
+      "text": "1090 s",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          78,
+          142
+        ],
+        [
+          108,
+          142
+        ],
+        [
+          108,
+          158
+        ],
+        [
+          78,
+          158
+        ]
+      ],
+      "text": "This",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          152,
+          145
+        ],
+        [
+          168,
+          145
+        ],
+        [
+          168,
+          157
+        ],
+        [
+          152,
+          157
+        ]
+      ],
+      "text": "he",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          237,
+          132
+        ],
+        [
+          269,
+          132
+        ],
+        [
+          269,
+          150
+        ],
+        [
+          237,
+          150
+        ]
+      ],
+      "text": "buys",
+      "confidence": 0.9150390625,
+      "confidence_rate": 0.9901831118574845
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          116,
+          146
+        ],
+        [
+          148,
+          146
+        ],
+        [
+          148,
+          162
+        ],
+        [
+          116,
+          162
+        ]
+      ],
+      "text": "way.",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          176,
+          147
+        ],
+        [
+          200,
+          147
+        ],
+        [
+          200,
+          157
+        ],
+        [
+          176,
+          157
+        ]
+      ],
+      "text": "can",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          212,
+          148
+        ],
+        [
+          234,
+          148
+        ],
+        [
+          234,
+          158
+        ],
+        [
+          212,
+          158
+        ]
+      ],
+      "text": "use",
+      "confidence": 0.98974609375,
+      "confidence_rate": 0.9987124746095314
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          242,
+          144
+        ],
+        [
+          262,
+          144
+        ],
+        [
+          262,
+          158
+        ],
+        [
+          242,
+          158
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          272,
+          144
+        ],
+        [
+          296,
+          144
+        ],
+        [
+          296,
+          160
+        ],
+        [
+          272,
+          160
+        ]
+      ],
+      "text": "old",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9998778775015811
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          362,
+          144
+        ],
+        [
+          378,
+          144
+        ],
+        [
+          378,
+          158
+        ],
+        [
+          362,
+          158
+        ]
+      ],
+      "text": "in",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          386,
+          145
+        ],
+        [
+          406,
+          145
+        ],
+        [
+          406,
+          157
+        ],
+        [
+          386,
+          157
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          30,
+          159
+        ],
+        [
+          70,
+          159
+        ],
+        [
+          70,
+          171
+        ],
+        [
+          30,
+          171
+        ]
+      ],
+      "text": "world",
+      "confidence": 0.990234375,
+      "confidence_rate": 0.9990191192335155
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          78,
+          159
+        ],
+        [
+          94,
+          159
+        ],
+        [
+          94,
+          171
+        ],
+        [
+          78,
+          171
+        ]
+      ],
+      "text": "he",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          106,
+          158
+        ],
+        [
+          156,
+          158
+        ],
+        [
+          156,
+          172
+        ],
+        [
+          106,
+          172
+        ]
+      ],
+      "text": "believers",
+      "confidence": 0.854283332824707,
+      "confidence_rate": 0.9888135836020666
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          162,
+          160
+        ],
+        [
+          178,
+          160
+        ],
+        [
+          178,
+          172
+        ],
+        [
+          162,
+          172
+        ]
+      ],
+      "text": "he",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          183,
+          158
+        ],
+        [
+          227,
+          158
+        ],
+        [
+          227,
+          174
+        ],
+        [
+          183,
+          174
+        ]
+      ],
+      "text": "Found",
+      "confidence": 0.89892578125,
+      "confidence_rate": 0.9894010880397185
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          302,
+          146
+        ],
+        [
+          352,
+          146
+        ],
+        [
+          352,
+          164
+        ],
+        [
+          302,
+          164
+        ]
+      ],
+      "text": "mancy",
+      "confidence": 0.9121742248535156,
+      "confidence_rate": 0.990849694081043
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          234,
+          162
+        ],
+        [
+          250,
+          162
+        ],
+        [
+          250,
+          172
+        ],
+        [
+          234,
+          172
+        ]
+      ],
+      "text": "on",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          258,
+          158
+        ],
+        [
+          278,
+          158
+        ],
+        [
+          278,
+          174
+        ],
+        [
+          258,
+          174
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          286,
+          161
+        ],
+        [
+          322,
+          161
+        ],
+        [
+          322,
+          173
+        ],
+        [
+          286,
+          173
+        ]
+      ],
+      "text": "third",
+      "confidence": 0.9970703125,
+      "confidence_rate": 0.9997066442937235
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          332,
+          158
+        ],
+        [
+          368,
+          158
+        ],
+        [
+          368,
+          172
+        ],
+        [
+          332,
+          172
+        ]
+      ],
+      "text": "(Evel)",
+      "confidence": 0.939544562716037,
+      "confidence_rate": 0.9943469454531622
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          376,
+          159
+        ],
+        [
+          394,
+          159
+        ],
+        [
+          394,
+          171
+        ],
+        [
+          376,
+          171
+        ]
+      ],
+      "text": "of",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          398,
+          158
+        ],
+        [
+          440,
+          158
+        ],
+        [
+          440,
+          172
+        ],
+        [
+          398,
+          172
+        ]
+      ],
+      "text": "Gromoral",
+      "confidence": 0.06984498350885986,
+      "confidence_rate": 0.8148681148790128
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          28,
+          174
+        ],
+        [
+          74,
+          174
+        ],
+        [
+          74,
+          186
+        ],
+        [
+          28,
+          186
+        ]
+      ],
+      "text": "Central",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          81,
+          174
+        ],
+        [
+          131,
+          174
+        ],
+        [
+          131,
+          186
+        ],
+        [
+          81,
+          186
+        ]
+      ],
+      "text": "Station.",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999624314366309
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          24,
+          228
+        ],
+        [
+          82,
+          228
+        ],
+        [
+          82,
+          248
+        ],
+        [
+          24,
+          248
+        ]
+      ],
+      "text": "Quertion",
+      "confidence": 0.93212890625,
+      "confidence_rate": 0.9946081146444354
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          84,
+          230
+        ],
+        [
+          110,
+          230
+        ],
+        [
+          110,
+          248
+        ],
+        [
+          84,
+          248
+        ]
+      ],
+      "text": "\\( [b]- \\)",
+      "confidence": 0.8750199952628464,
+      "confidence_rate": 0.9671737354529372,
+      "latex": "[b]-"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          114,
+          232
+        ],
+        [
+          150,
+          232
+        ],
+        [
+          150,
+          246
+        ],
+        [
+          114,
+          246
+        ]
+      ],
+      "text": "What",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          153,
+          234
+        ],
+        [
+          163,
+          234
+        ],
+        [
+          163,
+          244
+        ],
+        [
+          153,
+          244
+        ]
+      ],
+      "text": "\\( \\dot{\\mathrm{s}} \\)",
+      "confidence": 0.2823829650878906,
+      "confidence_rate": 0.8347344861960906
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          171,
+          234
+        ],
+        [
+          189,
+          234
+        ],
+        [
+          189,
+          246
+        ],
+        [
+          171,
+          246
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          198,
+          234
+        ],
+        [
+          222,
+          234
+        ],
+        [
+          222,
+          246
+        ],
+        [
+          198,
+          246
+        ]
+      ],
+      "text": "old",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          285,
+          246
+        ],
+        [
+          285,
+          231
+        ],
+        [
+          317,
+          232
+        ],
+        [
+          317,
+          247
+        ]
+      ],
+      "text": "that",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          326,
+          235
+        ],
+        [
+          350,
+          235
+        ],
+        [
+          350,
+          247
+        ],
+        [
+          326,
+          247
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          353,
+          234
+        ],
+        [
+          423,
+          234
+        ],
+        [
+          423,
+          250
+        ],
+        [
+          353,
+          250
+        ]
+      ],
+      "text": "Maharaja",
+      "confidence": 0.9985356330871582,
+      "confidence_rate": 0.9998872801882834
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          426,
+          234
+        ],
+        [
+          442,
+          234
+        ],
+        [
+          442,
+          250
+        ],
+        [
+          426,
+          250
+        ]
+      ],
+      "text": "\\( f_{\\infty} \\)",
+      "confidence": 0.7193751335144043,
+      "confidence_rate": 0.964064648589929
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          22,
+          246
+        ],
+        [
+          108,
+          246
+        ],
+        [
+          108,
+          264
+        ],
+        [
+          22,
+          264
+        ]
+      ],
+      "text": "Answer [b]-",
+      "confidence": 0.3316279939460287,
+      "confidence_rate": 0.9333417628491792
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          114,
+          250
+        ],
+        [
+          128,
+          250
+        ],
+        [
+          128,
+          260
+        ],
+        [
+          114,
+          260
+        ]
+      ],
+      "text": "\\( I_{n} \\)",
+      "confidence": 0.7969965117517859,
+      "confidence_rate": 0.9751034957771554
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          138,
+          249
+        ],
+        [
+          158,
+          249
+        ],
+        [
+          158,
+          261
+        ],
+        [
+          138,
+          261
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          166,
+          249
+        ],
+        [
+          198,
+          249
+        ],
+        [
+          198,
+          261
+        ],
+        [
+          166,
+          261
+        ]
+      ],
+      "text": "view",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          206,
+          249
+        ],
+        [
+          224,
+          249
+        ],
+        [
+          224,
+          261
+        ],
+        [
+          206,
+          261
+        ]
+      ],
+      "text": "of",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          227,
+          232
+        ],
+        [
+          277,
+          232
+        ],
+        [
+          277,
+          254
+        ],
+        [
+          227,
+          254
+        ]
+      ],
+      "text": "saying",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          229,
+          248
+        ],
+        [
+          273,
+          248
+        ],
+        [
+          273,
+          262
+        ],
+        [
+          229,
+          262
+        ]
+      ],
+      "text": "\u043a\u0430\u0435\u043c:",
+      "confidence": 0.14045537078902331,
+      "confidence_rate": 0.8217767219431878
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          283,
+          250
+        ],
+        [
+          303,
+          250
+        ],
+        [
+          303,
+          262
+        ],
+        [
+          283,
+          262
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          310,
+          248
+        ],
+        [
+          358,
+          248
+        ],
+        [
+          358,
+          264
+        ],
+        [
+          310,
+          264
+        ]
+      ],
+      "text": "writics",
+      "confidence": 0.5124041210428345,
+      "confidence_rate": 0.9458037925792936
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          370,
+          251
+        ],
+        [
+          384,
+          251
+        ],
+        [
+          384,
+          263
+        ],
+        [
+          370,
+          263
+        ]
+      ],
+      "text": "\\( a F \\)",
+      "confidence": 0.5,
+      "confidence_rate": 0.7071067811865476
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          393,
+          248
+        ],
+        [
+          429,
+          248
+        ],
+        [
+          429,
+          264
+        ],
+        [
+          393,
+          264
+        ]
+      ],
+      "text": "terson",
+      "confidence": 0.6583276242017746,
+      "confidence_rate": 0.9627083406701928
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          25,
+          265
+        ],
+        [
+          53,
+          265
+        ],
+        [
+          53,
+          277
+        ],
+        [
+          25,
+          277
+        ]
+      ],
+      "text": "\\& The",
+      "confidence": 0.408935546875,
+      "confidence_rate": 0.9144616273838886
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          56,
+          262
+        ],
+        [
+          90,
+          262
+        ],
+        [
+          90,
+          282
+        ],
+        [
+          56,
+          282
+        ]
+      ],
+      "text": "tiges",
+      "confidence": 0.9544277191162109,
+      "confidence_rate": 0.9953465246123024
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          94,
+          264
+        ],
+        [
+          130,
+          264
+        ],
+        [
+          130,
+          280
+        ],
+        [
+          94,
+          280
+        ]
+      ],
+      "text": "king:",
+      "confidence": 0.8815336227416992,
+      "confidence_rate": 0.9874699495328999
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          132,
+          265
+        ],
+        [
+          154,
+          265
+        ],
+        [
+          154,
+          277
+        ],
+        [
+          132,
+          277
+        ]
+      ],
+      "text": "The",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          160,
+          280
+        ],
+        [
+          160,
+          263
+        ],
+        [
+          224,
+          264
+        ],
+        [
+          224,
+          281
+        ]
+      ],
+      "text": "Maharaja",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          232,
+          265
+        ],
+        [
+          266,
+          265
+        ],
+        [
+          266,
+          277
+        ],
+        [
+          232,
+          277
+        ]
+      ],
+      "text": "knew",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          274,
+          265
+        ],
+        [
+          294,
+          265
+        ],
+        [
+          294,
+          277
+        ],
+        [
+          274,
+          277
+        ]
+      ],
+      "text": "the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          300,
+          265
+        ],
+        [
+          324,
+          265
+        ],
+        [
+          324,
+          277
+        ],
+        [
+          300,
+          277
+        ]
+      ],
+      "text": "\\( o / \\alpha \\)",
+      "confidence": 0.7531001567840576,
+      "confidence_rate": 0.9098104329938195
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          30,
+          279
+        ],
+        [
+          52,
+          279
+        ],
+        [
+          52,
+          291
+        ],
+        [
+          30,
+          291
+        ]
+      ],
+      "text": "k\u00e9ll",
+      "confidence": 0.3899853080702176,
+      "confidence_rate": 0.9101329227171825
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          60,
+          282
+        ],
+        [
+          86,
+          282
+        ],
+        [
+          86,
+          292
+        ],
+        [
+          60,
+          292
+        ]
+      ],
+      "text": "cuen",
+      "confidence": 0.98486328125,
+      "confidence_rate": 0.9983067187538305
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          95,
+          282
+        ],
+        [
+          105,
+          282
+        ],
+        [
+          105,
+          292
+        ],
+        [
+          95,
+          292
+        ]
+      ],
+      "text": "0",
+      "confidence": 0.8427734375,
+      "confidence_rate": 0.8427734375
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          112,
+          280
+        ],
+        [
+          138,
+          280
+        ],
+        [
+          138,
+          292
+        ],
+        [
+          112,
+          292
+        ]
+      ],
+      "text": "cow",
+      "confidence": 0.91943359375,
+      "confidence_rate": 0.9895552470605984
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          148,
+          276
+        ],
+        [
+          164,
+          276
+        ],
+        [
+          164,
+          292
+        ],
+        [
+          148,
+          292
+        ]
+      ],
+      "text": "in",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          173,
+          279
+        ],
+        [
+          211,
+          279
+        ],
+        [
+          211,
+          291
+        ],
+        [
+          173,
+          291
+        ]
+      ],
+      "text": "self",
+      "confidence": 0.9970703125,
+      "confidence_rate": 0.9996740545279058
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          212,
+          278
+        ],
+        [
+          268,
+          278
+        ],
+        [
+          268,
+          292
+        ],
+        [
+          212,
+          292
+        ]
+      ],
+      "text": "depence'",
+      "confidence": 0.4703080023173243,
+      "confidence_rate": 0.9436232733827472
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          329,
+          264
+        ],
+        [
+          383,
+          264
+        ],
+        [
+          383,
+          284
+        ],
+        [
+          329,
+          284
+        ]
+      ],
+      "text": "saying,",
+      "confidence": 0.96484375,
+      "confidence_rate": 0.9970220173590097
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          272,
+          281
+        ],
+        [
+          308,
+          281
+        ],
+        [
+          308,
+          293
+        ],
+        [
+          272,
+          293
+        ]
+      ],
+      "text": "There",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999511611428449
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          320,
+          281
+        ],
+        [
+          360,
+          281
+        ],
+        [
+          360,
+          293
+        ],
+        [
+          320,
+          293
+        ]
+      ],
+      "text": "could",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          394,
+          266
+        ],
+        [
+          442,
+          266
+        ],
+        [
+          442,
+          286
+        ],
+        [
+          394,
+          286
+        ]
+      ],
+      "text": "You may",
+      "confidence": 0.515625,
+      "confidence_rate": 0.9462978001485842
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          26,
+          294
+        ],
+        [
+          42,
+          294
+        ],
+        [
+          42,
+          308
+        ],
+        [
+          26,
+          308
+        ]
+      ],
+      "text": "be",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          49,
+          296
+        ],
+        [
+          67,
+          296
+        ],
+        [
+          67,
+          306
+        ],
+        [
+          49,
+          306
+        ]
+      ],
+      "text": "no.",
+      "confidence": 0.7060546875,
+      "confidence_rate": 0.9574250641923306
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          76,
+          294
+        ],
+        [
+          136,
+          294
+        ],
+        [
+          136,
+          312
+        ],
+        [
+          76,
+          312
+        ]
+      ],
+      "text": "objection",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          142,
+          296
+        ],
+        [
+          156,
+          296
+        ],
+        [
+          156,
+          306
+        ],
+        [
+          142,
+          306
+        ]
+      ],
+      "text": "to",
+      "confidence": 0.49718696204945445,
+      "confidence_rate": 0.9049939500354393
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          212,
+          296
+        ],
+        [
+          252,
+          296
+        ],
+        [
+          252,
+          312
+        ],
+        [
+          212,
+          312
+        ]
+      ],
+      "text": "tigers",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          264,
+          295
+        ],
+        [
+          278,
+          295
+        ],
+        [
+          278,
+          307
+        ],
+        [
+          264,
+          307
+        ]
+      ],
+      "text": "\\( i n \\)",
+      "confidence": 0.40415487039808795,
+      "confidence_rate": 0.904238701109253
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          382,
+          297
+        ],
+        [
+          408,
+          297
+        ],
+        [
+          408,
+          309
+        ],
+        [
+          382,
+          309
+        ]
+      ],
+      "text": "TFe",
+      "confidence": 0.16845361762170796,
+      "confidence_rate": 0.800405460423264
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          104,
+          308
+        ],
+        [
+          160,
+          308
+        ],
+        [
+          160,
+          324
+        ],
+        [
+          104,
+          324
+        ]
+      ],
+      "text": "started",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          160,
+          294
+        ],
+        [
+          206,
+          294
+        ],
+        [
+          206,
+          314
+        ],
+        [
+          160,
+          314
+        ]
+      ],
+      "text": "killing",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          172,
+          310
+        ],
+        [
+          202,
+          310
+        ],
+        [
+          202,
+          322
+        ],
+        [
+          172,
+          322
+        ]
+      ],
+      "text": "ouf",
+      "confidence": 0.98583984375,
+      "confidence_rate": 0.9982189170333171
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          288,
+          294
+        ],
+        [
+          326,
+          294
+        ],
+        [
+          326,
+          314
+        ],
+        [
+          288,
+          314
+        ]
+      ],
+      "text": "self-",
+      "confidence": 0.67919921875,
+      "confidence_rate": 0.9620545939839666
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          328,
+          294
+        ],
+        [
+          378,
+          294
+        ],
+        [
+          378,
+          310
+        ],
+        [
+          328,
+          310
+        ]
+      ],
+      "text": "defence",
+      "confidence": 0.99560546875,
+      "confidence_rate": 0.9996330493774426
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          368,
+          280
+        ],
+        [
+          432,
+          280
+        ],
+        [
+          432,
+          302
+        ],
+        [
+          368,
+          302
+        ]
+      ],
+      "text": "certainly",
+      "confidence": 0.71240234375,
+      "confidence_rate": 0.9760686889977069
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          26,
+          326
+        ],
+        [
+          26,
+          309
+        ],
+        [
+          94,
+          310
+        ],
+        [
+          94,
+          327
+        ]
+      ],
+      "text": "Maharaja",
+      "confidence": 0.99267578125,
+      "confidence_rate": 0.9994346850406676
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          207,
+          311
+        ],
+        [
+          227,
+          311
+        ],
+        [
+          227,
+          323
+        ],
+        [
+          207,
+          323
+        ]
+      ],
+      "text": "On",
+      "confidence": 0.5078125,
+      "confidence_rate": 0.9077319601768987
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          234,
+          311
+        ],
+        [
+          246,
+          311
+        ],
+        [
+          246,
+          323
+        ],
+        [
+          234,
+          323
+        ]
+      ],
+      "text": "\\( a \\)",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.99951171875
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          254,
+          310
+        ],
+        [
+          288,
+          310
+        ],
+        [
+          288,
+          328
+        ],
+        [
+          254,
+          328
+        ]
+      ],
+      "text": "tiger",
+      "confidence": 0.998046875,
+      "confidence_rate": 0.9998045156259804
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          304,
+          310
+        ],
+        [
+          342,
+          310
+        ],
+        [
+          342,
+          324
+        ],
+        [
+          304,
+          324
+        ]
+      ],
+      "text": "tement",
+      "confidence": 0.30307086031420083,
+      "confidence_rate": 0.8971553532828507
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          346,
+          312
+        ],
+        [
+          374,
+          312
+        ],
+        [
+          374,
+          324
+        ],
+        [
+          346,
+          324
+        ]
+      ],
+      "text": "The",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          380,
+          310
+        ],
+        [
+          442,
+          310
+        ],
+        [
+          442,
+          328
+        ],
+        [
+          380,
+          328
+        ]
+      ],
+      "text": "\u043c\u0430\u0432\u0430\u043d\u0430\u0458\u0430",
+      "confidence": 0.8763546033710767,
+      "confidence_rate": 0.9898987125328758
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          26,
+          328
+        ],
+        [
+          52,
+          328
+        ],
+        [
+          52,
+          338
+        ],
+        [
+          26,
+          338
+        ]
+      ],
+      "text": "was",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999389518012535
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          56,
+          324
+        ],
+        [
+          116,
+          324
+        ],
+        [
+          116,
+          338
+        ],
+        [
+          56,
+          338
+        ]
+      ],
+      "text": "thrilled",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          122,
+          344
+        ],
+        [
+          122,
+          325
+        ],
+        [
+          174,
+          324
+        ],
+        [
+          174,
+          343
+        ]
+      ],
+      "text": "beyond",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          185,
+          337
+        ],
+        [
+          185,
+          325
+        ],
+        [
+          247,
+          327
+        ],
+        [
+          247,
+          339
+        ]
+      ],
+      "text": "measure",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          260,
+          328
+        ],
+        [
+          296,
+          328
+        ],
+        [
+          296,
+          338
+        ],
+        [
+          260,
+          338
+        ]
+      ],
+      "text": "when",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          306,
+          327
+        ],
+        [
+          322,
+          327
+        ],
+        [
+          322,
+          339
+        ],
+        [
+          306,
+          339
+        ]
+      ],
+      "text": "be",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          332,
+          326
+        ],
+        [
+          372,
+          326
+        ],
+        [
+          372,
+          340
+        ],
+        [
+          332,
+          340
+        ]
+      ],
+      "text": "killed",
+      "confidence": 0.7578125,
+      "confidence_rate": 0.975104295336969
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          378,
+          326
+        ],
+        [
+          402,
+          326
+        ],
+        [
+          402,
+          340
+        ],
+        [
+          378,
+          340
+        ]
+      ],
+      "text": "his",
+      "confidence": 0.9892578125,
+      "confidence_rate": 0.998650873222049
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          406,
+          326
+        ],
+        [
+          436,
+          326
+        ],
+        [
+          436,
+          340
+        ],
+        [
+          406,
+          340
+        ]
+      ],
+      "text": "Arst",
+      "confidence": 0.93212890625,
+      "confidence_rate": 0.9922210623809017
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          30,
+          340
+        ],
+        [
+          70,
+          340
+        ],
+        [
+          70,
+          358
+        ],
+        [
+          30,
+          358
+        ]
+      ],
+      "text": "tiger.",
+      "confidence": 0.59619140625,
+      "confidence_rate": 0.9540706134282833
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          265,
+          368
+        ],
+        [
+          267,
+          368
+        ],
+        [
+          267,
+          370
+        ],
+        [
+          265,
+          370
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.6298828125,
+      "confidence_rate": 0.6298828125
+    }
+  ]
+}

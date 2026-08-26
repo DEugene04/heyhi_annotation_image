@@ -1,0 +1,4914 @@
+{
+  "line": {
+    "request_id": "cb4b0b55-5656-41b5-b14b-ae54c81c6f1f",
+    "version": "SuperNet-200",
+    "is_printed": true,
+    "is_handwritten": true,
+    "auto_rotate_confidence": 4.7088943394514235e-14,
+    "auto_rotate_degrees": 0,
+    "image_height": 555,
+    "image_width": 360,
+    "confidence": 0.0016270902592483022,
+    "confidence_rate": 0.8575264208757651,
+    "text": "7. Matuaga spant kah 150 in paying 2 peas and 4 excelse books from Banni supermaket. If Nyongess bought 4 more pens and a 3 and Tess than Matunga from the same super market and spont kiths 30 more than what Matings spont, By letting the prices of a pen and an extrcise book be \\( p \\) and b respectively.\n(a) Form a ratrix equation from the above statement,\n(1 mak)\n\\[\n\\left(\\begin{array}{ll}\n2 & 4 \\\\\n6 & 3\n\\end{array}\\right)\\binom{p}{b}=\\binom{150}{180} B_{1}\n\\]\n(b) Hence find the unit price of each item using matrix method.\n(3 marks)\n\\[\n\\begin{aligned}\n-\\frac{1}{18}\\left(\\begin{array}{cc}\n3 & -4 \\\\\n-6 & a\n\\end{array}\\right)\\left(\\begin{array}{ll}\n2 & 4 \\\\\n6 & 3\n\\end{array}\\right)\\binom{f}{b} & =-\\frac{1}{18}\\left(\\begin{array}{cc}\n3 & -4 \\\\\n-6 & 2\n\\end{array}\\right)\\binom{150}{180} M_{1} \\\\\n\\binom{p}{b} & =\\binom{15}{30}-A_{1} \\\\\n\\text { Apric } & =\\text { sh. 15, } A_{1} \\text { Breash brove }=\\text { sh. } 30 .{ }^{3} \\underline{B_{1}}\n\\end{aligned}\n\\]\n8. For bells ring at intervals of \\( 5,15,20 \\) and 25 minutes. It the bells rung together at 10.00 per on Sunday, find the time and day bey will together ring again.\n(3marks)\n\n\\begin{tabular}[t]{|l|l|l|l|}\n\\hline 5 & 15 & 20 & 25 \\\\\n\\hline 1 & 3 I & \u2191 4 1 & 5 5 5 Lem = 300 mink \\( =5 \\mathrm{hrs} \\) \\\\\n\\hline\n\\end{tabular}\n\\[\n\\begin{array}{l}\n=\\frac{10.00 \\mathrm{P}^{2}}{5.00}+\\mathrm{M} \\\\\n3.00 \\mathrm{Am} \\text { Menday. } \\frac{-\\mathrm{A}_{1}}{\\mathrm{Q} 3}\n\\end{array}\n\\]\n9. Solve the incqualities \\( x-5 \\leq 3 x-8<2 x-3 \\), hence represent your solution on a number line.\n\\[\n\\begin{aligned}\nx-5 & \\leqslant 3 x-8 \\\\\n-2 x & \\leqslant-3 \\\\\nx & \\geqslant 11 / 2 \\\\\n3 x-8 & <2 x-3 \\\\\nx & <5\n\\end{aligned}\n\\]\n\n4",
+    "line_data": [
+      {
+        "type": "text",
+        "cnt": [
+          [
+            6,
+            31
+          ],
+          [
+            326,
+            31
+          ],
+          [
+            326,
+            42
+          ],
+          [
+            6,
+            42
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "bc4647043d1b4e899ceb8d934862faa3",
+        "text": "7. Matuaga spant kah 150 in paying 2 peas and 4 excelse books from Banni supermaket. If Nyongess",
+        "after_hyphen": false,
+        "confidence": 0.22271165133669193,
+        "confidence_rate": 0.9864393545309044
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            14,
+            40
+          ],
+          [
+            345,
+            40
+          ],
+          [
+            345,
+            52
+          ],
+          [
+            14,
+            52
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "24254270bc264c869782bde5568987cf",
+        "text": " bought 4 more pens and a 3 and Tess than Matunga from the same super market and spont kiths 30 more than",
+        "after_hyphen": false,
+        "confidence": 0.061986435711679576,
+        "confidence_rate": 0.976709081809954
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            13,
+            52
+          ],
+          [
+            313,
+            52
+          ],
+          [
+            313,
+            63
+          ],
+          [
+            13,
+            63
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "c10ca564412045b3b7f50d897aae1718",
+        "text": " what Matings spont, By letting the prices of a pen and an extrcise book be \\( p \\) and b respectively.",
+        "after_hyphen": false,
+        "confidence": 0.1656256708922538,
+        "confidence_rate": 0.9828598898320295
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            17,
+            63
+          ],
+          [
+            184,
+            63
+          ],
+          [
+            184,
+            73
+          ],
+          [
+            17,
+            73
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "a67d757db1d649599bfa67a7af6dd874",
+        "text": "\n(a) Form a ratrix equation from the above statement,",
+        "after_hyphen": false,
+        "confidence": 0.9709351756609976,
+        "confidence_rate": 0.9994826676641265
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            305,
+            63
+          ],
+          [
+            334,
+            63
+          ],
+          [
+            334,
+            73
+          ],
+          [
+            305,
+            73
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "f47cabf24c8c45b7b876cdfbdb6e5178",
+        "text": "\n(1 mak)",
+        "after_hyphen": false,
+        "confidence": 0.9493986801244318,
+        "confidence_rate": 0.9956821436057729
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            35,
+            70
+          ],
+          [
+            186,
+            70
+          ],
+          [
+            186,
+            107
+          ],
+          [
+            35,
+            107
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "664a01ddc3754283b97cd98775d4438e",
+        "text": "\n\\[\n\\left(\\begin{array}{ll}\n2 & 4 \\\\\n6 & 3\n\\end{array}\\right)\\binom{p}{b}=\\binom{150}{180} B_{1}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.9229624271392822,
+        "confidence_rate": 0.9987674255887236
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            18,
+            124
+          ],
+          [
+            214,
+            124
+          ],
+          [
+            214,
+            135
+          ],
+          [
+            18,
+            135
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "bee47be1134d4e01b24de8a7f36e57e5",
+        "text": "\n(b) Hence find the unit price of each item using matrix method.",
+        "after_hyphen": false,
+        "confidence": 0.8247503808706824,
+        "confidence_rate": 0.997170561793491
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            301,
+            124
+          ],
+          [
+            335,
+            124
+          ],
+          [
+            335,
+            135
+          ],
+          [
+            301,
+            135
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "2bf570e497394a86bbeb52a7f0a09bfc",
+        "text": "\n(3 marks)",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            1,
+            132
+          ],
+          [
+            320,
+            132
+          ],
+          [
+            320,
+            246
+          ],
+          [
+            1,
+            246
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "c5578968ff584b6ea80a83f6ceff5cf2",
+        "text": "\n\\[\n\\begin{aligned}\n-\\frac{1}{18}\\left(\\begin{array}{cc}\n3 & -4 \\\\\n-6 & a\n\\end{array}\\right)\\left(\\begin{array}{ll}\n2 & 4 \\\\\n6 & 3\n\\end{array}\\right)\\binom{f}{b} & =-\\frac{1}{18}\\left(\\begin{array}{cc}\n3 & -4 \\\\\n-6 & 2\n\\end{array}\\right)\\binom{150}{180} M_{1} \\\\\n\\binom{p}{b} & =\\binom{15}{30}-A_{1} \\\\\n\\text { Apric } & =\\text { sh. 15, } A_{1} \\text { Breash brove }=\\text { sh. } 30 .{ }^{3} \\underline{B_{1}}\n\\end{aligned}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.0016270902592483022,
+        "confidence_rate": 0.9771677080526223
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            6,
+            247
+          ],
+          [
+            307,
+            247
+          ],
+          [
+            307,
+            258
+          ],
+          [
+            6,
+            258
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "9a494d7fa008487eb68d084e67a4b6dc",
+        "text": "\n8. For bells ring at intervals of \\( 5,15,20 \\) and 25 minutes. It the bells rung together at 10.00 per on",
+        "after_hyphen": false,
+        "confidence": 0.3217192386882989,
+        "confidence_rate": 0.9901012825623818
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            14,
+            255
+          ],
+          [
+            198,
+            255
+          ],
+          [
+            198,
+            266
+          ],
+          [
+            14,
+            266
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "f226ef9e54d443e5a2184a861a4bcc43",
+        "text": " Sunday, find the time and day bey will together ring again.",
+        "after_hyphen": false,
+        "confidence": 0.49941590661183,
+        "confidence_rate": 0.9892099465059877
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            299,
+            257
+          ],
+          [
+            330,
+            257
+          ],
+          [
+            330,
+            267
+          ],
+          [
+            299,
+            267
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "305fffc89119462f9704957598476ad9",
+        "text": "\n(3marks)",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "table",
+        "cnt": [
+          [
+            1,
+            265
+          ],
+          [
+            171,
+            265
+          ],
+          [
+            171,
+            375
+          ],
+          [
+            1,
+            375
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": true,
+        "id": "58cdc322ac01425caa321374faea0eba",
+        "children_ids": [
+          "fdb775d69a6a41e0b3e047694401fae3",
+          "f075367871ed4330bf39bdb416adba3b",
+          "025bd9203e344fc08b77445b26566846",
+          "9b6ac848075a4067b2b33584fef3ee8e",
+          "bc33ef0558234759a1be453dfae85da4",
+          "9cdde7e459814404aa30dbd46ea9cf79",
+          "ab77577d314842e3a4cd9dfa27d5d00a",
+          "c235819ff1fc40a5ae2151abe9ddf161",
+          "3ea067e2fd0b4721aa069842332744bb",
+          "00ef3243b4b64d688de362e481c4bc17",
+          "1e273448e847486da8a035bf83daf6c6",
+          "187da832eb9746a4ab5fd186c8ca0c5c",
+          "fab4e0c6f4eb4747ad154fedc05da9b7",
+          "53eb676f0b4b40c7a49cbb7b6da69a00"
+        ],
+        "table_fallback": true,
+        "text": "\n\n\\begin{tabular}[t]{|l|l|l|l|}\n\\hline 5 & 15 & 20 & 25 \\\\\n\\hline 1 & 3 I & \u2191 4 1 & 5 5 5 Lem = 300 mink \\( =5 \\mathrm{hrs} \\) \\\\\n\\hline\n\\end{tabular}",
+        "after_hyphen": false,
+        "confidence": 0.5218076705932617,
+        "confidence_rate": 0.976917174582973
+      },
+      {
+        "type": "table_cell",
+        "cnt": [
+          [
+            8,
+            268
+          ],
+          [
+            19,
+            268
+          ],
+          [
+            19,
+            280
+          ],
+          [
+            8,
+            280
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "9cdde7e459814404aa30dbd46ea9cf79",
+        "parent_id": "58cdc322ac01425caa321374faea0eba",
+        "text": "5",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1,
+        "row": 0,
+        "column": 0
+      },
+      {
+        "type": "table_cell",
+        "cnt": [
+          [
+            25,
+            267
+          ],
+          [
+            39,
+            267
+          ],
+          [
+            39,
+            279
+          ],
+          [
+            25,
+            279
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "ab77577d314842e3a4cd9dfa27d5d00a",
+        "parent_id": "58cdc322ac01425caa321374faea0eba",
+        "text": "15",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1,
+        "row": 0,
+        "column": 1
+      },
+      {
+        "type": "table_cell",
+        "cnt": [
+          [
+            46,
+            267
+          ],
+          [
+            60,
+            267
+          ],
+          [
+            60,
+            279
+          ],
+          [
+            46,
+            279
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "c235819ff1fc40a5ae2151abe9ddf161",
+        "parent_id": "58cdc322ac01425caa321374faea0eba",
+        "text": "20",
+        "after_hyphen": false,
+        "confidence": 0.7353515625,
+        "confidence_rate": 0.8575264208757651,
+        "row": 0,
+        "column": 2
+      },
+      {
+        "type": "table_cell",
+        "cnt": [
+          [
+            64,
+            267
+          ],
+          [
+            82,
+            267
+          ],
+          [
+            82,
+            279
+          ],
+          [
+            64,
+            279
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "3ea067e2fd0b4721aa069842332744bb",
+        "parent_id": "58cdc322ac01425caa321374faea0eba",
+        "text": "25",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1,
+        "row": 0,
+        "column": 3
+      },
+      {
+        "type": "table_cell",
+        "cnt": [
+          [
+            9,
+            282
+          ],
+          [
+            16,
+            282
+          ],
+          [
+            16,
+            294
+          ],
+          [
+            9,
+            294
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "1e273448e847486da8a035bf83daf6c6",
+        "parent_id": "58cdc322ac01425caa321374faea0eba",
+        "text": "1",
+        "after_hyphen": false,
+        "confidence": 0.99658203125,
+        "confidence_rate": 0.99658203125,
+        "row": 1,
+        "column": 0
+      },
+      {
+        "type": "table_cell",
+        "cnt": [
+          [
+            28,
+            284
+          ],
+          [
+            36,
+            284
+          ],
+          [
+            36,
+            309
+          ],
+          [
+            28,
+            309
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "187da832eb9746a4ab5fd186c8ca0c5c",
+        "parent_id": "58cdc322ac01425caa321374faea0eba",
+        "children_ids": [
+          "c489f38c9895498aad636f9c84d13a61",
+          "268d900763454cdcbb6eaf4100c68a63"
+        ],
+        "text": "3 I",
+        "after_hyphen": false,
+        "confidence": 0.91748046875,
+        "confidence_rate": 0.9928486942577565,
+        "row": 1,
+        "column": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            28,
+            284
+          ],
+          [
+            36,
+            284
+          ],
+          [
+            36,
+            295
+          ],
+          [
+            28,
+            295
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "c489f38c9895498aad636f9c84d13a61",
+        "parent_id": "187da832eb9746a4ab5fd186c8ca0c5c",
+        "text": "3",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            28,
+            297
+          ],
+          [
+            34,
+            297
+          ],
+          [
+            34,
+            309
+          ],
+          [
+            28,
+            309
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "268d900763454cdcbb6eaf4100c68a63",
+        "parent_id": "187da832eb9746a4ab5fd186c8ca0c5c",
+        "text": " I",
+        "after_hyphen": false,
+        "confidence": 0.91748046875,
+        "confidence_rate": 0.985748529689332
+      },
+      {
+        "type": "table_cell",
+        "cnt": [
+          [
+            49,
+            284
+          ],
+          [
+            59,
+            284
+          ],
+          [
+            59,
+            322
+          ],
+          [
+            49,
+            322
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "fab4e0c6f4eb4747ad154fedc05da9b7",
+        "parent_id": "58cdc322ac01425caa321374faea0eba",
+        "children_ids": [
+          "194870f7f0084e35acaf1f3c21b1f969",
+          "d4b0b942b3014016bfdad45e18b3a757",
+          "127eba31800843fab5f949db04b926e7"
+        ],
+        "text": "\u2191 4 1",
+        "after_hyphen": false,
+        "confidence": 0.943901538848877,
+        "confidence_rate": 0.9956607551553184,
+        "row": 1,
+        "column": 2
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            49,
+            284
+          ],
+          [
+            59,
+            284
+          ],
+          [
+            59,
+            296
+          ],
+          [
+            49,
+            296
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "194870f7f0084e35acaf1f3c21b1f969",
+        "parent_id": "fab4e0c6f4eb4747ad154fedc05da9b7",
+        "text": "\u2191",
+        "after_hyphen": false,
+        "confidence": 0.943901538848877,
+        "confidence_rate": 0.9904239088693497
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            50,
+            298
+          ],
+          [
+            59,
+            298
+          ],
+          [
+            59,
+            310
+          ],
+          [
+            50,
+            310
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "d4b0b942b3014016bfdad45e18b3a757",
+        "parent_id": "fab4e0c6f4eb4747ad154fedc05da9b7",
+        "text": " 4",
+        "after_hyphen": false,
+        "confidence": 0.99658203125,
+        "confidence_rate": 0.99658203125
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            49,
+            312
+          ],
+          [
+            55,
+            312
+          ],
+          [
+            55,
+            322
+          ],
+          [
+            49,
+            322
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "127eba31800843fab5f949db04b926e7",
+        "parent_id": "fab4e0c6f4eb4747ad154fedc05da9b7",
+        "text": " 1",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "table_cell",
+        "cnt": [
+          [
+            66,
+            284
+          ],
+          [
+            171,
+            284
+          ],
+          [
+            171,
+            365
+          ],
+          [
+            66,
+            365
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "53eb676f0b4b40c7a49cbb7b6da69a00",
+        "parent_id": "58cdc322ac01425caa321374faea0eba",
+        "children_ids": [
+          "03bf45c9a915498ca8e9b56717928473",
+          "3f0f86f284f94ac4b7cf4a2ab573c648",
+          "abb0ce63e0664e30b437c4fd9f4d5025",
+          "daa902861fc6450aa069af91610ffa63",
+          "b5e9b3b5fcca43ceab282e38522c5c57"
+        ],
+        "text": "5 5 5 Lem = 300 mink \\( =5 \\mathrm{hrs} \\)",
+        "after_hyphen": false,
+        "confidence": 0.5218076705932617,
+        "confidence_rate": 0.9819897108719997,
+        "row": 1,
+        "column": 3
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            67,
+            284
+          ],
+          [
+            79,
+            284
+          ],
+          [
+            79,
+            296
+          ],
+          [
+            67,
+            296
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "03bf45c9a915498ca8e9b56717928473",
+        "parent_id": "53eb676f0b4b40c7a49cbb7b6da69a00",
+        "text": "5",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            66,
+            296
+          ],
+          [
+            78,
+            296
+          ],
+          [
+            78,
+            308
+          ],
+          [
+            66,
+            308
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "3f0f86f284f94ac4b7cf4a2ab573c648",
+        "parent_id": "53eb676f0b4b40c7a49cbb7b6da69a00",
+        "text": " 5",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            67,
+            310
+          ],
+          [
+            79,
+            310
+          ],
+          [
+            79,
+            324
+          ],
+          [
+            67,
+            324
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "abb0ce63e0664e30b437c4fd9f4d5025",
+        "parent_id": "53eb676f0b4b40c7a49cbb7b6da69a00",
+        "text": " 5",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            75,
+            333
+          ],
+          [
+            171,
+            333
+          ],
+          [
+            171,
+            347
+          ],
+          [
+            75,
+            347
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "daa902861fc6450aa069af91610ffa63",
+        "parent_id": "53eb676f0b4b40c7a49cbb7b6da69a00",
+        "text": " Lem = 300 mink",
+        "after_hyphen": false,
+        "confidence": 0.8102319144190475,
+        "confidence_rate": 0.9904803848886855
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            93,
+            350
+          ],
+          [
+            142,
+            350
+          ],
+          [
+            142,
+            365
+          ],
+          [
+            93,
+            365
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "b5e9b3b5fcca43ceab282e38522c5c57",
+        "parent_id": "53eb676f0b4b40c7a49cbb7b6da69a00",
+        "text": " \\( =5 \\mathrm{hrs} \\)",
+        "after_hyphen": false,
+        "confidence": 0.5218076705932617,
+        "confidence_rate": 0.9219105976803752
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            183,
+            275
+          ],
+          [
+            353,
+            275
+          ],
+          [
+            353,
+            337
+          ],
+          [
+            183,
+            337
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "116b00b973004463aa9a31b23ce0aa0a",
+        "text": "\n\\[\n\\begin{array}{l}\n=\\frac{10.00 \\mathrm{P}^{2}}{5.00}+\\mathrm{M} \\\\\n3.00 \\mathrm{Am} \\text { Menday. } \\frac{-\\mathrm{A}_{1}}{\\mathrm{Q} 3}\n\\end{array}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.16199893284440536,
+        "confidence_rate": 0.9790576853321047
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            7,
+            372
+          ],
+          [
+            317,
+            372
+          ],
+          [
+            317,
+            383
+          ],
+          [
+            7,
+            383
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "73d73ff13f1f41bba983cbae9be35338",
+        "text": "\n9. Solve the incqualities \\( x-5 \\leq 3 x-8<2 x-3 \\), hence represent your solution on a number line.",
+        "after_hyphen": false,
+        "confidence": 0.9527463912963867,
+        "confidence_rate": 0.9995010881380738
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            8,
+            386
+          ],
+          [
+            151,
+            386
+          ],
+          [
+            151,
+            472
+          ],
+          [
+            8,
+            472
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "e5c9128974654c399c19982f6b8b8aff",
+        "text": "\n\\[\n\\begin{aligned}\nx-5 & \\leqslant 3 x-8 \\\\\n-2 x & \\leqslant-3 \\\\\nx & \\geqslant 11 / 2 \\\\\n3 x-8 & <2 x-3 \\\\\nx & <5\n\\end{aligned}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.8879979791768733,
+        "confidence_rate": 0.9982286481362258
+      },
+      {
+        "type": "diagram",
+        "cnt": [
+          [
+            184,
+            405
+          ],
+          [
+            342,
+            405
+          ],
+          [
+            342,
+            469
+          ],
+          [
+            184,
+            469
+          ]
+        ],
+        "included": false,
+        "conversion_output": false,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "74ce102013654881bd207f4dff1b5f4f",
+        "error_id": "image_not_supported"
+      },
+      {
+        "type": "page_info",
+        "cnt": [
+          [
+            170,
+            501
+          ],
+          [
+            176,
+            501
+          ],
+          [
+            176,
+            510
+          ],
+          [
+            170,
+            510
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": true,
+        "is_handwritten": false,
+        "id": "89dfce29897144b1b3896625e88d8fd4",
+        "text": "\n\n4",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      }
+    ]
+  },
+  "word": [
+    {
+      "type": "header",
+      "cnt": [
+        [
+          6,
+          31
+        ],
+        [
+          14,
+          31
+        ],
+        [
+          14,
+          39
+        ],
+        [
+          6,
+          39
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          12,
+          40
+        ],
+        [
+          12,
+          31
+        ],
+        [
+          42,
+          32
+        ],
+        [
+          42,
+          41
+        ]
+      ],
+      "text": "Manunga",
+      "confidence": 0.7509726909332812,
+      "confidence_rate": 0.9764170297098793
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          42,
+          30
+        ],
+        [
+          64,
+          30
+        ],
+        [
+          64,
+          42
+        ],
+        [
+          42,
+          42
+        ]
+      ],
+      "text": "spenn 1",
+      "confidence": 0.4725704831071198,
+      "confidence_rate": 0.9341272768452
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          60,
+          30
+        ],
+        [
+          74,
+          30
+        ],
+        [
+          74,
+          42
+        ],
+        [
+          60,
+          42
+        ]
+      ],
+      "text": "kab",
+      "confidence": 0.6996071338653564,
+      "confidence_rate": 0.9421984198487939
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          74,
+          32
+        ],
+        [
+          88,
+          32
+        ],
+        [
+          88,
+          40
+        ],
+        [
+          74,
+          40
+        ]
+      ],
+      "text": "150",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          86,
+          32
+        ],
+        [
+          96,
+          32
+        ],
+        [
+          96,
+          40
+        ],
+        [
+          86,
+          40
+        ]
+      ],
+      "text": "in",
+      "confidence": 0.9990236759185791,
+      "confidence_rate": 0.9998604667362118
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          93,
+          43
+        ],
+        [
+          93,
+          30
+        ],
+        [
+          141,
+          31
+        ],
+        [
+          141,
+          44
+        ]
+      ],
+      "text": "prove 2 pens",
+      "confidence": 0.3640786434505562,
+      "confidence_rate": 0.9507356087121489
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          140,
+          30
+        ],
+        [
+          186,
+          30
+        ],
+        [
+          186,
+          42
+        ],
+        [
+          140,
+          42
+        ]
+      ],
+      "text": "and 4 excercise",
+      "confidence": 0.6571804590057582,
+      "confidence_rate": 0.9819135321945197
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          186,
+          30
+        ],
+        [
+          208,
+          30
+        ],
+        [
+          208,
+          40
+        ],
+        [
+          186,
+          40
+        ]
+      ],
+      "text": "books",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999511611428449
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          206,
+          30
+        ],
+        [
+          224,
+          30
+        ],
+        [
+          224,
+          40
+        ],
+        [
+          206,
+          40
+        ]
+      ],
+      "text": "from",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          224,
+          30
+        ],
+        [
+          246,
+          30
+        ],
+        [
+          246,
+          40
+        ],
+        [
+          224,
+          40
+        ]
+      ],
+      "text": "Dami",
+      "confidence": 0.9921998921781778,
+      "confidence_rate": 0.9991303019862179
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          242,
+          30
+        ],
+        [
+          284,
+          30
+        ],
+        [
+          284,
+          42
+        ],
+        [
+          242,
+          42
+        ]
+      ],
+      "text": "supermurket",
+      "confidence": 0.562060447409749,
+      "confidence_rate": 0.9646314985839253
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          285,
+          30
+        ],
+        [
+          327,
+          30
+        ],
+        [
+          327,
+          40
+        ],
+        [
+          285,
+          40
+        ]
+      ],
+      "text": "If Nyongess",
+      "confidence": 0.8119392001001576,
+      "confidence_rate": 0.9870637878263434
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          13,
+          50
+        ],
+        [
+          13,
+          41
+        ],
+        [
+          59,
+          42
+        ],
+        [
+          59,
+          51
+        ]
+      ],
+      "text": "boul\u522b 4 more",
+      "confidence": 0.11722892031527385,
+      "confidence_rate": 0.9208600766880024
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          60,
+          42
+        ],
+        [
+          78,
+          42
+        ],
+        [
+          78,
+          50
+        ],
+        [
+          60,
+          50
+        ]
+      ],
+      "text": "pens",
+      "confidence": 0.99560546875,
+      "confidence_rate": 0.9995107624285327
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          75,
+          42
+        ],
+        [
+          97,
+          42
+        ],
+        [
+          97,
+          50
+        ],
+        [
+          75,
+          50
+        ]
+      ],
+      "text": "ind d",
+      "confidence": 0.13969217671396733,
+      "confidence_rate": 0.8213290965016171
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          94,
+          40
+        ],
+        [
+          108,
+          40
+        ],
+        [
+          108,
+          52
+        ],
+        [
+          94,
+          52
+        ]
+      ],
+      "text": "\u8a5e",
+      "confidence": 0.32399539499790053,
+      "confidence_rate": 0.9226531916479233
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          106,
+          40
+        ],
+        [
+          122,
+          40
+        ],
+        [
+          122,
+          50
+        ],
+        [
+          106,
+          50
+        ]
+      ],
+      "text": "Tess",
+      "confidence": 0.8127339016646147,
+      "confidence_rate": 0.9772243140321113
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          122,
+          42
+        ],
+        [
+          136,
+          42
+        ],
+        [
+          136,
+          50
+        ],
+        [
+          122,
+          50
+        ]
+      ],
+      "text": "than",
+      "confidence": 0.9755859375,
+      "confidence_rate": 0.9972574314037932
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          136,
+          42
+        ],
+        [
+          166,
+          42
+        ],
+        [
+          166,
+          52
+        ],
+        [
+          136,
+          52
+        ]
+      ],
+      "text": "Matunga",
+      "confidence": 0.9182765632867813,
+      "confidence_rate": 0.9929204566625474
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          166,
+          42
+        ],
+        [
+          182,
+          42
+        ],
+        [
+          182,
+          50
+        ],
+        [
+          166,
+          50
+        ]
+      ],
+      "text": "from",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999457347503998
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          182,
+          42
+        ],
+        [
+          194,
+          42
+        ],
+        [
+          194,
+          50
+        ],
+        [
+          182,
+          50
+        ]
+      ],
+      "text": "the",
+      "confidence": 0.76953125,
+      "confidence_rate": 0.9677836541462639
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          194,
+          42
+        ],
+        [
+          212,
+          42
+        ],
+        [
+          212,
+          50
+        ],
+        [
+          194,
+          50
+        ]
+      ],
+      "text": "same",
+      "confidence": 0.8859074115753174,
+      "confidence_rate": 0.9866298698983478
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          212,
+          42
+        ],
+        [
+          230,
+          42
+        ],
+        [
+          230,
+          50
+        ],
+        [
+          212,
+          50
+        ]
+      ],
+      "text": "super",
+      "confidence": 0.67919921875,
+      "confidence_rate": 0.9620545939839666
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          230,
+          40
+        ],
+        [
+          256,
+          40
+        ],
+        [
+          256,
+          52
+        ],
+        [
+          230,
+          52
+        ]
+      ],
+      "text": "market,",
+      "confidence": 0.964243506314233,
+      "confidence_rate": 0.9969703140927431
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          254,
+          40
+        ],
+        [
+          268,
+          40
+        ],
+        [
+          268,
+          52
+        ],
+        [
+          254,
+          52
+        ]
+      ],
+      "text": "ond",
+      "confidence": 0.517578125,
+      "confidence_rate": 0.9209731927005451
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          266,
+          40
+        ],
+        [
+          302,
+          40
+        ],
+        [
+          302,
+          52
+        ],
+        [
+          266,
+          52
+        ]
+      ],
+      "text": "spent kits",
+      "confidence": 0.9713367773219943,
+      "confidence_rate": 0.9980630759118007
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          302,
+          40
+        ],
+        [
+          330,
+          40
+        ],
+        [
+          330,
+          50
+        ],
+        [
+          302,
+          50
+        ]
+      ],
+      "text": "30 more",
+      "confidence": 0.6954164505004883,
+      "confidence_rate": 0.9675170625707471
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          328,
+          40
+        ],
+        [
+          346,
+          40
+        ],
+        [
+          346,
+          50
+        ],
+        [
+          328,
+          50
+        ]
+      ],
+      "text": "than",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          8,
+          52
+        ],
+        [
+          26,
+          52
+        ],
+        [
+          26,
+          70
+        ],
+        [
+          8,
+          70
+        ]
+      ],
+      "text": "whw\n\\( (0) \\)",
+      "confidence": 0.4911128749578211,
+      "confidence_rate": 0.9667058540782506
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          17,
+          62
+        ],
+        [
+          29,
+          62
+        ],
+        [
+          29,
+          72
+        ],
+        [
+          17,
+          72
+        ]
+      ],
+      "text": "(a)",
+      "confidence": 0.98486328125,
+      "confidence_rate": 0.9980952602978003
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          13,
+          52
+        ],
+        [
+          61,
+          52
+        ],
+        [
+          61,
+          62
+        ],
+        [
+          13,
+          62
+        ]
+      ],
+      "text": "what Maningte",
+      "confidence": 0.2797871535980024,
+      "confidence_rate": 0.9316830820787864
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          60,
+          52
+        ],
+        [
+          78,
+          52
+        ],
+        [
+          78,
+          62
+        ],
+        [
+          60,
+          62
+        ]
+      ],
+      "text": "spent",
+      "confidence": 0.9690014161169529,
+      "confidence_rate": 0.9968560320833607
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          80,
+          52
+        ],
+        [
+          90,
+          52
+        ],
+        [
+          90,
+          62
+        ],
+        [
+          80,
+          62
+        ]
+      ],
+      "text": "By",
+      "confidence": 0.99560546875,
+      "confidence_rate": 0.999371024233248
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          90,
+          52
+        ],
+        [
+          116,
+          52
+        ],
+        [
+          116,
+          62
+        ],
+        [
+          90,
+          62
+        ]
+      ],
+      "text": "ketting is",
+      "confidence": 0.16043323012863542,
+      "confidence_rate": 0.8851556011014162
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          110,
+          52
+        ],
+        [
+          124,
+          52
+        ],
+        [
+          124,
+          60
+        ],
+        [
+          110,
+          60
+        ]
+      ],
+      "text": "; the",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          124,
+          52
+        ],
+        [
+          144,
+          52
+        ],
+        [
+          144,
+          62
+        ],
+        [
+          124,
+          62
+        ]
+      ],
+      "text": "prices",
+      "confidence": 0.9273164101177827,
+      "confidence_rate": 0.9931634359394121
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          143,
+          61
+        ],
+        [
+          143,
+          52
+        ],
+        [
+          171,
+          53
+        ],
+        [
+          171,
+          62
+        ]
+      ],
+      "text": "of appen",
+      "confidence": 0.4784643802484894,
+      "confidence_rate": 0.9448721471
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          170,
+          52
+        ],
+        [
+          196,
+          52
+        ],
+        [
+          196,
+          62
+        ],
+        [
+          170,
+          62
+        ]
+      ],
+      "text": "and an is",
+      "confidence": 0.6514405855378413,
+      "confidence_rate": 0.9698517275580891
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          192,
+          52
+        ],
+        [
+          220,
+          52
+        ],
+        [
+          220,
+          62
+        ],
+        [
+          192,
+          62
+        ]
+      ],
+      "text": "exterise",
+      "confidence": 0.40344657734404543,
+      "confidence_rate": 0.9325579931777819
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          220,
+          52
+        ],
+        [
+          238,
+          52
+        ],
+        [
+          238,
+          60
+        ],
+        [
+          220,
+          60
+        ]
+      ],
+      "text": "book",
+      "confidence": 0.912663459777832,
+      "confidence_rate": 0.9898971495257255
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          237,
+          52
+        ],
+        [
+          247,
+          52
+        ],
+        [
+          247,
+          60
+        ],
+        [
+          237,
+          60
+        ]
+      ],
+      "text": "be",
+      "confidence": 0.98388671875,
+      "confidence_rate": 0.997682046074016
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          246,
+          52
+        ],
+        [
+          256,
+          52
+        ],
+        [
+          256,
+          62
+        ],
+        [
+          246,
+          62
+        ]
+      ],
+      "text": "po",
+      "confidence": 0.35825935782582974,
+      "confidence_rate": 0.8636025871906728
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          252,
+          52
+        ],
+        [
+          314,
+          52
+        ],
+        [
+          314,
+          62
+        ],
+        [
+          252,
+          62
+        ]
+      ],
+      "text": "and b respectively.",
+      "confidence": 0.9299425070232314,
+      "confidence_rate": 0.996978219997578
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          3,
+          247
+        ],
+        [
+          0,
+          66
+        ],
+        [
+          319,
+          61
+        ],
+        [
+          322,
+          242
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          26,
+          64
+        ],
+        [
+          44,
+          64
+        ],
+        [
+          44,
+          70
+        ],
+        [
+          26,
+          70
+        ]
+      ],
+      "text": "Form",
+      "confidence": 0.97607421875,
+      "confidence_rate": 0.9973128777204814
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          34,
+          63
+        ],
+        [
+          186,
+          63
+        ],
+        [
+          186,
+          107
+        ],
+        [
+          34,
+          107
+        ]
+      ],
+      "text": "\\( \\left(\\begin{array}{ll}2 & 4 \\\\ 6 & 3\\end{array}\\right)\\binom{p}{b}=\\binom{150}{180} B_{1} \\)",
+      "confidence": 0.7559630945324898,
+      "confidence_rate": 0.9957052072561794,
+      "latex": "\\left(\\begin{array}{ll}\n2 & 4 \\\\\n6 & 3\n\\end{array}\\right)\\binom{p}{b}=\\binom{150}{180} B_{1}"
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          306,
+          64
+        ],
+        [
+          312,
+          64
+        ],
+        [
+          312,
+          70
+        ],
+        [
+          306,
+          70
+        ]
+      ],
+      "text": "\u03bc",
+      "confidence": 0.23075199127197266,
+      "confidence_rate": 0.7831727647618172
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          3,
+          173
+        ],
+        [
+          3,
+          119
+        ],
+        [
+          289,
+          117
+        ],
+        [
+          289,
+          171
+        ]
+      ],
+      "text": "(b) Hence find the unite price of ecch litem wing matrix method.\n\\( -\\frac{1}{18}\\left(\\begin{array}{cc}3 & -4 \\\\ -6 & a\\end{array}\\right)\\left(\\begin{array}{ll}2 & 4 \\\\ 6 & 3\\end{array}\\right)\\binom{f}{b}=-\\frac{1}{18}\\left(\\begin{array}{cc}3 & -4 \\\\ -6 & 2\\end{array}\\right)\\binom{150}{180} M_{1} \\)",
+      "confidence": 0.09640314467314291,
+      "confidence_rate": 0.9890266118446959,
+      "latex": "\\begin{array}{l}\n\\text { (b) Hence find the unite price of ecch litem wing matrix method. } \\\\\n-\\frac{1}{18}\\left(\\begin{array}{cc}\n3 & -4 \\\\\n-6 & a\n\\end{array}\\right)\\left(\\begin{array}{ll}\n2 & 4 \\\\\n6 & 3\n\\end{array}\\right)\\binom{f}{b}=-\\frac{1}{18}\\left(\\begin{array}{cc}\n3 & -4 \\\\\n-6 & 2\n\\end{array}\\right)\\binom{150}{180} M_{1}\n\\end{array}"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          299,
+          141
+        ],
+        [
+          300,
+          123
+        ],
+        [
+          333,
+          125
+        ],
+        [
+          332,
+          143
+        ]
+      ],
+      "text": "(3 marks)",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999651148586358
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          302,
+          124
+        ],
+        [
+          312,
+          124
+        ],
+        [
+          312,
+          134
+        ],
+        [
+          302,
+          134
+        ]
+      ],
+      "text": "(3)",
+      "confidence": 0.9853651490993798,
+      "confidence_rate": 0.9981588224556969
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          308,
+          122
+        ],
+        [
+          336,
+          122
+        ],
+        [
+          336,
+          136
+        ],
+        [
+          308,
+          136
+        ]
+      ],
+      "text": "marks)",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          62,
+          170
+        ],
+        [
+          180,
+          170
+        ],
+        [
+          180,
+          208
+        ],
+        [
+          62,
+          208
+        ]
+      ],
+      "text": "\\( \\binom{p}{b}=\\binom{15}{30}-A_{1} \\)",
+      "confidence": 0.7515654563903809,
+      "confidence_rate": 0.9930584249904071,
+      "latex": "\\binom{p}{b}=\\binom{15}{30}-A_{1}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          46,
+          204
+        ],
+        [
+          320,
+          204
+        ],
+        [
+          320,
+          244
+        ],
+        [
+          46,
+          244
+        ]
+      ],
+      "text": "Apon = sh. 15 , \\( A_{n} \\) Breain broke = d. \\( 30 \\cdot \\int \\frac{B_{1}}{\\text { 04. }} \\).",
+      "confidence": 0.009312789756707754,
+      "confidence_rate": 0.9504401636518108,
+      "latex": "\\text { Apon }=\\text { sh. } 15 \\text {, } A_{n} \\text { Breain broke }=\\text { d. } 30 \\cdot \\int \\frac{B_{1}}{\\text { 04. }} \\text {. }"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          314,
+          62
+        ],
+        [
+          334,
+          62
+        ],
+        [
+          334,
+          72
+        ],
+        [
+          314,
+          72
+        ]
+      ],
+      "text": "mult)",
+      "confidence": 0.5618476451987817,
+      "confidence_rate": 0.9439779643304796
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          8,
+          234
+        ],
+        [
+          84,
+          234
+        ],
+        [
+          84,
+          276
+        ],
+        [
+          8,
+          276
+        ]
+      ],
+      "text": "8. Focr bells ring at inter\nSunday, find the time\n515120125",
+      "confidence": 0.37979623737983,
+      "confidence_rate": 0.9879714238871072
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          8,
+          248
+        ],
+        [
+          12,
+          248
+        ],
+        [
+          12,
+          252
+        ],
+        [
+          8,
+          252
+        ]
+      ],
+      "text": "\\( x \\)",
+      "confidence": 0.705078125,
+      "confidence_rate": 0.705078125
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          12,
+          255
+        ],
+        [
+          13,
+          246
+        ],
+        [
+          32,
+          247
+        ],
+        [
+          31,
+          256
+        ]
+      ],
+      "text": "For",
+      "confidence": 0.86669921875,
+      "confidence_rate": 0.98227603980477
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          29,
+          255
+        ],
+        [
+          29,
+          246
+        ],
+        [
+          61,
+          247
+        ],
+        [
+          61,
+          256
+        ]
+      ],
+      "text": "bells ring",
+      "confidence": 0.991706371307373,
+      "confidence_rate": 0.9994449399575936
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          60,
+          246
+        ],
+        [
+          68,
+          246
+        ],
+        [
+          68,
+          256
+        ],
+        [
+          60,
+          256
+        ]
+      ],
+      "text": "at",
+      "confidence": 0.8486328125,
+      "confidence_rate": 0.9768257896696797
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          13,
+          262
+        ],
+        [
+          13,
+          255
+        ],
+        [
+          39,
+          256
+        ],
+        [
+          39,
+          263
+        ]
+      ],
+      "text": "Sunday,",
+      "confidence": 0.9936575889587402,
+      "confidence_rate": 0.999469923075405
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          40,
+          254
+        ],
+        [
+          66,
+          254
+        ],
+        [
+          66,
+          264
+        ],
+        [
+          40,
+          264
+        ]
+      ],
+      "text": "sind the",
+      "confidence": 0.4188322573900223,
+      "confidence_rate": 0.9397295117907791
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          66,
+          256
+        ],
+        [
+          80,
+          256
+        ],
+        [
+          80,
+          264
+        ],
+        [
+          66,
+          264
+        ]
+      ],
+      "text": "time",
+      "confidence": 0.99365234375,
+      "confidence_rate": 0.9992927071071024
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          68,
+          246
+        ],
+        [
+          112,
+          246
+        ],
+        [
+          112,
+          256
+        ],
+        [
+          68,
+          256
+        ]
+      ],
+      "text": "intervals of S.",
+      "confidence": 0.6265167271485552,
+      "confidence_rate": 0.9768921809638225
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          80,
+          252
+        ],
+        [
+          88,
+          252
+        ],
+        [
+          88,
+          258
+        ],
+        [
+          80,
+          258
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          113,
+          246
+        ],
+        [
+          123,
+          246
+        ],
+        [
+          123,
+          256
+        ],
+        [
+          113,
+          256
+        ]
+      ],
+      "text": "15.",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9995114801372057
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          123,
+          246
+        ],
+        [
+          149,
+          246
+        ],
+        [
+          149,
+          256
+        ],
+        [
+          123,
+          256
+        ]
+      ],
+      "text": "20 ms",
+      "confidence": 0.30726020023422507,
+      "confidence_rate": 0.844863631478116
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          146,
+          246
+        ],
+        [
+          156,
+          246
+        ],
+        [
+          156,
+          256
+        ],
+        [
+          146,
+          256
+        ]
+      ],
+      "text": "25",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          156,
+          255
+        ],
+        [
+          156,
+          246
+        ],
+        [
+          184,
+          247
+        ],
+        [
+          184,
+          256
+        ]
+      ],
+      "text": "mitutes.",
+      "confidence": 0.9820451335004234,
+      "confidence_rate": 0.9986072775939524
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          183,
+          246
+        ],
+        [
+          201,
+          246
+        ],
+        [
+          201,
+          256
+        ],
+        [
+          183,
+          256
+        ]
+      ],
+      "text": "It the",
+      "confidence": 0.9946381993358955,
+      "confidence_rate": 0.9995113715353569
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          200,
+          246
+        ],
+        [
+          218,
+          246
+        ],
+        [
+          218,
+          258
+        ],
+        [
+          200,
+          258
+        ]
+      ],
+      "text": "bells",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          216,
+          248
+        ],
+        [
+          234,
+          248
+        ],
+        [
+          234,
+          258
+        ],
+        [
+          216,
+          258
+        ]
+      ],
+      "text": "rung",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          232,
+          248
+        ],
+        [
+          262,
+          248
+        ],
+        [
+          262,
+          258
+        ],
+        [
+          232,
+          258
+        ]
+      ],
+      "text": "together",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999624314366309
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          260,
+          248
+        ],
+        [
+          270,
+          248
+        ],
+        [
+          270,
+          256
+        ],
+        [
+          260,
+          256
+        ]
+      ],
+      "text": "at",
+      "confidence": 0.9532735347747803,
+      "confidence_rate": 0.9931871148562303
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          268,
+          248
+        ],
+        [
+          298,
+          248
+        ],
+        [
+          298,
+          256
+        ],
+        [
+          268,
+          256
+        ]
+      ],
+      "text": "10.00 pm",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          296,
+          248
+        ],
+        [
+          308,
+          248
+        ],
+        [
+          308,
+          256
+        ],
+        [
+          296,
+          256
+        ]
+      ],
+      "text": "on",
+      "confidence": 0.3832071041688323,
+      "confidence_rate": 0.8719478424461153
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          82,
+          256
+        ],
+        [
+          94,
+          256
+        ],
+        [
+          94,
+          264
+        ],
+        [
+          82,
+          264
+        ]
+      ],
+      "text": "ad",
+      "confidence": 0.9907269477844238,
+      "confidence_rate": 0.9986699831686006
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          95,
+          256
+        ],
+        [
+          107,
+          256
+        ],
+        [
+          107,
+          264
+        ],
+        [
+          95,
+          264
+        ]
+      ],
+      "text": "dy",
+      "confidence": 0.9902465343475342,
+      "confidence_rate": 0.9986007880594653
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          108,
+          258
+        ],
+        [
+          122,
+          258
+        ],
+        [
+          122,
+          264
+        ],
+        [
+          108,
+          264
+        ]
+      ],
+      "text": "they",
+      "confidence": 0.710020356811583,
+      "confidence_rate": 0.9626635616380016
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          124,
+          258
+        ],
+        [
+          136,
+          258
+        ],
+        [
+          136,
+          264
+        ],
+        [
+          124,
+          264
+        ]
+      ],
+      "text": "mil",
+      "confidence": 0.35764688696925273,
+      "confidence_rate": 0.8793905739038932
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          136,
+          256
+        ],
+        [
+          162,
+          256
+        ],
+        [
+          162,
+          266
+        ],
+        [
+          136,
+          266
+        ]
+      ],
+      "text": "together",
+      "confidence": 0.7236328125,
+      "confidence_rate": 0.9754246166962934
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          162,
+          256
+        ],
+        [
+          180,
+          256
+        ],
+        [
+          180,
+          266
+        ],
+        [
+          162,
+          266
+        ]
+      ],
+      "text": "ring",
+      "confidence": 0.3876097882166505,
+      "confidence_rate": 0.9000488508290297
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          176,
+          256
+        ],
+        [
+          198,
+          256
+        ],
+        [
+          198,
+          266
+        ],
+        [
+          176,
+          266
+        ]
+      ],
+      "text": "again.",
+      "confidence": 0.5837682267309446,
+      "confidence_rate": 0.9522459454054502
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          299,
+          256
+        ],
+        [
+          329,
+          256
+        ],
+        [
+          329,
+          266
+        ],
+        [
+          299,
+          266
+        ]
+      ],
+      "text": "(3marks)",
+      "confidence": 0.9765625,
+      "confidence_rate": 0.9981773149103292
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          0,
+          373
+        ],
+        [
+          0,
+          261
+        ],
+        [
+          352,
+          263
+        ],
+        [
+          352,
+          375
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          10,
+          270
+        ],
+        [
+          26,
+          270
+        ],
+        [
+          26,
+          288
+        ],
+        [
+          10,
+          288
+        ]
+      ],
+      "text": "5",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          22,
+          288
+        ],
+        [
+          23,
+          269
+        ],
+        [
+          50,
+          270
+        ],
+        [
+          49,
+          289
+        ]
+      ],
+      "text": "15",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          38,
+          291
+        ],
+        [
+          37,
+          269
+        ],
+        [
+          74,
+          267
+        ],
+        [
+          75,
+          289
+        ]
+      ],
+      "text": "202",
+      "confidence": 0.990234375,
+      "confidence_rate": 0.9967341374193469
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          16,
+          299
+        ],
+        [
+          22,
+          299
+        ],
+        [
+          22,
+          309
+        ],
+        [
+          16,
+          309
+        ]
+      ],
+      "text": "\\( \\Psi \\)",
+      "confidence": 0.96826171875,
+      "confidence_rate": 0.96826171875
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          93,
+          304
+        ],
+        [
+          95,
+          304
+        ],
+        [
+          95,
+          306
+        ],
+        [
+          93,
+          306
+        ]
+      ],
+      "text": "\u25a1",
+      "confidence": 0.2810673228991618,
+      "confidence_rate": 0.8093475558395542
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          94,
+          302
+        ],
+        [
+          104,
+          302
+        ],
+        [
+          104,
+          306
+        ],
+        [
+          94,
+          306
+        ]
+      ],
+      "text": "v",
+      "confidence": 0.10073189623653889,
+      "confidence_rate": 0.6821206044680805
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          14,
+          306
+        ],
+        [
+          24,
+          306
+        ],
+        [
+          24,
+          318
+        ],
+        [
+          14,
+          318
+        ]
+      ],
+      "text": "I",
+      "confidence": 0.38713836669921875,
+      "confidence_rate": 0.8537113111207765
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          29,
+          290
+        ],
+        [
+          51,
+          290
+        ],
+        [
+          51,
+          362
+        ],
+        [
+          29,
+          362
+        ]
+      ],
+      "text": "1",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          44,
+          307
+        ],
+        [
+          42,
+          298
+        ],
+        [
+          56,
+          295
+        ],
+        [
+          58,
+          304
+        ]
+      ],
+      "text": "4",
+      "confidence": 0.98876953125,
+      "confidence_rate": 0.98876953125
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          46,
+          322
+        ],
+        [
+          42,
+          305
+        ],
+        [
+          54,
+          302
+        ],
+        [
+          58,
+          319
+        ]
+      ],
+      "text": "1",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          38,
+          316
+        ],
+        [
+          58,
+          316
+        ],
+        [
+          58,
+          356
+        ],
+        [
+          38,
+          356
+        ]
+      ],
+      "text": "1",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9990234375
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          126,
+          304
+        ],
+        [
+          128,
+          304
+        ],
+        [
+          128,
+          306
+        ],
+        [
+          126,
+          306
+        ]
+      ],
+      "text": "\u25a1",
+      "confidence": 0.2810673228991618,
+      "confidence_rate": 0.8093475558395542
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          196,
+          268
+        ],
+        [
+          246,
+          268
+        ],
+        [
+          246,
+          312
+        ],
+        [
+          196,
+          312
+        ]
+      ],
+      "text": "\\( \\begin{array}{r}10.00 \\mathrm{ph} \\\\ 5.00 \\\\ \\hline\\end{array} \\)",
+      "confidence": 0.32091958485852373,
+      "confidence_rate": 0.9602212075918019
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          41,
+          373
+        ],
+        [
+          49,
+          301
+        ],
+        [
+          181,
+          315
+        ],
+        [
+          173,
+          387
+        ]
+      ],
+      "text": "\\( \\begin{aligned} 1 & \\\\ \\text { Lem } & =300 \\text { minks } \\\\ & =5 \\mathrm{hrs} \\\\ & =5 \\leq 3 x-8<2 x-3 . \\mathrm{hr}\\end{aligned} \\)",
+      "confidence": 0.016179339102926897,
+      "confidence_rate": 0.9485013616410902
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          96,
+          304
+        ],
+        [
+          102,
+          304
+        ],
+        [
+          102,
+          310
+        ],
+        [
+          96,
+          310
+        ]
+      ],
+      "text": "\u25a0",
+      "confidence": 0.7763385772705078,
+      "confidence_rate": 0.9586833715495725
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          44,
+          370
+        ],
+        [
+          170,
+          370
+        ],
+        [
+          170,
+          382
+        ],
+        [
+          44,
+          382
+        ]
+      ],
+      "text": "Heequalities \\( x-5 \\leq 3 x-8<2 x-3 \\)",
+      "confidence": 0.567695660072387,
+      "confidence_rate": 0.9813046402352371
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          102,
+          302
+        ],
+        [
+          108,
+          302
+        ],
+        [
+          108,
+          306
+        ],
+        [
+          102,
+          306
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          108,
+          303
+        ],
+        [
+          110,
+          303
+        ],
+        [
+          110,
+          305
+        ],
+        [
+          108,
+          305
+        ]
+      ],
+      "text": "\u25a1",
+      "confidence": 0.2810673228991618,
+      "confidence_rate": 0.8093475558395542
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          218,
+          299
+        ],
+        [
+          260,
+          299
+        ],
+        [
+          260,
+          329
+        ],
+        [
+          218,
+          329
+        ]
+      ],
+      "text": ".00 Am",
+      "confidence": 0.835484504699707,
+      "confidence_rate": 0.9777825896244126
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          264,
+          306
+        ],
+        [
+          272,
+          306
+        ],
+        [
+          272,
+          314
+        ],
+        [
+          264,
+          314
+        ]
+      ],
+      "text": "N",
+      "confidence": 0.5894765853881836,
+      "confidence_rate": 0.9156814716044342
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          291,
+          306
+        ],
+        [
+          301,
+          306
+        ],
+        [
+          301,
+          314
+        ],
+        [
+          291,
+          314
+        ]
+      ],
+      "text": "d",
+      "confidence": 0.341552734375,
+      "confidence_rate": 0.7644770314009
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          214,
+          314
+        ],
+        [
+          220,
+          314
+        ],
+        [
+          220,
+          320
+        ],
+        [
+          214,
+          320
+        ]
+      ],
+      "text": "F",
+      "confidence": 0.39632417285019983,
+      "confidence_rate": 0.8570544752225508
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          315,
+          296
+        ],
+        [
+          351,
+          296
+        ],
+        [
+          351,
+          328
+        ],
+        [
+          315,
+          328
+        ]
+      ],
+      "text": "\\( \\frac{-A_{1}}{02} \\)",
+      "confidence": 0.981023283675313,
+      "confidence_rate": 0.998873629827802
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          328,
+          332
+        ],
+        [
+          344,
+          332
+        ],
+        [
+          344,
+          344
+        ],
+        [
+          328,
+          344
+        ]
+      ],
+      "text": "0",
+      "confidence": 0.90869140625,
+      "confidence_rate": 0.90869140625
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          4,
+          360
+        ],
+        [
+          170,
+          360
+        ],
+        [
+          170,
+          470
+        ],
+        [
+          4,
+          470
+        ]
+      ],
+      "text": "9. Solve the incqualities \\( x-5 \\leq 3 x-8<2 x-3,1 \\)\n\\( x-5 \\leq 3 x-8 \\)\n\\( -2 x \\leq-3 \\)\n\\( x \\geqslant 1 / 2-B_{1} \\)\n\\( 3 x-8<2 x-3 \\quad B_{1} \\)\n\\( x<5 \\).",
+      "confidence": 0.353776128192315,
+      "confidence_rate": 0.9913061550350708
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          15,
+          381
+        ],
+        [
+          15,
+          372
+        ],
+        [
+          35,
+          371
+        ],
+        [
+          35,
+          380
+        ]
+      ],
+      "text": "Solve",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          32,
+          372
+        ],
+        [
+          46,
+          372
+        ],
+        [
+          46,
+          380
+        ],
+        [
+          32,
+          380
+        ]
+      ],
+      "text": "the",
+      "confidence": 0.65966796875,
+      "confidence_rate": 0.9493266539362419
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          0,
+          447
+        ],
+        [
+          4,
+          373
+        ],
+        [
+          152,
+          385
+        ],
+        [
+          146,
+          459
+        ]
+      ],
+      "text": "\\( \\begin{aligned} x-5 & \\leqslant 3 x-8 \\\\ -2 x & \\leqslant-3 \\\\ x & \\geqslant 1 \\frac{1}{2}-B_{1} \\\\ 3 x-8 & <2 x-3\\end{aligned} \\)",
+      "confidence": 0.9056747407983039,
+      "confidence_rate": 0.9986249040462408,
+      "latex": "\\begin{aligned}\nx-5 & \\leqslant 3 x-8 \\\\\n-2 x & \\leqslant-3 \\\\\nx & \\geqslant 1 \\frac{1}{2}-B_{1} \\\\\n3 x-8 & <2 x-3\n\\end{aligned}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          34,
+          496
+        ],
+        [
+          27,
+          448
+        ],
+        [
+          150,
+          430
+        ],
+        [
+          157,
+          478
+        ]
+      ],
+      "text": "\\( x<5 . \\quad B_{1} \\)",
+      "confidence": 0.7860593795776367,
+      "confidence_rate": 0.982952485794477,
+      "latex": "x<5 . \\quad B_{1}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          12,
+          459
+        ],
+        [
+          12,
+          438
+        ],
+        [
+          106,
+          439
+        ],
+        [
+          106,
+          460
+        ]
+      ],
+      "text": "\\( 3 x-8<2 x-3 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "3 x-8<2 x-3"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          30,
+          458
+        ],
+        [
+          94,
+          458
+        ],
+        [
+          94,
+          478
+        ],
+        [
+          30,
+          478
+        ]
+      ],
+      "text": "\\( x<5 \\).",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          28,
+          468
+        ],
+        [
+          34,
+          468
+        ],
+        [
+          34,
+          472
+        ],
+        [
+          28,
+          472
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          86,
+          464
+        ],
+        [
+          96,
+          464
+        ],
+        [
+          96,
+          472
+        ],
+        [
+          86,
+          472
+        ]
+      ],
+      "text": "F",
+      "confidence": 0.20647207275032997,
+      "confidence_rate": 0.7687944148562574
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          114,
+          454
+        ],
+        [
+          134,
+          454
+        ],
+        [
+          134,
+          476
+        ],
+        [
+          114,
+          476
+        ]
+      ],
+      "text": "\\( - \\)",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          159,
+          391
+        ],
+        [
+          163,
+          317
+        ],
+        [
+          305,
+          325
+        ],
+        [
+          301,
+          399
+        ]
+      ],
+      "text": "3. hempe represent your solution on a number",
+      "confidence": 0.99755859375,
+      "confidence_rate": 0.9999501157066755
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          167,
+          370
+        ],
+        [
+          187,
+          370
+        ],
+        [
+          187,
+          382
+        ],
+        [
+          167,
+          382
+        ]
+      ],
+      "text": "hence",
+      "confidence": 0.924525260925293,
+      "confidence_rate": 0.992183220700582
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          188,
+          374
+        ],
+        [
+          218,
+          374
+        ],
+        [
+          218,
+          382
+        ],
+        [
+          188,
+          382
+        ]
+      ],
+      "text": "represent",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          218,
+          374
+        ],
+        [
+          232,
+          374
+        ],
+        [
+          232,
+          382
+        ],
+        [
+          218,
+          382
+        ]
+      ],
+      "text": "your",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          234,
+          372
+        ],
+        [
+          260,
+          372
+        ],
+        [
+          260,
+          382
+        ],
+        [
+          234,
+          382
+        ]
+      ],
+      "text": "salution",
+      "confidence": 0.6110296249389648,
+      "confidence_rate": 0.962815894844902
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          274,
+          374
+        ],
+        [
+          302,
+          374
+        ],
+        [
+          302,
+          382
+        ],
+        [
+          274,
+          382
+        ]
+      ],
+      "text": "number",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          306,
+          317
+        ],
+        [
+          334,
+          317
+        ],
+        [
+          334,
+          343
+        ],
+        [
+          306,
+          343
+        ]
+      ],
+      "text": "\\( \\frac{}{\\mathrm{q}} \\)",
+      "confidence": 0.40008177139031886,
+      "confidence_rate": 0.9032215838305054
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          291,
+          388
+        ],
+        [
+          287,
+          371
+        ],
+        [
+          315,
+          364
+        ],
+        [
+          319,
+          381
+        ]
+      ],
+      "text": "ber line.",
+      "confidence": 0.9546377614606172,
+      "confidence_rate": 0.9966895404212739
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          300,
+          372
+        ],
+        [
+          316,
+          372
+        ],
+        [
+          316,
+          384
+        ],
+        [
+          300,
+          384
+        ]
+      ],
+      "text": "line.",
+      "confidence": 0.4568699296214618,
+      "confidence_rate": 0.9246540100323943
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          164,
+          376
+        ],
+        [
+          346,
+          376
+        ],
+        [
+          346,
+          480
+        ],
+        [
+          164,
+          480
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          178,
+          396
+        ],
+        [
+          180,
+          396
+        ],
+        [
+          180,
+          402
+        ],
+        [
+          178,
+          402
+        ]
+      ],
+      "text": "I",
+      "confidence": 0.7610883744200692,
+      "confidence_rate": 0.9555186791370729
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          190,
+          398
+        ],
+        [
+          200,
+          398
+        ],
+        [
+          200,
+          410
+        ],
+        [
+          190,
+          410
+        ]
+      ],
+      "text": ",",
+      "confidence": 0.9931735992431641,
+      "confidence_rate": 0.9988590168813674
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          192,
+          398
+        ],
+        [
+          198,
+          398
+        ],
+        [
+          198,
+          402
+        ],
+        [
+          192,
+          402
+        ]
+      ],
+      "text": "m",
+      "confidence": 0.3559389745350927,
+      "confidence_rate": 0.8418394186574963
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          177,
+          406
+        ],
+        [
+          205,
+          406
+        ],
+        [
+          205,
+          440
+        ],
+        [
+          177,
+          440
+        ]
+      ],
+      "text": "\\( \\underset{-1}{4} \\)",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          196,
+          396
+        ],
+        [
+          214,
+          396
+        ],
+        [
+          214,
+          414
+        ],
+        [
+          196,
+          414
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          209,
+          400
+        ],
+        [
+          223,
+          400
+        ],
+        [
+          223,
+          412
+        ],
+        [
+          209,
+          412
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          232,
+          410
+        ],
+        [
+          246,
+          410
+        ],
+        [
+          246,
+          418
+        ],
+        [
+          232,
+          418
+        ]
+      ],
+      "text": "0",
+      "confidence": 0.456298828125,
+      "confidence_rate": 0.456298828125
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          288,
+          412
+        ],
+        [
+          296,
+          412
+        ],
+        [
+          296,
+          420
+        ],
+        [
+          288,
+          420
+        ]
+      ],
+      "text": "\\( - \\)",
+      "confidence": 0.998046875,
+      "confidence_rate": 0.998046875
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          300,
+          394
+        ],
+        [
+          328,
+          394
+        ],
+        [
+          328,
+          418
+        ],
+        [
+          300,
+          418
+        ]
+      ],
+      "text": "\\( -B_{1} \\)",
+      "confidence": 0.998046875,
+      "confidence_rate": 0.9998045156259804
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          296,
+          422
+        ],
+        [
+          298,
+          422
+        ],
+        [
+          298,
+          424
+        ],
+        [
+          296,
+          424
+        ]
+      ],
+      "text": "\\( \\bar{x} \\)",
+      "confidence": 0.0904985829256475,
+      "confidence_rate": 0.5484795564680045
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          306,
+          412
+        ],
+        [
+          318,
+          412
+        ],
+        [
+          318,
+          424
+        ],
+        [
+          306,
+          424
+        ]
+      ],
+      "text": "\\( B \\)",
+      "confidence": 0.9951171875,
+      "confidence_rate": 0.9951171875
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          198,
+          428
+        ],
+        [
+          216,
+          428
+        ],
+        [
+          216,
+          444
+        ],
+        [
+          198,
+          444
+        ]
+      ],
+      "text": "0",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          218,
+          434
+        ],
+        [
+          220,
+          434
+        ],
+        [
+          220,
+          436
+        ],
+        [
+          218,
+          436
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.3729569527172032,
+      "confidence_rate": 0.8484178255642418
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          220,
+          430
+        ],
+        [
+          230,
+          430
+        ],
+        [
+          230,
+          438
+        ],
+        [
+          220,
+          438
+        ]
+      ],
+      "text": "1",
+      "confidence": 0.92724609375,
+      "confidence_rate": 0.92724609375
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          228,
+          426
+        ],
+        [
+          254,
+          426
+        ],
+        [
+          254,
+          444
+        ],
+        [
+          228,
+          444
+        ]
+      ],
+      "text": "8",
+      "confidence": 0.5341796875,
+      "confidence_rate": 0.5341796875
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          244,
+          413
+        ],
+        [
+          278,
+          413
+        ],
+        [
+          278,
+          447
+        ],
+        [
+          244,
+          447
+        ]
+      ],
+      "text": "\\( \\frac{1}{3} \\)",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          269,
+          445
+        ],
+        [
+          267,
+          430
+        ],
+        [
+          303,
+          425
+        ],
+        [
+          305,
+          440
+        ]
+      ],
+      "text": "45",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          308,
+          418
+        ],
+        [
+          324,
+          418
+        ],
+        [
+          324,
+          430
+        ],
+        [
+          308,
+          430
+        ]
+      ],
+      "text": "+",
+      "confidence": 0.7341206073760986,
+      "confidence_rate": 0.9497906775312893
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          322,
+          431
+        ],
+        [
+          324,
+          419
+        ],
+        [
+          340,
+          421
+        ],
+        [
+          338,
+          433
+        ]
+      ],
+      "text": "\u27f6",
+      "confidence": 0.816584587097168,
+      "confidence_rate": 0.9667930722839158
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          174,
+          446
+        ],
+        [
+          214,
+          446
+        ],
+        [
+          214,
+          482
+        ],
+        [
+          174,
+          482
+        ]
+      ],
+      "text": "\\( \\mid \\)",
+      "confidence": 0.9638671875,
+      "confidence_rate": 0.9638671875
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          200,
+          446
+        ],
+        [
+          206,
+          446
+        ],
+        [
+          206,
+          450
+        ],
+        [
+          200,
+          450
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          209,
+          462
+        ],
+        [
+          209,
+          439
+        ],
+        [
+          261,
+          440
+        ],
+        [
+          261,
+          463
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          265,
+          446
+        ],
+        [
+          267,
+          446
+        ],
+        [
+          267,
+          448
+        ],
+        [
+          265,
+          448
+        ]
+      ],
+      "text": "\u25a1",
+      "confidence": 0.2810673228991618,
+      "confidence_rate": 0.8093475558395542
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          270,
+          446
+        ],
+        [
+          274,
+          446
+        ],
+        [
+          274,
+          450
+        ],
+        [
+          270,
+          450
+        ]
+      ],
+      "text": "-",
+      "confidence": 0.34734446788206697,
+      "confidence_rate": 0.8384169783145556
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          270,
+          449
+        ],
+        [
+          272,
+          449
+        ],
+        [
+          272,
+          451
+        ],
+        [
+          270,
+          451
+        ]
+      ],
+      "text": "\u25a1",
+      "confidence": 0.2810673228991618,
+      "confidence_rate": 0.8093475558395542
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          307,
+          440
+        ],
+        [
+          347,
+          440
+        ],
+        [
+          347,
+          480
+        ],
+        [
+          307,
+          480
+        ]
+      ],
+      "text": "33",
+      "confidence": 0.8637809753417969,
+      "confidence_rate": 0.9293981791147413
+    },
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          303,
+          444
+        ],
+        [
+          317,
+          444
+        ],
+        [
+          317,
+          454
+        ],
+        [
+          303,
+          454
+        ]
+      ],
+      "error_id": "math_confidence"
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          168,
+          500
+        ],
+        [
+          178,
+          500
+        ],
+        [
+          178,
+          508
+        ],
+        [
+          168,
+          508
+        ]
+      ],
+      "text": "4",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.99951171875
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Secrets — never commit real credentials.
+.env
+
+# Test photos — large binaries, kept out of the repo.
+# Transcripts (corpus/transcripts/) are the ground truth and stay committed.
+corpus/*.jpg
+corpus/*.jpeg
+corpus/*.png
+corpus/*.webp
+corpus/overlays/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / frontend
+node_modules/
+dist/
+
+# OS
+.DS_Store

@@ -1,0 +1,487 @@
+{
+  "line": {
+    "request_id": "b07711b1-cad4-427e-8866-d304bded7845",
+    "version": "SuperNet-200",
+    "is_printed": false,
+    "is_handwritten": true,
+    "auto_rotate_confidence": 1.1263322219345895e-10,
+    "auto_rotate_degrees": 0,
+    "image_height": 597,
+    "image_width": 335,
+    "confidence": 0.4124418321389003,
+    "confidence_rate": 0.9956466458210635,
+    "text": "Solve for \\( x \\) :\n\\[\n\\frac{(x+2)!}{x!}-\\frac{(x+1)!}{(x-1)!}=16\n\\]\n\nSolution\n\\[\n\\begin{array}{l}\nx!=x(x-1)(x-2) \\ldots \\ldots \\\\\n(x+2)!=(x+2)(x+1)(x!) \\\\\n(x+1)!=(x+1)(x)(x-1)! \\\\\n\\frac{(x+2)(x+1)(x+1)}{x+}-\\frac{(x+1)(x)(x-1)}{(x-1)!}=16 \\\\\n(x+2)(x+1)-(x+1)(x)=16 \\\\\nx^{2}+3 x+2 \\times x^{2}-x=16 \\\\\n2 x=16-2 \\\\\n2 x=14, x=7\n\\end{array}\n\\]",
+    "line_data": [
+      {
+        "type": "text",
+        "cnt": [
+          [
+            143,
+            83
+          ],
+          [
+            255,
+            83
+          ],
+          [
+            255,
+            110
+          ],
+          [
+            143,
+            110
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "e62c3c6f26f046d68f3b5e8935d80217",
+        "text": "Solve for \\( x \\) :",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            37,
+            108
+          ],
+          [
+            254,
+            108
+          ],
+          [
+            254,
+            171
+          ],
+          [
+            37,
+            171
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "ea57dd64942749e5bdc1b40245e52652",
+        "text": "\n\\[\n\\frac{(x+2)!}{x!}-\\frac{(x+1)!}{(x-1)!}=16\n\\]",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            100,
+            165
+          ],
+          [
+            171,
+            165
+          ],
+          [
+            171,
+            192
+          ],
+          [
+            100,
+            192
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "14fec83a187d40bca83de1d861e96416",
+        "text": "\n\nSolution",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            23,
+            201
+          ],
+          [
+            291,
+            201
+          ],
+          [
+            291,
+            442
+          ],
+          [
+            23,
+            442
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "9f011be7cf924e7d98786b551334667d",
+        "text": "\n\\[\n\\begin{array}{l}\nx!=x(x-1)(x-2) \\ldots \\ldots \\\\\n(x+2)!=(x+2)(x+1)(x!) \\\\\n(x+1)!=(x+1)(x)(x-1)! \\\\\n\\frac{(x+2)(x+1)(x+1)}{x+}-\\frac{(x+1)(x)(x-1)}{(x-1)!}=16 \\\\\n(x+2)(x+1)-(x+1)(x)=16 \\\\\nx^{2}+3 x+2 \\times x^{2}-x=16 \\\\\n2 x=16-2 \\\\\n2 x=14, x=7\n\\end{array}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.4124418321389003,
+        "confidence_rate": 0.9956466458210635
+      }
+    ]
+  },
+  "word": [
+    {
+      "type": "aligned_equation",
+      "cnt": [
+        [
+          18,
+          78
+        ],
+        [
+          296,
+          78
+        ],
+        [
+          296,
+          446
+        ],
+        [
+          18,
+          446
+        ]
+      ],
+      "text": "Solve for \\( x: \\)\n\\( \\frac{(x+2)!}{x!}-\\frac{(x+1)!}{(x-1)!}=16 \\)\nSolution\n\\( x!=x(x-1)(x-2) \\ldots \\ldots \\)\n\\( (x+2)!=(x+2)(x+1)(x!) \\)\n\\( (x+1)!=(x+1)(x)(x-1)! \\)\n\\( \\frac{(x+2)(x+1)(x+1)}{x+}-\\frac{(x+1)(x)(x+1)}{(x-1)!}=16 \\)\n\\( (x+2)(x+1)-(x+1)(x)=16 \\)\n\\( x^{2}+3 x+2 \\times x^{2}-x=16 \\)\n\\( 2 x=16-2 \\)\n\\( 2 x=14, x=7 \\)",
+      "confidence": 0.8889902795125068,
+      "confidence_rate": 0.9995722043389975
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          141,
+          111
+        ],
+        [
+          139,
+          89
+        ],
+        [
+          187,
+          85
+        ],
+        [
+          189,
+          107
+        ]
+      ],
+      "text": "Solve",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\text { Solve }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          187,
+          88
+        ],
+        [
+          255,
+          88
+        ],
+        [
+          255,
+          116
+        ],
+        [
+          187,
+          116
+        ]
+      ],
+      "text": "for \\( x \\) :",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\text { for } x \\text { : }"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          35,
+          165
+        ],
+        [
+          36,
+          105
+        ],
+        [
+          253,
+          107
+        ],
+        [
+          252,
+          167
+        ]
+      ],
+      "text": "\\( \\frac{(x+2)!}{x!}-\\frac{(x+1)!}{(x-1)!}=16 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\frac{(x+2)!}{x!}-\\frac{(x+1)!}{(x-1)!}=16"
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          101,
+          166
+        ],
+        [
+          169,
+          166
+        ],
+        [
+          169,
+          192
+        ],
+        [
+          101,
+          192
+        ]
+      ],
+      "text": "Solution",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          146,
+          192
+        ],
+        [
+          150,
+          192
+        ],
+        [
+          150,
+          194
+        ],
+        [
+          146,
+          194
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.97900390625,
+      "confidence_rate": 0.97900390625,
+      "latex": "="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          154,
+          192
+        ],
+        [
+          156,
+          192
+        ],
+        [
+          156,
+          194
+        ],
+        [
+          154,
+          194
+        ]
+      ],
+      "text": "=",
+      "confidence": 0.79052734375,
+      "confidence_rate": 0.79052734375,
+      "latex": "="
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          28,
+          194
+        ],
+        [
+          190,
+          194
+        ],
+        [
+          190,
+          228
+        ],
+        [
+          28,
+          228
+        ]
+      ],
+      "text": "\\( x!=x(x-1)(x-2) \\).",
+      "confidence": 0.998046875,
+      "confidence_rate": 0.9998696728376023,
+      "latex": "x!=x(x-1)(x-2) ."
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          24,
+          259
+        ],
+        [
+          25,
+          222
+        ],
+        [
+          222,
+          229
+        ],
+        [
+          221,
+          266
+        ]
+      ],
+      "text": "\\( (x+2)!=(x+2)(x+1)(x!) \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "(x+2)!=(x+2)(x+1)(x!)"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          27,
+          284
+        ],
+        [
+          28,
+          252
+        ],
+        [
+          219,
+          256
+        ],
+        [
+          218,
+          288
+        ]
+      ],
+      "text": "\\( (x+1)!=(x+1)(x)(x-1)! \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "(x+1)!=(x+1)(x)(x-1)!"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          24,
+          344
+        ],
+        [
+          25,
+          282
+        ],
+        [
+          288,
+          286
+        ],
+        [
+          287,
+          348
+        ]
+      ],
+      "text": "\\( \\frac{(x+2)(x+1)(x+1)}{x!}-\\frac{(x+1)(x)(x-1)}{(x-1)!}=16 \\)",
+      "confidence": 0.8110502146880663,
+      "confidence_rate": 0.9958202533623433,
+      "latex": "\\frac{(x+2)(x+1)(x+1)}{x!}-\\frac{(x+1)(x)(x-1)}{(x-1)!}=16"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          27,
+          374
+        ],
+        [
+          27,
+          345
+        ],
+        [
+          229,
+          342
+        ],
+        [
+          229,
+          371
+        ]
+      ],
+      "text": "\\( (x+2)(x+1)-(x+1)(x)=16 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "(x+2)(x+1)-(x+1)(x)=16"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          28,
+          370
+        ],
+        [
+          200,
+          370
+        ],
+        [
+          200,
+          402
+        ],
+        [
+          28,
+          402
+        ]
+      ],
+      "text": "\\( x^{2}+3 x+2-x^{2}-x=16 \\)",
+      "confidence": 0.99658203125,
+      "confidence_rate": 0.9998819440950243,
+      "latex": "x^{2}+3 x+2-x^{2}-x=16"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          78,
+          391
+        ],
+        [
+          244,
+          391
+        ],
+        [
+          244,
+          447
+        ],
+        [
+          78,
+          447
+        ]
+      ],
+      "text": "\\( 2 x=16-2 \\)\n\\( 2 x=14, x=7 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\begin{array}{l}\n2 x=16-2 \\\\\n2 x=14, x=7\n\\end{array}"
+    }
+  ]
+}

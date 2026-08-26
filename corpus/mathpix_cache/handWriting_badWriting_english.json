@@ -1,0 +1,1291 @@
+{
+  "line": {
+    "request_id": "bfd075c2-888b-4a42-85ae-13cc890dd5a7",
+    "version": "SuperNet-200",
+    "is_printed": false,
+    "is_handwritten": true,
+    "auto_rotate_confidence": 3.780494255319067e-13,
+    "auto_rotate_degrees": 0,
+    "image_height": 336,
+    "image_width": 1600,
+    "confidence": 0.006670774004436964,
+    "confidence_rate": 0.9172459377011851,
+    "text": "Masa dopan aku Kolinatan suram. Tina adalah satu saturya karwan baikku. Tina kawan boik aku sejak dovi rekolah rendah. Dia tidak pornah tinggalkan calu bersendinian. Aku titake dayat monamattean pongajianiku di universliti, Hingga kini, aku susah madapat perkorjaan totap. Aku ada Sato pilinoi sahaja, Aku mosts mombina perniagariero.",
+    "line_data": [
+      {
+        "type": "text",
+        "cnt": [
+          [
+            131,
+            34
+          ],
+          [
+            1430,
+            34
+          ],
+          [
+            1430,
+            105
+          ],
+          [
+            131,
+            105
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "e530cdc6d9ce48cdacdd3bfdccd31bbe",
+        "text": "Masa dopan aku Kolinatan suram. Tina adalah satu saturya karwan baikku. Tina",
+        "after_hyphen": false,
+        "confidence": 0.5320280002505491,
+        "confidence_rate": 0.9922394162262351
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            34,
+            112
+          ],
+          [
+            1539,
+            112
+          ],
+          [
+            1539,
+            183
+          ],
+          [
+            34,
+            183
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "908b06b0c21948dd8068f6a0548e518b",
+        "text": " kawan boik aku sejak dovi rekolah rendah. Dia tidak pornah tinggalkan calu bersendinian. Aku titake",
+        "after_hyphen": false,
+        "confidence": 0.4559131559842566,
+        "confidence_rate": 0.9924760158855523
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            26,
+            180
+          ],
+          [
+            1573,
+            180
+          ],
+          [
+            1573,
+            256
+          ],
+          [
+            26,
+            256
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "cd85a1f8162540d2aa77bb217b484da7",
+        "text": " dayat monamattean pongajianiku di universliti, Hingga kini, aku susah madapat perkorjaan totap. Aku ada",
+        "after_hyphen": false,
+        "confidence": 0.0388540949188569,
+        "confidence_rate": 0.9703741742406373
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            29,
+            251
+          ],
+          [
+            797,
+            251
+          ],
+          [
+            797,
+            322
+          ],
+          [
+            29,
+            322
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "b51fbe0c752342b9b2a97048a51f631f",
+        "text": " Sato pilinoi sahaja, Aku mosts mombina perniagariero.",
+        "after_hyphen": false,
+        "confidence": 0.006670774004436964,
+        "confidence_rate": 0.9172459377011851
+      }
+    ]
+  },
+  "word": [
+    {
+      "type": "text",
+      "cnt": [
+        [
+          131,
+          38
+        ],
+        [
+          209,
+          38
+        ],
+        [
+          209,
+          92
+        ],
+        [
+          131,
+          92
+        ]
+      ],
+      "text": "Mafa",
+      "confidence": 0.9990234375,
+      "confidence_rate": 0.9998914459315497
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          222,
+          44
+        ],
+        [
+          310,
+          44
+        ],
+        [
+          310,
+          92
+        ],
+        [
+          222,
+          92
+        ]
+      ],
+      "text": "dopan",
+      "confidence": 0.98876953125,
+      "confidence_rate": 0.998871236871019
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          324,
+          50
+        ],
+        [
+          378,
+          50
+        ],
+        [
+          378,
+          86
+        ],
+        [
+          324,
+          86
+        ]
+      ],
+      "text": "\\( a \\not k_{0} \\)",
+      "confidence": 0.5901047307997942,
+      "confidence_rate": 0.9531809902037499
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          397,
+          38
+        ],
+        [
+          539,
+          38
+        ],
+        [
+          539,
+          92
+        ],
+        [
+          397,
+          92
+        ]
+      ],
+      "text": "Kolinatan",
+      "confidence": 0.76611328125,
+      "confidence_rate": 0.9811495605338265
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          546,
+          41
+        ],
+        [
+          652,
+          41
+        ],
+        [
+          652,
+          89
+        ],
+        [
+          546,
+          89
+        ]
+      ],
+      "text": "suram.",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          673,
+          34
+        ],
+        [
+          743,
+          34
+        ],
+        [
+          743,
+          88
+        ],
+        [
+          673,
+          88
+        ]
+      ],
+      "text": "Tina",
+      "confidence": 0.99951171875,
+      "confidence_rate": 0.9999457347503998
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          763,
+          39
+        ],
+        [
+          857,
+          39
+        ],
+        [
+          857,
+          87
+        ],
+        [
+          763,
+          87
+        ]
+      ],
+      "text": "adalah",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          890,
+          42
+        ],
+        [
+          948,
+          42
+        ],
+        [
+          948,
+          84
+        ],
+        [
+          890,
+          84
+        ]
+      ],
+      "text": "sats",
+      "confidence": 0.982421875,
+      "confidence_rate": 0.9980314451573901
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          967,
+          47
+        ],
+        [
+          1067,
+          47
+        ],
+        [
+          1067,
+          101
+        ],
+        [
+          967,
+          101
+        ]
+      ],
+      "text": "satunya",
+      "confidence": 0.9728372097015381,
+      "confidence_rate": 0.9977077546828799
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1102,
+          83
+        ],
+        [
+          1104,
+          42
+        ],
+        [
+          1198,
+          47
+        ],
+        [
+          1196,
+          88
+        ]
+      ],
+      "text": "Katwar",
+      "confidence": 0.6744631344918162,
+      "confidence_rate": 0.9648298848989794
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1224,
+          46
+        ],
+        [
+          1342,
+          46
+        ],
+        [
+          1342,
+          94
+        ],
+        [
+          1224,
+          94
+        ]
+      ],
+      "text": "baikku.",
+      "confidence": 0.99365234375,
+      "confidence_rate": 0.9994694834168213
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1359,
+          39
+        ],
+        [
+          1429,
+          39
+        ],
+        [
+          1429,
+          87
+        ],
+        [
+          1359,
+          87
+        ]
+      ],
+      "text": "Tima",
+      "confidence": 0.80810546875,
+      "confidence_rate": 0.9766043890502442
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          33,
+          116
+        ],
+        [
+          129,
+          116
+        ],
+        [
+          129,
+          158
+        ],
+        [
+          33,
+          158
+        ]
+      ],
+      "text": "Kawaan",
+      "confidence": 0.42361770453862846,
+      "confidence_rate": 0.9248867436655642
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          138,
+          114
+        ],
+        [
+          198,
+          114
+        ],
+        [
+          198,
+          156
+        ],
+        [
+          138,
+          156
+        ]
+      ],
+      "text": "bosik",
+      "confidence": 0.3228574400764508,
+      "confidence_rate": 0.9356604712926099
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          212,
+          124
+        ],
+        [
+          268,
+          124
+        ],
+        [
+          268,
+          160
+        ],
+        [
+          212,
+          160
+        ]
+      ],
+      "text": "alkv",
+      "confidence": 0.9375600814819336,
+      "confidence_rate": 0.9928617727847976
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          290,
+          122
+        ],
+        [
+          364,
+          122
+        ],
+        [
+          364,
+          170
+        ],
+        [
+          290,
+          170
+        ]
+      ],
+      "text": "sejak",
+      "confidence": 0.99560546875,
+      "confidence_rate": 0.9995596754128436
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          384,
+          120
+        ],
+        [
+          440,
+          120
+        ],
+        [
+          440,
+          154
+        ],
+        [
+          384,
+          154
+        ]
+      ],
+      "text": "dovi",
+      "confidence": 0.9314509865362197,
+      "confidence_rate": 0.9921408560516394
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          452,
+          116
+        ],
+        [
+          558,
+          116
+        ],
+        [
+          558,
+          158
+        ],
+        [
+          452,
+          158
+        ]
+      ],
+      "text": "selidah",
+      "confidence": 0.3119149404556083,
+      "confidence_rate": 0.907478507556201
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          576,
+          114
+        ],
+        [
+          688,
+          114
+        ],
+        [
+          688,
+          156
+        ],
+        [
+          576,
+          156
+        ]
+      ],
+      "text": "sondah.",
+      "confidence": 0.396831750869751,
+      "confidence_rate": 0.92587111305563
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          712,
+          111
+        ],
+        [
+          760,
+          111
+        ],
+        [
+          760,
+          159
+        ],
+        [
+          712,
+          159
+        ]
+      ],
+      "text": "D/a",
+      "confidence": 0.8153872489929199,
+      "confidence_rate": 0.9748111531645202
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          786,
+          122
+        ],
+        [
+          856,
+          122
+        ],
+        [
+          856,
+          156
+        ],
+        [
+          786,
+          156
+        ]
+      ],
+      "text": "tiduk",
+      "confidence": 0.8734102249145508,
+      "confidence_rate": 0.9865561930566015
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          884,
+          117
+        ],
+        [
+          972,
+          117
+        ],
+        [
+          972,
+          171
+        ],
+        [
+          884,
+          171
+        ]
+      ],
+      "text": "pornah",
+      "confidence": 0.93212890625,
+      "confidence_rate": 0.9936308999409
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          994,
+          120
+        ],
+        [
+          1132,
+          120
+        ],
+        [
+          1132,
+          180
+        ],
+        [
+          994,
+          180
+        ]
+      ],
+      "text": "finggalkan",
+      "confidence": 0.998046875,
+      "confidence_rate": 0.9998696728376023
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1143,
+          124
+        ],
+        [
+          1195,
+          124
+        ],
+        [
+          1195,
+          160
+        ],
+        [
+          1143,
+          160
+        ]
+      ],
+      "text": "calle",
+      "confidence": 0.6228927832562476,
+      "confidence_rate": 0.9537648873265524
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1208,
+          159
+        ],
+        [
+          1209,
+          122
+        ],
+        [
+          1380,
+          125
+        ],
+        [
+          1379,
+          162
+        ]
+      ],
+      "text": "Dersendi n'an",
+      "confidence": 0.48279489058217817,
+      "confidence_rate": 0.9603538000410424
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1390,
+          113
+        ],
+        [
+          1450,
+          113
+        ],
+        [
+          1450,
+          161
+        ],
+        [
+          1390,
+          161
+        ]
+      ],
+      "text": "\\( A k_{0} \\)",
+      "confidence": 0.9130859375,
+      "confidence_rate": 0.9909486843965316
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1468,
+          122
+        ],
+        [
+          1538,
+          122
+        ],
+        [
+          1538,
+          162
+        ],
+        [
+          1468,
+          162
+        ]
+      ],
+      "text": "Hildu",
+      "confidence": 0.49159152869347966,
+      "confidence_rate": 0.9314519130990097
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          30,
+          183
+        ],
+        [
+          100,
+          183
+        ],
+        [
+          100,
+          231
+        ],
+        [
+          30,
+          231
+        ]
+      ],
+      "text": "dayat",
+      "confidence": 0.9975595474243164,
+      "confidence_rate": 0.9997556863160587
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          116,
+          189
+        ],
+        [
+          280,
+          189
+        ],
+        [
+          280,
+          237
+        ],
+        [
+          116,
+          237
+        ]
+      ],
+      "text": "Monamatlean",
+      "confidence": 0.6329941969897845,
+      "confidence_rate": 0.9718236932473476
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          298,
+          190
+        ],
+        [
+          472,
+          190
+        ],
+        [
+          472,
+          250
+        ],
+        [
+          298,
+          250
+        ]
+      ],
+      "text": "pongajianiku",
+      "confidence": 0.7624636574182659,
+      "confidence_rate": 0.9841736078912624
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          490,
+          188
+        ],
+        [
+          524,
+          188
+        ],
+        [
+          524,
+          226
+        ],
+        [
+          490,
+          226
+        ]
+      ],
+      "text": "\\( d_{i}^{2} \\)",
+      "confidence": 0.8139874935150146,
+      "confidence_rate": 0.9796293161159108
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          547,
+          192
+        ],
+        [
+          669,
+          192
+        ],
+        [
+          669,
+          226
+        ],
+        [
+          547,
+          226
+        ]
+      ],
+      "text": "univorditi",
+      "confidence": 0.8416900634765625,
+      "confidence_rate": 0.9885761910751104
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          696,
+          184
+        ],
+        [
+          784,
+          184
+        ],
+        [
+          784,
+          248
+        ],
+        [
+          696,
+          248
+        ]
+      ],
+      "text": "Hingga",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          802,
+          192
+        ],
+        [
+          862,
+          192
+        ],
+        [
+          862,
+          240
+        ],
+        [
+          802,
+          240
+        ]
+      ],
+      "text": "Rini,",
+      "confidence": 0.2703923598801339,
+      "confidence_rate": 0.8774036598541853
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          883,
+          196
+        ],
+        [
+          937,
+          196
+        ],
+        [
+          937,
+          230
+        ],
+        [
+          883,
+          230
+        ]
+      ],
+      "text": "ekv",
+      "confidence": 0.8846469741783949,
+      "confidence_rate": 0.9847959401834198
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          964,
+          194
+        ],
+        [
+          1026,
+          194
+        ],
+        [
+          1026,
+          228
+        ],
+        [
+          964,
+          228
+        ]
+      ],
+      "text": "susqh",
+      "confidence": 0.985382777871564,
+      "confidence_rate": 0.9985285729796415
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1042,
+          194
+        ],
+        [
+          1170,
+          194
+        ],
+        [
+          1170,
+          242
+        ],
+        [
+          1042,
+          242
+        ]
+      ],
+      "text": "maidaput",
+      "confidence": 0.8976065471351167,
+      "confidence_rate": 0.9917249322674647
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1177,
+          193
+        ],
+        [
+          1345,
+          193
+        ],
+        [
+          1345,
+          247
+        ],
+        [
+          1177,
+          247
+        ]
+      ],
+      "text": "perkerjean",
+      "confidence": 0.3642332266002413,
+      "confidence_rate": 0.9348859594758508
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1361,
+          195
+        ],
+        [
+          1435,
+          195
+        ],
+        [
+          1435,
+          249
+        ],
+        [
+          1361,
+          249
+        ]
+      ],
+      "text": "Astap.",
+      "confidence": 0.6403156297265014,
+      "confidence_rate": 0.9602834938044834
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1457,
+          196
+        ],
+        [
+          1509,
+          196
+        ],
+        [
+          1509,
+          236
+        ],
+        [
+          1457,
+          236
+        ]
+      ],
+      "text": "\\( \\mathbb{A}_{k \\mathbf{U}} \\)",
+      "confidence": 0.33954745469772657,
+      "confidence_rate": 0.9347194504414263
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          1524,
+          200
+        ],
+        [
+          1586,
+          200
+        ],
+        [
+          1586,
+          236
+        ],
+        [
+          1524,
+          236
+        ]
+      ],
+      "text": "ada",
+      "confidence": 0.9423828125,
+      "confidence_rate": 0.9926094821508366
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          32,
+          260
+        ],
+        [
+          86,
+          260
+        ],
+        [
+          86,
+          294
+        ],
+        [
+          32,
+          294
+        ]
+      ],
+      "text": "Satv",
+      "confidence": 0.6578326225280762,
+      "confidence_rate": 0.9545322381746606
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          100,
+          258
+        ],
+        [
+          184,
+          258
+        ],
+        [
+          184,
+          312
+        ],
+        [
+          100,
+          312
+        ]
+      ],
+      "text": "pilingh",
+      "confidence": 0.9448466972373382,
+      "confidence_rate": 0.9952834422412863
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          205,
+          255
+        ],
+        [
+          305,
+          255
+        ],
+        [
+          305,
+          303
+        ],
+        [
+          205,
+          303
+        ]
+      ],
+      "text": "sahaja.",
+      "confidence": 0.8658300457197452,
+      "confidence_rate": 0.9880662256426985
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          331,
+          252
+        ],
+        [
+          383,
+          252
+        ],
+        [
+          383,
+          292
+        ],
+        [
+          331,
+          292
+        ]
+      ],
+      "text": "\\( A k_{v} \\)",
+      "confidence": 0.5763920210301876,
+      "confidence_rate": 0.9463936028745351
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          396,
+          262
+        ],
+        [
+          462,
+          262
+        ],
+        [
+          462,
+          296
+        ],
+        [
+          396,
+          296
+        ]
+      ],
+      "text": "mejf",
+      "confidence": 0.7475200889166445,
+      "confidence_rate": 0.9681844351284079
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          474,
+          258
+        ],
+        [
+          580,
+          258
+        ],
+        [
+          580,
+          300
+        ],
+        [
+          474,
+          300
+        ]
+      ],
+      "text": "mombilina",
+      "confidence": 0.8831615598410281,
+      "confidence_rate": 0.991164469883632
+    },
+    {
+      "type": "text",
+      "cnt": [
+        [
+          599,
+          314
+        ],
+        [
+          600,
+          262
+        ],
+        [
+          795,
+          266
+        ],
+        [
+          794,
+          318
+        ]
+      ],
+      "text": "perniagatolies.",
+      "confidence": 0.07766441684171908,
+      "confidence_rate": 0.8800576131974498
+    }
+  ]
+}

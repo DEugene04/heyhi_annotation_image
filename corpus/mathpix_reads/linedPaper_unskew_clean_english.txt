@@ -1,0 +1,16 @@
+[text   ] (4w) GK Questions And Answers
+[text   ] (8w) 1. What is the colour of a leaf?
+[text   ] (2w) Green..
+[text   ] (9w) 2. Which fruit is orange in colour and name
+[text   ] (2w) nst. Orange.
+[text   ] (7w) What do we wear in the rain?
+[text   ] (2w) Raincoat.
+[text   ] (5w) What is opposite of fast?
+[text   ] (2w) Slow.
+[text   ] (5w) What do we use food?
+[text   ] (2w) Spoon.
+[text   ] (4w) Which shape is round?
+[text   ] (1w) Circle.
+[text   ] (6w) What is the colour of milk?
+[text   ] (1w) White.
+[text   ] (8w) What is the first day of the week?

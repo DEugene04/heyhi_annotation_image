@@ -1,0 +1,725 @@
+{
+  "line": {
+    "request_id": "b6df817e-9a78-40af-a5b8-56a588733347",
+    "version": "SuperNet-200",
+    "is_printed": false,
+    "is_handwritten": true,
+    "auto_rotate_confidence": 1.319605774478816e-13,
+    "auto_rotate_degrees": 0,
+    "image_height": 1024,
+    "image_width": 768,
+    "confidence": 0.8395957643858765,
+    "confidence_rate": 0.9992127661760957,
+    "text": "1.\na) \\( \\log _{2} 3+\\log _{2} x=2 \\)\n\\[\n\\begin{aligned}\n\\log _{2} 3 x & =\\log _{2} 2^{2} \\\\\n\\log _{3 x} & =2^{2} \\\\\n3 x & =4 \\\\\nx & =\\frac{4}{3}\n\\end{aligned}\n\\]\nb)\n\\[\n\\begin{aligned}\n\\log _{6} 12 & -\\log _{6} x=3 \\\\\n\\log _{6} 12 / x & =3 \\\\\n\\log _{6} 12 / x & =\\log _{6} 6^{3} \\\\\n12 / x & =6^{3} \\\\\n\\frac{12}{6^{3}} & =x=\\frac{12}{216}=\\frac{1}{18}\n\\end{aligned}\n\\]\nc)\n\\[\n\\begin{aligned}\n2 \\log _{5} x & =1+\\log _{5} 6 \\\\\n\\log _{5} x^{2} & =\\log _{5} 5+\\log _{5} 6 \\\\\n\\log _{5} x^{2} & =\\log _{5} 5 \\cdot 6 \\\\\n\\log _{5} x^{2} & =\\log _{5} 30 \\\\\nl_{D} & =\\sqrt{30}\n\\end{aligned}\n\\]",
+    "line_data": [
+      {
+        "type": "text",
+        "cnt": [
+          [
+            57,
+            57
+          ],
+          [
+            82,
+            57
+          ],
+          [
+            82,
+            84
+          ],
+          [
+            57,
+            84
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "5f151bad61e44041a81e970921d57110",
+        "text": "1.",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            65,
+            94
+          ],
+          [
+            317,
+            94
+          ],
+          [
+            317,
+            130
+          ],
+          [
+            65,
+            130
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "344c750ba629499e8f843a47fb2c353b",
+        "text": "\na) \\( \\log _{2} 3+\\log _{2} x=2 \\)",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            102,
+            138
+          ],
+          [
+            322,
+            138
+          ],
+          [
+            322,
+            387
+          ],
+          [
+            102,
+            387
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "3ce4eee12d974a1d8c741778773b1083",
+        "text": "\n\\[\n\\begin{aligned}\n\\log _{2} 3 x & =\\log _{2} 2^{2} \\\\\n\\log _{3 x} & =2^{2} \\\\\n3 x & =4 \\\\\nx & =\\frac{4}{3}\n\\end{aligned}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.9403402411919933,
+        "confidence_rate": 0.999425272597657
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            98,
+            440
+          ],
+          [
+            123,
+            440
+          ],
+          [
+            123,
+            468
+          ],
+          [
+            98,
+            468
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "8ba5083baf034b2a956e8dbd02362bf2",
+        "text": "\nb)",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            140,
+            428
+          ],
+          [
+            389,
+            428
+          ],
+          [
+            389,
+            702
+          ],
+          [
+            140,
+            702
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "ab346676a5e94edda65b87ac03fbadce",
+        "text": "\n\\[\n\\begin{aligned}\n\\log _{6} 12 & -\\log _{6} x=3 \\\\\n\\log _{6} 12 / x & =3 \\\\\n\\log _{6} 12 / x & =\\log _{6} 6^{3} \\\\\n12 / x & =6^{3} \\\\\n\\frac{12}{6^{3}} & =x=\\frac{12}{216}=\\frac{1}{18}\n\\end{aligned}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.99951171875,
+        "confidence_rate": 0.9999973311483804
+      },
+      {
+        "type": "text",
+        "cnt": [
+          [
+            101,
+            780
+          ],
+          [
+            125,
+            780
+          ],
+          [
+            125,
+            805
+          ],
+          [
+            101,
+            805
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "285dc9552a8648d18385e5d3108eb9ab",
+        "text": "\nc)",
+        "after_hyphen": false,
+        "confidence": 1,
+        "confidence_rate": 1
+      },
+      {
+        "type": "math",
+        "cnt": [
+          [
+            137,
+            771
+          ],
+          [
+            399,
+            771
+          ],
+          [
+            399,
+            1003
+          ],
+          [
+            137,
+            1003
+          ]
+        ],
+        "included": true,
+        "conversion_output": true,
+        "is_printed": false,
+        "is_handwritten": true,
+        "id": "21bd8c51b17548c0b522483008bec541",
+        "text": "\n\\[\n\\begin{aligned}\n2 \\log _{5} x & =1+\\log _{5} 6 \\\\\n\\log _{5} x^{2} & =\\log _{5} 5+\\log _{5} 6 \\\\\n\\log _{5} x^{2} & =\\log _{5} 5 \\cdot 6 \\\\\n\\log _{5} x^{2} & =\\log _{5} 30 \\\\\nl_{D} & =\\sqrt{30}\n\\end{aligned}\n\\]",
+        "after_hyphen": false,
+        "confidence": 0.8395957643858765,
+        "confidence_rate": 0.9992127661760957
+      }
+    ]
+  },
+  "word": [
+    {
+      "type": "header",
+      "cnt": [
+        [
+          54,
+          54
+        ],
+        [
+          84,
+          54
+        ],
+        [
+          84,
+          86
+        ],
+        [
+          54,
+          86
+        ]
+      ],
+      "text": "1.",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          64,
+          98
+        ],
+        [
+          92,
+          98
+        ],
+        [
+          92,
+          126
+        ],
+        [
+          64,
+          126
+        ]
+      ],
+      "text": "a)",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          98,
+          90
+        ],
+        [
+          316,
+          90
+        ],
+        [
+          316,
+          132
+        ],
+        [
+          98,
+          132
+        ]
+      ],
+      "text": "\\( \\log _{2} 3+\\log _{2} x=2 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\log _{2} 3+\\log _{2} x=2"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          111,
+          144
+        ],
+        [
+          131,
+          144
+        ],
+        [
+          131,
+          164
+        ],
+        [
+          111,
+          164
+        ]
+      ],
+      "text": "\\( C_{0} \\)",
+      "confidence": 0.8287796974182129,
+      "confidence_rate": 0.9793494374176871,
+      "latex": "C_{0}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          106,
+          218
+        ],
+        [
+          105,
+          177
+        ],
+        [
+          276,
+          174
+        ],
+        [
+          277,
+          215
+        ]
+      ],
+      "text": "\\( \\log _{2} 3 x=\\log _{2} 2^{2} \\)",
+      "confidence": 0.99853515625,
+      "confidence_rate": 0.9999633527294652,
+      "latex": "\\log _{2} 3 x=\\log _{2} 2^{2}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          98,
+          289
+        ],
+        [
+          106,
+          229
+        ],
+        [
+          246,
+          247
+        ],
+        [
+          238,
+          307
+        ]
+      ],
+      "text": "\\( C_{0} 3 x=2^{2} \\)",
+      "confidence": 0.95751953125,
+      "confidence_rate": 0.9979350321303921,
+      "latex": "C_{0} 3 x=2^{2}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          150,
+          314
+        ],
+        [
+          220,
+          314
+        ],
+        [
+          220,
+          334
+        ],
+        [
+          150,
+          334
+        ]
+      ],
+      "text": "\\( 3 x=4 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "3 x=4"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          162,
+          379
+        ],
+        [
+          164,
+          342
+        ],
+        [
+          230,
+          345
+        ],
+        [
+          228,
+          382
+        ]
+      ],
+      "text": "\\( x=\\frac{4}{3} \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "x=\\frac{4}{3}"
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          98,
+          440
+        ],
+        [
+          124,
+          440
+        ],
+        [
+          124,
+          468
+        ],
+        [
+          98,
+          468
+        ]
+      ],
+      "text": "b)",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          144,
+          432
+        ],
+        [
+          350,
+          432
+        ],
+        [
+          350,
+          468
+        ],
+        [
+          144,
+          468
+        ]
+      ],
+      "text": "\\( \\log _{6} 12-\\log _{6} x=3 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\log _{6} 12-\\log _{6} x=3"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          144,
+          478
+        ],
+        [
+          276,
+          478
+        ],
+        [
+          276,
+          516
+        ],
+        [
+          144,
+          516
+        ]
+      ],
+      "text": "\\( \\log _{6} 12 / x=3 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\log _{6} 12 / x=3"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          143,
+          594
+        ],
+        [
+          143,
+          550
+        ],
+        [
+          329,
+          548
+        ],
+        [
+          329,
+          592
+        ]
+      ],
+      "text": "\\( \\log _{6} 12 / x=\\log _{6} 6^{3} \\)",
+      "confidence": 0.6565847396850586,
+      "confidence_rate": 0.9900332501855506,
+      "latex": "\\log _{6} 12 / x=\\log _{6} 6^{3}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          187,
+          604
+        ],
+        [
+          285,
+          604
+        ],
+        [
+          285,
+          636
+        ],
+        [
+          187,
+          636
+        ]
+      ],
+      "text": "\\( 12 / x=6^{3} \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "12 / x=6^{3}"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          194,
+          701
+        ],
+        [
+          193,
+          648
+        ],
+        [
+          382,
+          645
+        ],
+        [
+          383,
+          698
+        ]
+      ],
+      "text": "\\( \\frac{12}{6^{3}}=x=\\frac{12}{216}=\\frac{1}{18} \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\frac{12}{6^{3}}=x=\\frac{12}{216}=\\frac{1}{18}"
+    },
+    {
+      "type": "header",
+      "cnt": [
+        [
+          100,
+          780
+        ],
+        [
+          124,
+          780
+        ],
+        [
+          124,
+          806
+        ],
+        [
+          100,
+          806
+        ]
+      ],
+      "text": "c)",
+      "confidence": 1,
+      "confidence_rate": 1
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          137,
+          811
+        ],
+        [
+          137,
+          773
+        ],
+        [
+          357,
+          771
+        ],
+        [
+          357,
+          809
+        ]
+      ],
+      "text": "\\( 2 \\log _{5} x=1+\\log _{5} 6 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "2 \\log _{5} x=1+\\log _{5} 6"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          150,
+          854
+        ],
+        [
+          150,
+          820
+        ],
+        [
+          392,
+          818
+        ],
+        [
+          392,
+          852
+        ]
+      ],
+      "text": "\\( \\log _{5} x^{2}=\\log _{5} 5+\\log _{5} 6 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\log _{5} x^{2}=\\log _{5} 5+\\log _{5} 6"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          149,
+          899
+        ],
+        [
+          149,
+          862
+        ],
+        [
+          311,
+          861
+        ],
+        [
+          311,
+          898
+        ]
+      ],
+      "text": "\\( \\log _{5} x^{2}=\\log _{5} 5 \\cdot 6 \\)",
+      "confidence": 0.5888671875,
+      "confidence_rate": 0.9871670870646837,
+      "latex": "\\log _{5} x^{2}=\\log _{5} 5 \\cdot 6"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          158,
+          941
+        ],
+        [
+          158,
+          904
+        ],
+        [
+          304,
+          903
+        ],
+        [
+          304,
+          940
+        ]
+      ],
+      "text": "\\( \\log _{5} x^{2}=\\log _{5} 30 \\)",
+      "confidence": 1,
+      "confidence_rate": 1,
+      "latex": "\\log _{5} x^{2}=\\log _{5} 30"
+    },
+    {
+      "type": "math",
+      "cnt": [
+        [
+          178,
+          996
+        ],
+        [
+          180,
+          948
+        ],
+        [
+          304,
+          952
+        ],
+        [
+          302,
+          1000
+        ]
+      ],
+      "text": "\\( C_{D x}=\\sqrt{30} \\)",
+      "confidence": 0.85595703125,
+      "confidence_rate": 0.991396385796409,
+      "latex": "C_{D x}=\\sqrt{30}"
+    }
+  ]
+}

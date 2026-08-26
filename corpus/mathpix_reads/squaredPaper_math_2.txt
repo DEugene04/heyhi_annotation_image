@@ -1,0 +1,18 @@
+[text   ] (1w) 1.
+[text   ] (2w) a) \( \log _{2} 3+\log _{2} x=2 \)
+[math   ] (1w) \log _{2} 3 x & =\log _{2} 2^{2}
+[math   ] (1w) \log _{3 x} & =2^{2}
+[math   ] (1w) 3 x & =4
+[math   ] (2w) x & =\frac{4}{3}
+[text   ] (1w) b)
+[math   ] (1w) \log _{6} 12 & -\log _{6} x=3
+[math   ] (1w) \log _{6} 12 / x & =3
+[math   ] (1w) \log _{6} 12 / x & =\log _{6} 6^{3}
+[math   ] (1w) 12 / x & =6^{3}
+[math   ] (1w) \frac{12}{6^{3}} & =x=\frac{12}{216}=\frac{1}{18}
+[text   ] (1w) c)
+[math   ] (1w) 2 \log _{5} x & =1+\log _{5} 6
+[math   ] (1w) \log _{5} x^{2} & =\log _{5} 5+\log _{5} 6
+[math   ] (1w) \log _{5} x^{2} & =\log _{5} 5 \cdot 6
+[math   ] (1w) \log _{5} x^{2} & =\log _{5} 30
+[math   ] (1w) l_{D} & =\sqrt{30}

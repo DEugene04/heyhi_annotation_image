@@ -1,0 +1,14 @@
+# Backend + contracts dependencies for the annotation pipeline.
+# Install into the annotation_project conda env:
+#   conda activate annotation_project
+#   pip install -r requirements.txt
+
+fastapi
+uvicorn[standard]
+python-multipart      # lets FastAPI accept uploaded files
+pydantic
+pydantic-settings
+python-dotenv
+httpx                 # HTTP client for the Mathpix call (WS2)
+pillow                # image handling (WS1/WS2)
+pytest                # test runner
