@@ -163,6 +163,28 @@ def _split_into_rows(words: List[dict], row_count: int) -> List[List[dict]]:
     return rows
 
 
+def _rescale(line_data: List[dict], words: List[dict], line_response: dict,
+             image_width: int, image_height: int) -> None:
+    """
+    Scale Mathpix's shape coordinates onto the image we display.
+
+    Mathpix returns shapes in the pixels of the image it processed, which may be
+    a shrunk copy of ours. This multiplies every point back to our image's size.
+    Does nothing when the sizes already match (the common case).
+    """
+
+    processed_w = line_response.get("image_width") or image_width
+    processed_h = line_response.get("image_height") or image_height
+    scale_x = image_width / processed_w
+    scale_y = image_height / processed_h
+    if scale_x == 1 and scale_y == 1:
+        return
+
+    for item in [*line_data, *words]:
+        if item.get("cnt"):
+            item["cnt"] = [[x * scale_x, y * scale_y] for x, y in item["cnt"]]
+
+
 def _words_of(words: List[dict]) -> List[Word]:
     return [Word(text=_word_text(w), quad=_quad_from_contour(w["cnt"])) for w in words]
 
@@ -173,6 +195,12 @@ def reconstruct(line_response: dict, word_data: List[dict],
 
     line_data = line_response.get("line_data", []) or []
     words = _drop_oversized([w for w in word_data if w.get("cnt")])
+
+    # Large images are shrunk before being sent to Mathpix, so Mathpix reports
+    # its shapes in the shrunk image's pixels. Scale them back up to the image we
+    # actually draw on, using the size Mathpix says it processed.
+    _rescale(line_data, words, line_response, image_width, image_height)
+
     _assign_words_to_lines(line_data, words)
 
     segments: List[Segment] = []

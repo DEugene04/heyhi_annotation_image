@@ -44,11 +44,16 @@ def run(image_path: Path) -> None:
 
     OUT.mkdir(parents=True, exist_ok=True)
     OUT.joinpath(f"{image_path.stem}.txt").write_text(
-        "\n".join(s.text for s in fused.segments) + "\n"
+        "\n".join(f"[{i + 1}] {s.text}" for i, s in enumerate(fused.segments)) + "\n"
     )
+    # Draw each Mathpix box and number it, so each box can be matched to its
+    # numbered GPT-5 line above and checked against the writing underneath.
     draw = ImageDraw.Draw(image)
-    for seg in fused.segments:
-        draw.polygon([(p.x, p.y) for p in seg.quad], outline=(21, 128, 61), width=3)
+    for i, seg in enumerate(fused.segments):
+        points = [(p.x, p.y) for p in seg.quad]
+        draw.polygon(points, outline=(21, 128, 61), width=3)
+        top_left = min(points, key=lambda p: (p[1], p[0]))
+        draw.text((top_left[0] + 3, top_left[1] + 2), str(i + 1), fill=(200, 30, 30))
     image.save(OUT / f"{image_path.stem}.png")
     print(f"  wrote corpus/fusion/{image_path.stem}.txt and .png")
 
