@@ -27,5 +27,9 @@ class Settings(BaseSettings):
     # tell the student to retake the photo instead of annotating a bad reading.
     confidence_threshold: float = 0.6
 
+    # VLM used to re-read the text (experiment: VLM text + Mathpix geometry).
+    openai_api_key: str = ""
+    openai_model: str = "gpt-5.6"
+
 
 settings = Settings()
