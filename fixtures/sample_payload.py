@@ -97,3 +97,33 @@ SAMPLE_FEEDBACK = [
 
 # The payload the frontend consumes, produced by the real resolver.
 SAMPLE_PAYLOAD = resolve_payload(SAMPLE_IR, SAMPLE_FEEDBACK)
+
+
+def stand_in_feedback(ir: IR) -> list[Feedback]:
+    """
+    A few feedback items anchored to real spans of a reading.
+
+    The evaluator is on hold, so while the pipeline runs end-to-end we stand in
+    for it: a mark on the first line, a remark on the third if there is one, and
+    one panel-only note with no place on the page. Because the spans are taken
+    from the reading passed in, they land on that page's real shapes.
+    """
+
+    segments = ir.segments
+    feedback: list[Feedback] = []
+    if segments:
+        first = segments[0]
+        feedback.append(Feedback(
+            comment="Clear, confident opening line.",
+            category=Category.CORRECT,
+            char_start=first.char_start, char_end=first.char_end))
+    if len(segments) >= 3:
+        third = segments[2]
+        feedback.append(Feedback(
+            comment="This line needs another look.",
+            category=Category.ERROR,
+            char_start=third.char_start, char_end=third.char_end))
+    feedback.append(Feedback(
+        comment="Overall: a coherent, well-structured answer.",
+        category=Category.INFO))
+    return feedback

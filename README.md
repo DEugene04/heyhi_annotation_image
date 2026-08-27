@@ -90,7 +90,7 @@ Transcripts (the ground truth for the accuracy test) go in `corpus/transcripts/`
 ```
 conda activate annotation_project      # Python 3.11
 pip install -r requirements.txt
-cp .env.example .env                   # then fill in your Mathpix credentials
+cp .env.example .env                   # then fill in your Mathpix + OpenAI keys
 ```
 
 ## Run the backend

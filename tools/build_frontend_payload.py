@@ -17,7 +17,7 @@ from pathlib import Path
 
 from PIL import Image
 
-from contracts.schema import Category, Feedback
+from fixtures.sample_payload import stand_in_feedback
 from geometry.resolver import resolve_payload
 from ocr.fusion import AlignmentError, fuse
 from ocr.ir_builder import reconstruct
@@ -26,29 +26,6 @@ from tools.vlm_cache import get_vlm_lines
 
 CORPUS = Path("corpus")
 PUBLIC = Path("frontend/public")
-
-
-def _sample_feedback(fused) -> list[Feedback]:
-    """A few stand-in feedback items anchored to real spans of the fused text."""
-
-    segments = fused.segments
-    feedback: list[Feedback] = []
-    if segments:
-        first = segments[0]
-        feedback.append(Feedback(
-            comment="Clear, confident opening line.",
-            category=Category.CORRECT,
-            char_start=first.char_start, char_end=first.char_end))
-    if len(segments) >= 3:
-        third = segments[2]
-        feedback.append(Feedback(
-            comment="This sentence runs long — consider splitting it.",
-            category=Category.ERROR,
-            char_start=third.char_start, char_end=third.char_end))
-    feedback.append(Feedback(
-        comment="Overall: coherent narrative and consistent voice.",
-        category=Category.INFO))
-    return feedback
 
 
 def main() -> None:
@@ -65,7 +42,7 @@ def main() -> None:
         # in the product this is where the "retake the photo" warning is shown.
         print(f"refused: {exc}")
         return
-    payload = resolve_payload(fused, _sample_feedback(fused))
+    payload = resolve_payload(fused, stand_in_feedback(fused))
 
     PUBLIC.mkdir(parents=True, exist_ok=True)
     (PUBLIC / "fusion-payload.json").write_text(payload.model_dump_json(indent=2))

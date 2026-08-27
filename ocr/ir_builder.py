@@ -373,9 +373,9 @@ def is_readable(ir: IR) -> bool:
     return area_weighted_confidence(ir) >= settings.confidence_threshold
 
 
-def build_ir(cleaned_image: bytes) -> IR:
+def build_ir(image_bytes: bytes) -> IR:
     """
-    Read a cleaned image with Mathpix and package it into the IR.
+    Read a photo with Mathpix and package it into the IR.
 
     Uses both readings — line and word — so grouped maths is split back into its
     rows and every line carries its word shapes.
@@ -387,6 +387,6 @@ def build_ir(cleaned_image: bytes) -> IR:
 
     from ocr.mathpix import read_all
 
-    width, height = Image.open(BytesIO(cleaned_image)).size
-    both = read_all(cleaned_image)
+    width, height = Image.open(BytesIO(image_bytes)).size
+    both = read_all(image_bytes)
     return reconstruct(both["line"], both["word"], width, height)
