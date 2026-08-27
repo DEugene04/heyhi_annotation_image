@@ -1,15 +1,15 @@
 # Handwritten Answer Annotation — Task Breakdown
 
 **Owner:** solo, full-time
-**Chosen architecture:** Pipeline A — `DocRes → Mathpix → evaluator → span→geometry → Annotorious`
+**Chosen architecture:** `Mathpix + GPT-5 (fused) → evaluator → span→geometry → Annotorious`
 **Evaluator status:** **ON HOLD.** It exists and is owned by the organization; it already returns span-anchored feedback (`mark_highlights[]`), but its span format is messy and a possible replacement model (one that returns word *position*) is being checked with the supervisor. All evaluator integration is paused. Build the layers you control first.
-**DocRes:** local laptop GPU for dev, org's dedicated GPU in production.
+**Reading:** two readers, each trusted for what it does best — Mathpix for the shapes (where each line and word sits), GPT-5 for the text (what the writing says). Fusion lays the text onto the shapes.
 
 ---
 
 ## What's on hold, and why it doesn't block you
 
-The evaluator is paused pending a supervisor conversation about a position-returning model. **This blocks almost nothing.** Every layer before the evaluator — image cleanup, text recognition, IR, and the renderer — is fully buildable now, and the renderer only ever needed a payload *shape*, not a live evaluator.
+The evaluator is paused pending a supervisor conversation about a position-returning model. **This blocks almost nothing.** Every layer before the evaluator — text recognition, fusion, IR, and the renderer — is fully buildable now, and the renderer only ever needed a payload *shape*, not a live evaluator.
 
 Two things are parked until the evaluator resumes, and are called out inline below as **[ON HOLD]**:
 - The evaluator stub and its contract.
@@ -36,24 +36,23 @@ The data shapes every other layer reads and writes. Do this before any feature c
 - [ ] **T0.4** Repo scaffolding — backend service skeleton, frontend skeleton, a `/health` route, env/secrets handling for the Mathpix key, a sample-image fixture folder.
 - [ ] **T0.5** Assemble a **test corpus** — 30–50 real photos: maths, science (incl. a diagram or two), English; clean and messy; flat and skewed; lined and blank paper. This is your ground truth for every spike. Cheap to start, invaluable throughout.
 
-### WS1 — DocRes (rectify + enhance)
-Runs unconditionally on every image. Local GPU now.
+### WS1 — VLM reading + fusion
+GPT-5 reads the text; fusion lays it onto Mathpix's shapes. Runs on every image.
 
-- [ ] **T1.1** Stand up DocRes locally — clone, weights, `inference.py` runs on your GPU. Confirm CUDA works on your laptop.
-- [ ] **T1.2** Wrap it as a **callable service** (FastAPI endpoint or local module): image in → cleaned image out. Design the interface so swapping local→org-GPU later is a config change, not a rewrite.
-- [ ] **T1.3** **SPIKE (pencil survival):** run `appearance` vs `binarization` on the pencil/faint-ink samples. Confirm light strokes survive. Pick the mode. *(Research doc risk: enhancement erasing faint working.)*
-- [ ] **T1.4** **SPIKE (enhance on/off accuracy):** the "one-time comparison" from your flowchart — OCR the corpus with and without DocRes-enhance, compare accuracy, decide whether enhance stays. Not a runtime branch; a decision made once here.
-- [ ] **T1.5** Decide `dewarp → enhance` chaining (order confirmed in research) and expose a single "clean this image" call.
+- [ ] **T1.1** GPT-5 transcription — one line of text per written line, maths as LaTeX, no corrections. Handle auth, image encoding, errors.
+- [ ] **T1.2** **Fusion** — lay GPT-5's text onto Mathpix's line/row shapes, in reading order. Each shape keeps its geometry and takes the VLM's reading as its text; rebuild the character ranges and `flat_text` from the new text.
+- [ ] **T1.3** **Line-count mismatch** — when the two readers split the page into a different number of lines, align them by similarity (monotonic, order-preserving) rather than a plain positional match. A line only the VLM caught keeps its text and degrades to a panel-only item; a shape only Mathpix caught (usually a smudge) is dropped.
+- [ ] **T1.4** **SPIKE (fusion accuracy):** on the corpus, confirm the fused reading is more accurate than Mathpix alone on both the text and the placement of the shapes. Decide the page-level fallback when the alignment is poor.
 
-### WS2 — OCR + IR construction
-Turns a cleaned image into the IR. The heart of the grounding chain.
+### WS2 — Mathpix reading + IR construction
+Turns the photo's shapes into the IR. The heart of the grounding chain.
 
-- [ ] **T2.1** Mathpix integration — `v3/text` with `include_line_data` + `include_word_data`. Handle auth, image compression (keep under ~100KB per Mathpix's own latency guidance), errors.
-- [ ] **T2.2** **Parse Mathpix response → IR.** Map `cnt` quads, `type` (text/math/diagram), `is_handwritten`, `line`, `confidence` into `segments[]`. Build `flat_text` with preserved line breaks. **Construct** the fields Mathpix doesn't give you: `id`, `char_start`, `char_end`.
-- [ ] **T2.3** **Printed-vs-handwritten filter** — drop printed lines (the question) using the `is_handwritten` flag; keep handwritten only. Route `diagram`-type lines to a separate track.
+- [ ] **T2.1** Mathpix integration — `v3/text`, one call for `include_line_data` and one for `include_word_data` (Mathpix rejects the two together), image compression (keep under ~100KB per Mathpix's own latency guidance), auth, errors.
+- [ ] **T2.2** **Reconcile the two readings → IR.** The line reading is the skeleton (how many lines, in reading order, and their type); each word from the word reading is dropped onto the line that contains it; a maths block Mathpix folded into one box is split back into its rows. Map `cnt` quads, `type` (text/math/diagram), `confidence` into `segments[]`, build `flat_text` with preserved line breaks, and **construct** the fields Mathpix doesn't give: `id`, `char_start`, `char_end`. (The text on each segment is replaced by GPT-5's in WS1 fusion.)
+- [ ] **T2.3** **Keep every line; split off figures.** Every line of writing is kept — telling the answer from a copied-out question is the evaluator's job, and Mathpix's printed/handwritten flag is not reliable enough to filter on (clean handwriting is often reported as printed). Route `diagram`-type lines to a separate track.
 - [ ] **T2.4** **Confidence gate** — area-weighted confidence check; below threshold → "couldn't read clearly, retake" instead of annotating. Threshold tuned on corpus.
-- [ ] **T2.5** **SPIKE (recognition ceiling):** measure per-line exact-match rate on the maths corpus. This is research risk #1 — the thing most likely to sink the UX. Know the number before committing to line-level annotation.
-- [ ] **T2.6** **SPIKE (quad accuracy on skew):** overlay Mathpix quads on skewed samples, eyeball drift. Confirms whether the DocRes-cleaned image is flat enough that quads sit right.
+- [ ] **T2.5** **SPIKE (recognition ceiling):** measure per-line accuracy on the maths corpus. This is research risk #1 — the thing most likely to sink the UX. Know the number before committing to line-level annotation.
+- [ ] **T2.6** **SPIKE (quad accuracy on skew):** overlay Mathpix quads on skewed samples, eyeball drift. Confirms the shapes sit on the writing at whatever skew the photo has.
 
 ### WS3 — Span→geometry core  +  [ON HOLD] evaluator integration
 The geometry resolver's *core* is buildable now against fixture offsets. The parts that consume the **real** evaluator output are on hold until the anchoring model is known (string-`target` vs the supervisor's position-returning model).
@@ -81,14 +80,14 @@ Frontend. Can start as soon as T0.3 (payload shape) is locked, using fixture dat
 ### WS5 — End-to-end integration
 Wire the real chain together.
 
-- [ ] **T5.1** Assemble the serial pipeline: upload → DocRes → Mathpix → IR → **[evaluator: on hold]** → geometry → payload → renderer. Until the evaluator resumes, close the loop with fixture feedback so the full chain is testable end-to-end without it.
+- [ ] **T5.1** Assemble the serial pipeline: upload → Mathpix + GPT-5 → fuse → IR → **[evaluator: on hold]** → geometry → payload → renderer. Until the evaluator resumes, close the loop with fixture feedback so the full chain is testable end-to-end without it.
 - [ ] **T5.2** **Latency instrumentation** — measure each stage. Confirm the 6–8s estimate against reality; find the real bottleneck. (Research risk #5.)
-- [ ] **T5.3** **Synchronous UX** — progress indicator / streamed feedback so the wait is tolerable. Consider showing the cleaned image first, then annotations as they resolve.
-- [ ] **T5.4** **Error paths** — DocRes fails, Mathpix errors/times out, low confidence, zero handwritten lines detected. Each needs a defined student-facing outcome.
+- [ ] **T5.3** **Synchronous UX** — progress indicator / streamed feedback so the wait is tolerable. Consider showing the photo first, then annotations as they resolve.
+- [ ] **T5.4** **Error paths** — Mathpix errors/times out, GPT-5 errors/times out, readers disagree badly (poor alignment), low confidence, zero lines detected. Each needs a defined student-facing outcome.
 
 ### WS6 — Hardening & handoff
 - [ ] **T6.1** **Diagram track (v1)** — whole-figure single annotation using the diagram `cnt`. No per-element parsing. (Research §4.)
-- [ ] **T6.2** **DocRes deployment abstraction** — confirm the local→org-GPU swap is config-only. Document what the org needs to host.
+- [ ] **T6.2** **Reader keys & limits** — document the Mathpix and GPT-5 credentials, rate limits, and per-image cost the org needs to run the reading stage.
 - [ ] **T6.3** **[ON HOLD] Evaluator handoff pack** — resumes with the evaluator. The contract spec + a stub mirroring the real response shape + the validation suite, so the org's evaluator (string-target or position-returning) can be tested against known-good cases.
 - [ ] **T6.4** **Cross-cutting spikes not yet closed** — cross-out/rewritten working (research risk #10, genuinely unknown), ruled-paper handling (#4), span-less feedback proportion (#7).
 
@@ -117,10 +116,11 @@ The evaluator half of WS3 and the real end-to-end integration wait on the anchor
 
 The research doc's risks, ordered by "how badly does this hurt if discovered late":
 
-1. **T2.5 recognition ceiling** — if maths OCR is too inaccurate at line level, the whole annotation premise wobbles. This is completely independent of the held evaluator, so it's your **first task**, week 1.
-2. **T1.3 pencil survival** — cheap to test, and a wrong DocRes mode silently destroys input.
-3. **T2.6 quad-on-skew** — validates the display-on-cleaned-image decision.
-4. **T5.2 latency** — you've committed to synchronous; confirm the budget holds before building elaborate UX around it. Note the held evaluator's retry loop (blocking 3s sleep + double-LLM re-run) means its worst-case latency is well beyond the happy path — factor that in when the evaluator returns.
+1. **T2.5 recognition ceiling** — if reading is too inaccurate at line level, the whole annotation premise wobbles. This is completely independent of the held evaluator, so it's your **first task**, week 1.
+2. **T1.4 fusion accuracy** — the fused reading must beat Mathpix alone on both text and shape placement, or the second reader isn't earning its cost and latency.
+3. **T1.3 line-count mismatch** — the readers disagreeing on line count is the main way fusion drifts; get the alignment right before trusting the boxes.
+4. **T2.6 quad-on-skew** — validates that the shapes sit on the writing at real-world skew.
+5. **T5.2 latency** — two reader calls now run per image; confirm the synchronous budget holds before building elaborate UX around it. Note the held evaluator's retry loop (blocking 3s sleep + double-LLM re-run) means its worst-case latency is well beyond the happy path — factor that in when the evaluator returns.
 
 **Deferred with the evaluator (not now):** the anchoring model (string-`target` vs position-returning) and the duplicate-`target` collision. The old "can the evaluator return offsets?" risk is *resolved* — it returns spans, not offsets — but whether those spans carry position is the open question the supervisor conversation settles.
 

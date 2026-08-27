@@ -9,7 +9,7 @@ from question is the evaluator's job); only the drawn figure is set aside.
 """
 
 from contracts.schema import SegmentType
-from ocr.ir_builder import area_weighted_confidence, is_readable, parse_ir
+from ocr.ir_builder import area_weighted_confidence, is_readable, reconstruct
 
 RESPONSE = {
     "line_data": [
@@ -43,7 +43,8 @@ RESPONSE = {
 
 
 def _ir():
-    return parse_ir(RESPONSE, image_width=500, image_height=500)
+    # No word reading here: this checks the line-level assembly on its own.
+    return reconstruct(RESPONSE, [], image_width=500, image_height=500)
 
 
 def test_all_text_lines_become_segments():

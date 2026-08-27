@@ -18,7 +18,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 from ocr.fusion import alignment_ok, fuse
-from ocr.hybrid import reconstruct
+from ocr.ir_builder import reconstruct
 from tools.mathpix_cache import get_readings
 from tools.vlm_cache import get_vlm_lines
 

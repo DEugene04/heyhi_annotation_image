@@ -17,7 +17,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw
 
-from ocr.hybrid import reconstruct
+from ocr.ir_builder import reconstruct
 from tools.mathpix_cache import get_readings
 
 

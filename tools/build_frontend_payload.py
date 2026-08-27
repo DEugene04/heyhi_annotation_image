@@ -20,7 +20,7 @@ from PIL import Image
 from contracts.schema import Category, Feedback
 from geometry.resolver import resolve_payload
 from ocr.fusion import fuse
-from ocr.hybrid import reconstruct
+from ocr.ir_builder import reconstruct
 from tools.mathpix_cache import get_readings
 from tools.vlm_cache import get_vlm_lines
 

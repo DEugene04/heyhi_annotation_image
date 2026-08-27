@@ -13,12 +13,42 @@ workstream plan.
 Strictly serial — each layer hands its output to the next:
 
 ```
-photo → Mathpix (read) → IR (package)
+photo → Mathpix (shapes) ┐
+        GPT-5 (text)      ├→ fuse → IR (package)
+                          ┘
       → evaluator (judge, ON HOLD) → span→geometry (shapes) → Annotorious (draw)
 ```
 
 The evaluator is on hold. During development the chain closes with **fixture
 feedback** in its place, so the whole pipeline is testable end-to-end without it.
+
+## How we read the page
+
+Two readers look at each photo, and each is trusted for the one thing it does
+best:
+
+- **Mathpix** — trusted for **where** the writing is (the position and shape of
+  every line and word on the page). It reads the page two ways:
+  - *line reading* — how many lines there are, in reading order.
+  - *word reading* — the exact shape of every individual word.
+
+  We combine them: the line reading gives the skeleton, and the word shapes are
+  dropped onto it for precise boxes. (A block of maths that Mathpix squashes into
+  one box is split back into its separate rows here.)
+
+- **GPT-5** — trusted for **what** the writing says (the actual text, including
+  messy handwriting Mathpix gets wrong).
+
+**Fusion** then lays GPT-5's text onto Mathpix's boxes: accurate words sitting in
+accurate places. So every highlight the student sees carries the *right text* in
+the *right spot*.
+
+```
+Mathpix line reading ─┐
+                      ├─► accurate boxes ─┐
+Mathpix word reading ─┘                   ├─► fusion ─► text in the right place
+GPT-5 text ───────────────────────────────┘
+```
 
 ## Layout
 
@@ -27,9 +57,11 @@ main.py                    /health + /annotate pipeline route
 config.py                  loads settings from .env
 contracts/schema.py        the IR and annotation-payload shapes (Pydantic)
 contracts/evaluator_contract.md   spec to hand the org (kept separate)
-ocr/                       Mathpix + IR construction (WS2)
-  ocr/mathpix.py           two readings per image: line + word
-  ocr/hybrid.py            combine them: line skeleton + word precision
+ocr/                       reading the page (WS2)
+  ocr/mathpix.py           call Mathpix: two readings per image (line + word)
+  ocr/vlm.py               call GPT-5: the text of each line
+  ocr/ir_builder.py        build the IR: line skeleton + word precision
+  ocr/fusion.py            lay GPT-5's text onto Mathpix's shapes
 geometry/                  span → shapes (WS3-core)
 fixtures/                  stand-in evaluator feedback
 frontend/                  Annotorious renderer (WS4)

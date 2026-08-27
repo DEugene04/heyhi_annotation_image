@@ -8,7 +8,7 @@ shape of its words, and ordinary lines keep their words too.
 """
 
 from contracts.schema import SegmentType
-from ocr.hybrid import reconstruct
+from ocr.ir_builder import reconstruct
 
 
 def _cnt(x1, y1, x2, y2):
