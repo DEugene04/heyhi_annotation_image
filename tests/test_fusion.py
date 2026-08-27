@@ -6,8 +6,10 @@ misread text. Fusing in the VLM's lines should keep the shapes and fix the text,
 and keep the character ranges and flat text consistent with the new text.
 """
 
+import pytest
+
 from contracts.schema import IR, ImageMeta, Point, Segment, SegmentType
-from ocr.fusion import alignment_ok, fuse
+from ocr.fusion import AlignmentError, alignment_ok, fuse
 
 
 def _segment(id, line, text, x2):
@@ -40,10 +42,14 @@ def test_fuse_rebuilds_char_ranges_and_flat_text():
         assert fused.flat_text[segment.char_start : segment.char_end] == segment.text
 
 
-def test_fewer_vlm_lines_keeps_mathpix_text_for_the_rest():
-    fused = fuse(_ir(), ["the cat"])  # only one VLM line
-    assert fused.segments[0].text == "the cat"
-    assert fused.segments[1].text == "sat down"  # fell back to Mathpix's text
+def test_fuse_refuses_when_line_counts_differ():
+    # Readers disagreeing on line count would slide text onto the wrong shapes,
+    # so the page is refused rather than annotated wrongly.
+    with pytest.raises(AlignmentError) as exc:
+        fuse(_ir(), ["the cat"])  # two shapes, one VLM line
+    assert exc.value.mathpix_lines == 2
+    assert exc.value.vlm_lines == 1
+    assert exc.value.warning  # a student-facing message to show instead
 
 
 def test_alignment_flag():

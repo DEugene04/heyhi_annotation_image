@@ -17,7 +17,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw
 
-from ocr.fusion import alignment_ok, fuse
+from ocr.fusion import AlignmentError, fuse
 from ocr.ir_builder import reconstruct
 from tools.mathpix_cache import get_readings
 from tools.vlm_cache import get_vlm_lines
@@ -31,12 +31,23 @@ def run(image_path: Path) -> None:
     image = Image.open(image_path).convert("RGB")
     ir = reconstruct(readings["line"], readings["word"], image.width, image.height)
     vlm_lines = get_vlm_lines(image_path)
-    fused = fuse(ir, vlm_lines)
 
     print(f"\n=== {image_path.name} ===")
-    if not alignment_ok(ir, vlm_lines):
-        print(f"  ⚠ line counts differ: Mathpix {len(ir.segments)} vs VLM "
-              f"{len(vlm_lines)} — matched in order; refine alignment if it drifts.")
+    try:
+        fused = fuse(ir, vlm_lines)
+    except AlignmentError as exc:
+        # The readers disagree on how many lines the page has, so it would be
+        # refused and the student asked for a clearer photo. Show both readings
+        # so the mismatch can be inspected.
+        print(f"  ⚠ REFUSED — {exc}")
+        for i in range(max(len(ir.segments), len(vlm_lines))):
+            mp = ir.segments[i].text if i < len(ir.segments) else "—"
+            gp = vlm_lines[i] if i < len(vlm_lines) else "—"
+            print(f"  Mathpix: {mp}")
+            print(f"  GPT-5  : {gp}")
+            print()
+        return
+
     for mathpix_seg, fused_seg in zip(ir.segments, fused.segments):
         print(f"  Mathpix: {mathpix_seg.text}")
         print(f"  GPT-5  : {fused_seg.text}")

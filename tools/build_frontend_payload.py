@@ -19,7 +19,7 @@ from PIL import Image
 
 from contracts.schema import Category, Feedback
 from geometry.resolver import resolve_payload
-from ocr.fusion import fuse
+from ocr.fusion import AlignmentError, fuse
 from ocr.ir_builder import reconstruct
 from tools.mathpix_cache import get_readings
 from tools.vlm_cache import get_vlm_lines
@@ -58,7 +58,13 @@ def main() -> None:
     readings = get_readings(image_path)
     image = Image.open(image_path).convert("RGB")
     ir = reconstruct(readings["line"], readings["word"], image.width, image.height)
-    fused = fuse(ir, get_vlm_lines(image_path))
+    try:
+        fused = fuse(ir, get_vlm_lines(image_path))
+    except AlignmentError as exc:
+        # A page the readers disagree on is refused rather than annotated wrongly;
+        # in the product this is where the "retake the photo" warning is shown.
+        print(f"refused: {exc}")
+        return
     payload = resolve_payload(fused, _sample_feedback(fused))
 
     PUBLIC.mkdir(parents=True, exist_ok=True)
