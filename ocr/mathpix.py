@@ -86,6 +86,19 @@ def read_image(image_bytes: bytes) -> dict:
     return _request(encoded, {"include_line_data": True})
 
 
+def read_word(image_bytes: bytes) -> list:
+    """
+    Read an image for word-level shapes only (include_word_data).
+
+    Used on its own when the line reading is already in hand and only the word
+    shapes are still needed — see the conditional word call in the IR builder,
+    which fires this only for pages with a grouped maths block.
+    """
+
+    encoded = base64.b64encode(_compress(image_bytes)).decode("ascii")
+    return _request(encoded, {"include_word_data": True}).get("word_data", []) or []
+
+
 def read_all(image_bytes: bytes) -> dict:
     """
     Read an image both ways and return both results together.

@@ -373,20 +373,40 @@ def is_readable(ir: IR) -> bool:
     return area_weighted_confidence(ir) >= settings.confidence_threshold
 
 
+def _needs_word_data(line_response: dict) -> bool:
+    """
+    Whether a second (word) Mathpix call is worth making for this page.
+
+    Word shapes only change the output for a grouped maths block, where they cut
+    the block into tight per-row boxes. Every other line uses only its line box,
+    which the VLM's text is laid onto, so a page with no grouped maths block gains
+    nothing from the word reading — we skip it and save one Mathpix request.
+    """
+
+    for line in line_response.get("line_data", []) or []:
+        if _segment_type(line.get("type")) == SegmentType.MATH:
+            if _is_grouped((line.get("text") or "").strip()):
+                return True
+    return False
+
+
 def build_ir(image_bytes: bytes) -> IR:
     """
     Read a photo with Mathpix and package it into the IR.
 
-    Uses both readings — line and word — so grouped maths is split back into its
-    rows and every line carries its word shapes.
+    The line reading is always needed — it is the page's skeleton and carries the
+    confidence used to gate readability. The word reading only sharpens the row
+    boxes of a grouped maths block, so it is fetched only when the line reading
+    contains one; pages without one make a single Mathpix call instead of two.
     """
 
     from io import BytesIO
 
     from PIL import Image
 
-    from ocr.mathpix import read_all
+    from ocr.mathpix import read_image, read_word
 
     width, height = Image.open(BytesIO(image_bytes)).size
-    both = read_all(image_bytes)
-    return reconstruct(both["line"], both["word"], width, height)
+    line_response = read_image(image_bytes)
+    word_data = read_word(image_bytes) if _needs_word_data(line_response) else []
+    return reconstruct(line_response, word_data, width, height)

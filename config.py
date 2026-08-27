@@ -29,7 +29,7 @@ class Settings(BaseSettings):
 
     # VLM used to re-read the text (experiment: VLM text + Mathpix geometry).
     openai_api_key: str = ""
-    openai_model: str = "gpt-5.6"
+    openai_model: str = "gpt-5.1"
 
 
 settings = Settings()
