@@ -42,17 +42,24 @@ def test_fuse_rebuilds_char_ranges_and_flat_text():
         assert fused.flat_text[segment.char_start : segment.char_end] == segment.text
 
 
-def test_fuse_refuses_when_line_counts_differ():
-    # Readers disagreeing on line count would slide text onto the wrong shapes,
-    # so the page is refused rather than annotated wrongly.
+def test_fuse_redistributes_when_counts_differ():
+    # The VLM split the same words into a different number of lines. They are laid
+    # back onto Mathpix's two lines, so each shape keeps its own text.
+    fused = fuse(_ir(), ["the", "cat sat", "down"])  # 3 VLM lines, 2 Mathpix lines
+    assert len(fused.segments) == 2
+    assert [s.text for s in fused.segments] == ["the cat", "sat down"]
+
+
+def test_fuse_refuses_when_agreement_is_too_low():
+    # Different line count AND unrelated words: the readers disagree on the page,
+    # so it is refused rather than annotated wrongly.
     with pytest.raises(AlignmentError) as exc:
-        fuse(_ir(), ["the cat"])  # two shapes, one VLM line
-    assert exc.value.mathpix_lines == 2
-    assert exc.value.vlm_lines == 1
+        fuse(_ir(), ["xxxx yyyy zzzz"])
+    assert exc.value.agreement < 0.3
     assert exc.value.warning  # a student-facing message to show instead
 
 
 def test_alignment_flag():
     ir = _ir()
-    assert alignment_ok(ir, ["a", "b"]) is True
-    assert alignment_ok(ir, ["a", "b", "c"]) is False
+    assert alignment_ok(ir, ["a", "b"]) is True          # same count — always ok
+    assert alignment_ok(ir, ["xxxx yyyy zzzz"]) is False  # count differs, no agreement
