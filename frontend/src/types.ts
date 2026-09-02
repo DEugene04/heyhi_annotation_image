@@ -22,7 +22,19 @@ export interface AnnotationItem {
   regions: Region[];
 }
 
+// One rubric criterion's result, shown in the panel scorecard (not on the
+// image). Only the essay path fills these; short-answer leaves scorecard empty.
+export interface CriterionScore {
+  name: string;
+  score: number;
+  max_score: number;
+  feedback: string;
+  feedback_detailed: string;
+}
+
 export interface AnnotationPayload {
   image: { width: number; height: number };
   items: AnnotationItem[];
+  // Present on essay results; absent on short-answer results and older fixtures.
+  scorecard?: CriterionScore[];
 }

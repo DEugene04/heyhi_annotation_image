@@ -31,5 +31,24 @@ class Settings(BaseSettings):
     openai_api_key: str = ""
     openai_model: str = "gpt-5.1"
 
+    # FLC (first-level-checking) spelling/grammar service. Base host only; the
+    # client appends the /global/first-level-checking/v2 path. Overridable via
+    # .env (FLC_BASE_URL) since the deploy host may differ (staging vs prod).
+    flc_base_url: str = (
+        "https://n47xec5kukaax54bihdh4bc5pq0zgoso.lambda-url.ap-southeast-1.on.aws"
+    )
+    # Above this many seconds we give up on FLC and mark without its findings.
+    flc_timeout_seconds: float = 90.0
+
 
 settings = Settings()
+
+import os
+
+_key = os.environ.get("OPENAI_API_KEY")
+
+OPENAI_API_KEY_DICT = {
+    "AI_AUTOMARKING": os.environ.get("OPENAI_API_KEY_AI_AUTOMARKING", _key),
+    "GLOBAL": _key,
+}
+

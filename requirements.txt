@@ -13,3 +13,5 @@ httpx                 # HTTP client for the Mathpix call (WS2)
 pillow                # image handling (WS1/WS2)
 pytest                # test runner
 openai                # VLM re-read for the VLM+OCR fusion experiment
+beautifulsoup4        # HTML cleanup in the evaluator's answer extraction
+jiwer                 # character-level diff for evaluator answer matching

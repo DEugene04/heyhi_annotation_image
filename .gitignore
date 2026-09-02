@@ -20,6 +20,12 @@ dist/
 
 # OS
 .DS_Store
+
+# Throwaway probe/test scripts kept local, not committed.
+scratch_*.py
+
+# Logs
+logs/
 corpus/fusion/
 frontend/public/fusion-payload.json
 frontend/public/fusion-image.png

@@ -17,6 +17,81 @@
   font-size: 14px;
 }
 
+/* The submission form, above the viewer. */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 0 28px;
+  padding: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form__label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.form__optional {
+  font-weight: 400;
+  color: #9ca3af;
+}
+
+.form textarea,
+.form input[type="file"] {
+  font: inherit;
+  font-size: 14px;
+  color: #1f2937;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #fff;
+  resize: vertical;
+}
+
+.form textarea:focus {
+  outline: none;
+  border-color: #9ca3af;
+  box-shadow: 0 0 0 2px rgba(31, 41, 55, 0.08);
+}
+
+.form__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.form__submit {
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: #1f2937;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 18px;
+  cursor: pointer;
+}
+
+.form__submit:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.form__error {
+  margin: 0;
+  font-size: 13px;
+  color: #b91c1c;
+}
+
 /* Image on top, panel below — the panel works on touch, unlike a hover tooltip. */
 .viewer {
   display: flex;
@@ -56,6 +131,54 @@
   letter-spacing: 0.04em;
   color: #9ca3af;
   margin: 12px 0 2px;
+}
+
+/* The essay rubric scorecard, shown above the feedback cards. */
+.scorecard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #f9fafb;
+  margin-bottom: 6px;
+}
+
+.scorecard__total {
+  float: right;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.scorecard__row {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 8px;
+}
+
+.scorecard__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.scorecard__name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.scorecard__score {
+  font-variant-numeric: tabular-nums;
+  color: #374151;
+  font-size: 14px;
+}
+
+.scorecard__feedback {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.4;
 }
 
 /* Each feedback item is a card, its left edge coloured by category. */

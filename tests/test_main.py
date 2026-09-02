@@ -1,10 +1,10 @@
 """
 Tests for the /annotate route's wiring.
 
-The two readers (Mathpix and GPT-5) are replaced with fakes so the route can be
-exercised without calling the live services. We check the three outcomes: a page
-the readers agree on is annotated, a page they disagree on is refused with the
-retake message, and a page read too unclearly is refused too.
+The two readers (Mathpix and GPT-5) and the evaluator are replaced with fakes so
+the route can be exercised without calling the live services. We check the three
+outcomes: a page the readers agree on is annotated, a page they disagree on is
+refused with the retake message, and a page read too unclearly is refused too.
 """
 
 import main
@@ -31,7 +31,29 @@ def _fake_ir():
 
 
 def _post():
-    return client.post("/annotate", files={"photo": ("a.png", b"bytes", "image/png")})
+    return client.post(
+        "/annotate",
+        files={"photo": ("a.png", b"bytes", "image/png")},
+        data={"question": "Spell the sentence."},
+    )
+
+
+async def _fake_evaluate(question, student_answer, answer_key=None, **kwargs):
+    """Stand in for the evaluator: a correct highlight plus an overall remark."""
+
+    return {
+        "mark": 1.0,
+        "mark_highlights": [
+            {"target": "the cat", "status": "correct", "remark": "Right."},
+        ],
+        "remarks": "Overall: good.",
+    }
+
+
+async def _fake_flc_check(student_composition, question_statement, **kwargs):
+    """Stand in for the FLC service so tests never make a real network call."""
+
+    return []
 
 
 def test_health():
@@ -41,6 +63,8 @@ def test_health():
 def test_annotate_returns_a_payload_when_the_readers_agree(monkeypatch):
     monkeypatch.setattr(main, "build_ir", lambda _: _fake_ir())
     monkeypatch.setattr(main, "transcribe_lines", lambda _: ["the cat", "sat down"])
+    monkeypatch.setattr(main, "evaluate", _fake_evaluate)
+    monkeypatch.setattr(main.flc, "check", _fake_flc_check)
     response = _post()
     assert response.status_code == 200
     body = response.json()

@@ -4,10 +4,13 @@ This document defines what the evaluator layer receives and what it must return.
 It is a specification to hand to the organization that owns the evaluator — not
 code we run on our side.
 
-**Status: on hold.** The evaluator exists and is owned by the organization. Its
-integration is paused while we confirm how it points at the position of each
-piece of feedback (see "The open question" below). During development we stand
-in for it with fixture feedback, so nothing else waits on it.
+**Status: integrated (verbatim-text spans).** The evaluator is wired into the
+`/annotate` pipeline via `evaluator/evaluate.py`. It still points at spans by
+verbatim text rather than by character position (see "The open question"
+below), so `evaluator/adapter.py` locates each returned `target` back into
+`flat_text`; a target it cannot find (most often rewritten maths) degrades to a
+panel-only item. Moving to a position-returning model would let the resolver
+consume the evaluator directly and retire the adapter.
 
 ---
 

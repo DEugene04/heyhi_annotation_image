@@ -7,12 +7,27 @@
 // because it could not be drawn.
 
 import { CATEGORY_STYLE } from "./categories";
-import type { AnnotationItem } from "./types";
+import type { AnnotationItem, CriterionScore } from "./types";
 
 interface Props {
   items: AnnotationItem[];
+  scorecard?: CriterionScore[];
   selectedItemId: string | null;
   onSelect: (itemId: string) => void;
+}
+
+function ScoreCard({ criterion }: { criterion: CriterionScore }) {
+  return (
+    <div className="scorecard__row">
+      <div className="scorecard__head">
+        <span className="scorecard__name">{criterion.name}</span>
+        <span className="scorecard__score">
+          {criterion.score}/{criterion.max_score}
+        </span>
+      </div>
+      <p className="scorecard__feedback">{criterion.feedback}</p>
+    </div>
+  );
 }
 
 function Card({
@@ -43,12 +58,30 @@ function Card({
   );
 }
 
-export function FeedbackPanel({ items, selectedItemId, onSelect }: Props) {
+export function FeedbackPanel({
+  items,
+  scorecard = [],
+  selectedItemId,
+  onSelect,
+}: Props) {
   const located = items.filter((i) => i.regions.length > 0);
   const general = items.filter((i) => i.regions.length === 0);
+  const total = scorecard.reduce((sum, c) => sum + c.score, 0);
+  const totalMax = scorecard.reduce((sum, c) => sum + c.max_score, 0);
 
   return (
     <div className="panel">
+      {scorecard.length > 0 && (
+        <div className="scorecard">
+          <h2 className="panel__heading">
+            Rubric score <span className="scorecard__total">{total}/{totalMax}</span>
+          </h2>
+          {scorecard.map((criterion) => (
+            <ScoreCard key={criterion.name} criterion={criterion} />
+          ))}
+        </div>
+      )}
+
       <h2 className="panel__heading">Feedback</h2>
 
       {located.map((item) => (

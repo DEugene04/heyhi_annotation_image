@@ -22,14 +22,24 @@ class VLMError(Exception):
 
 
 _PROMPT = (
+    "You are transcribing a student's handwriting for a SPELLING AND GRAMMAR "
+    "assessment. A teacher needs to see the student's exact spelling, including "
+    "every mistake. Your job is to copy the letters that are actually written, "
+    "NOT to read for meaning. "
     "Transcribe every piece of text in this image exactly as it appears — "
     "printed and handwritten alike, including any question, instructions, or "
     "numbering already on the page. Do not decide what is relevant: transcribe "
     "all of it. "
+    "Copy the writing letter for letter. If a word is misspelled, or is not a "
+    "real word, keep it exactly as written — do NOT fix it. For example, if the "
+    "page says 'laazy' write 'laazy' (not 'lazy'); if it says 'outsde' write "
+    "'outsde' (not 'outside'). Never correct spelling, grammar, or punctuation, "
+    "and never translate, summarise, or add anything of your own. When you are "
+    "tempted to write the correct word, write the wrong one that is actually on "
+    "the page instead. "
     "Output one line for each physical line on the page, breaking where the text "
     "breaks on the page — even when a sentence continues onto the next line. "
-    "Use LaTeX for any mathematics. Preserve spelling and wording; do not "
-    "correct, translate, summarise, or add anything of your own. "
+    "Use LaTeX for any mathematics. "
     "Output only the transcription — no commentary, no code fences."
 )
 

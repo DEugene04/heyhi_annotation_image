@@ -13,18 +13,20 @@ and combines them into the region(s) to draw:
   - A range that matches no writing draws nothing, rather than a box in the
     wrong place. The feedback still appears, listed in the panel on its own.
 
-Only this core — position in, shapes out — is built. The part that turns the
-real evaluator's output into a position is on hold until we know how the
-evaluator points at spans (see contracts/evaluator_contract.md).
+This core — position in, shapes out — stays deterministic. The part that turns
+the real evaluator's verbatim-text spans into positions lives in
+evaluator/adapter.py, which locates each target in flat_text before this layer
+draws it (see contracts/evaluator_contract.md).
 """
 
 import logging
-from typing import List
+from typing import List, Optional
 
 from contracts.schema import (
     IR,
     AnnotationItem,
     AnnotationPayload,
+    CriterionScore,
     Feedback,
     Point,
     Quad,
@@ -108,13 +110,20 @@ def resolve_regions(ir: IR, char_start: int, char_end: int) -> List[Region]:
     return [_region_for_run(run) for run in _group_into_runs(touched)]
 
 
-def resolve_payload(ir: IR, feedback: List[Feedback]) -> AnnotationPayload:
+def resolve_payload(
+    ir: IR,
+    feedback: List[Feedback],
+    scorecard: Optional[List[CriterionScore]] = None,
+) -> AnnotationPayload:
     """
     Turn the IR and a list of feedback into the payload the frontend draws.
 
     Each feedback item becomes one annotation item. Feedback with no span, and
     feedback whose span matches no writing, becomes a panel-only item with no
     region — the feedback is never dropped, only its (missing or wrong) shape is.
+
+    `scorecard` is the essay path's per-criterion rubric results, shown in the
+    panel; it is passed straight through. The short-answer path leaves it empty.
     """
 
     items: List[AnnotationItem] = []
@@ -143,4 +152,4 @@ def resolve_payload(ir: IR, feedback: List[Feedback]) -> AnnotationPayload:
             )
         )
 
-    return AnnotationPayload(image=ir.image, items=items)
+    return AnnotationPayload(image=ir.image, items=items, scorecard=scorecard or [])

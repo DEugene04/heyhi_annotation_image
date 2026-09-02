@@ -1,0 +1,17 @@
+$xy' + 2y = \dfrac{1}{x^2\log x}$
+STANDART FORM OF THE EQUATION:
+$y' + \dfrac{2y}{x} = \dfrac{1}{x^3 \log x}$
+THEN INTEGRATING FACTOR:
+I F = $e^{\int \dfrac{2}{x}dx}$ = $e^{2\log x}$ = $x^2$
+Y . I F = $\int x^2 \cdot \dfrac{1}{x^3\log x}dx + c_1$
+$Y x^2 = \int \dfrac{1}{x\log x}dx + C$
+LET $\log x$ BE $m$ . THEN
+$Y x^2 = \int \dfrac{1}{m} . dm + C = \log m + C$
+$Y x^2 = \log (\log x) + C$
+IF $Y(e) = 0 .$ THEN
+$Y(e) \ \ e^2 = \log_e (\log e) + C$
+$0 = \log_e (1) + C$
+$0 = 0 + C$
+C = 0 \ \ \ \ so
+$Y x^2 = \log (\log x)$
+$Y = \dfrac{\log (\log x)}{x^2}$

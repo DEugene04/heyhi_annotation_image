@@ -1,0 +1,14 @@
+The equation of a circle is \(x^2 + y^2 - 4x + 6y - 77 = 0\).
+(a) Find the x-coordinates of the points \(A\) and \(B\) where the circle intersects the x-axis.                     [2]
+(b) Find the point of intersection of the tangents to the circle at \(A\) and \(B\).                             [6]
+(i)
+\(x^2 + y^2 - 4x + 6y - 77 = 0\)
+put \(y = 0\)
+\(x^2 + (0)^2 - 4x + 6(0) - 77 = 0\)
+\(x^2 - 4x - 77 = 0\)
+\(x^2 - 11x + 7x - 77 = 0\)
+\((x - 11)(x + 7) = 0\)
+\(x = 11, x = -7\)
+(ii)
+\(x^2 + y^2 - 4x + 6y - 77 = 0\)
+\(x^2 - 4x + (2)^2 - (2)^2 + y^2 - 6y + (3)^2 - (3)^2 = 77\)

@@ -6,6 +6,11 @@
 // piece of feedback and highlights its card. Feedback with no shape is listed in
 // the panel on its own. The overlay is drawn in image coordinates, so it stays
 // aligned with the writing as the image scales to fit the screen.
+//
+// A photo submitted through the form is sent to the backend's /annotate route;
+// the payload it returns is drawn over that same photo. The evaluator's quads are
+// in the uploaded image's own pixel space, so the raw upload is the right
+// backdrop. Before any submission, a sample answer stands in.
 
 import { useEffect, useMemo, useState } from "react";
 import {
@@ -24,23 +29,20 @@ import { SAMPLE_PAYLOAD } from "./fixture";
 import { toAnnotations } from "./annotations";
 import { CATEGORY_STYLE } from "./categories";
 import { FeedbackPanel } from "./FeedbackPanel";
-import type { AnnotationPayload, Category } from "./types";
+import { AnswerForm } from "./AnswerForm";
+import type { AnnotationPayload } from "./types";
 import "./App.css";
 
-function Viewer() {
+function Viewer({
+  payload,
+  imageSrc,
+}: {
+  payload: AnnotationPayload;
+  imageSrc: string;
+}) {
   const anno = useAnnotator<Annotator<ImageAnnotation>>();
   const selection = useSelection<ImageAnnotation>();
   const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
-
-  // Load the real fused payload (Mathpix shapes + GPT-5 text) if it has been
-  // exported into public/; otherwise fall back to the hand-made fixture.
-  const [payload, setPayload] = useState<AnnotationPayload>(SAMPLE_PAYLOAD);
-  useEffect(() => {
-    fetch("/fusion-payload.json")
-      .then((r) => (r.ok ? r.json() : Promise.reject()))
-      .then(setPayload)
-      .catch(() => setPayload(SAMPLE_PAYLOAD));
-  }, []);
 
   const annotations = useMemo(() => toAnnotations(payload), [payload]);
 
@@ -54,7 +56,7 @@ function Viewer() {
   useEffect(() => {
     if (!anno) return;
     const style = (annotation: ImageAnnotation): DrawingStyle => {
-      const category = annotation.properties?.category as Category;
+      const category = annotation.properties?.category as keyof typeof CATEGORY_STYLE;
       const color = (CATEGORY_STYLE[category]?.color ?? "#666666") as Color;
       const isSelected = annotation.properties?.itemId === selectedItemId;
       return {
@@ -91,11 +93,12 @@ function Viewer() {
     <div className="viewer">
       <div className="viewer__image">
         <ImageAnnotator drawingEnabled={false}>
-          <img src="/fusion-image.png" alt="Student's answer" />
+          <img src={imageSrc} alt="Student's answer" />
         </ImageAnnotator>
       </div>
       <FeedbackPanel
         items={payload.items}
+        scorecard={payload.scorecard}
         selectedItemId={selectedItemId}
         onSelect={selectItem}
       />
@@ -104,14 +107,40 @@ function Viewer() {
 }
 
 export default function App() {
+  // Before any submission, stand in with the sample answer and its fixture
+  // payload — or the exported fused payload, if one has been dropped into public/.
+  const [payload, setPayload] = useState<AnnotationPayload>(SAMPLE_PAYLOAD);
+  const [imageSrc, setImageSrc] = useState<string>("/fusion-image.png");
+
+  useEffect(() => {
+    fetch("/fusion-payload.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then(setPayload)
+      .catch(() => undefined);
+  }, []);
+
+  // When a submission succeeds, draw its payload over the uploaded photo. The
+  // object URL is swapped in as the backdrop and the previous one released.
+  const showResult = (next: AnnotationPayload, photo: File) => {
+    setImageSrc((prev) => {
+      if (prev.startsWith("blob:")) URL.revokeObjectURL(prev);
+      return URL.createObjectURL(photo);
+    });
+    setPayload(next);
+  };
+
   return (
     <main className="app">
       <header className="app__header">
         <h1>Answer feedback</h1>
-        <p>Select a highlight, or a card below, to see its feedback.</p>
+        <p>Upload an answer and its question to have it marked, then select a highlight or a card to see its feedback.</p>
       </header>
-      <Annotorious>
-        <Viewer />
+
+      <AnswerForm onResult={showResult} />
+
+      {/* Remount the annotator per image so it re-measures the new backdrop. */}
+      <Annotorious key={imageSrc}>
+        <Viewer payload={payload} imageSrc={imageSrc} />
       </Annotorious>
     </main>
   );

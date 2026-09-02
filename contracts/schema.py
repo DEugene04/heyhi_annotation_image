@@ -185,11 +185,32 @@ class AnnotationItem(BaseModel):
     regions: List[Region] = Field(default_factory=list)
 
 
+class CriterionScore(BaseModel):
+    """
+    One rubric criterion's result, shown in the side panel (not on the image).
+
+    Essay marking scores against a rubric of criteria (for example Content,
+    Organization, Language), each with its own mark out of a maximum and its own
+    feedback. Unlike a Feedback item, this is not tied to a span on the page — it
+    is a holistic judgement about the whole answer against that criterion, so it
+    lives in the panel as a scorecard. The short-answer path produces none of
+    these; only the essay path fills the scorecard.
+    """
+
+    name: str                       # the criterion, e.g. "Content & Ideas"
+    score: float                    # the mark awarded for this criterion
+    max_score: float                # the highest mark the criterion can earn
+    feedback: str                   # the student-facing feedback (concise)
+    feedback_detailed: str = ""     # the fuller explanation, when available
+
+
 class AnnotationPayload(BaseModel):
     """
     Everything the frontend needs to render one annotated answer:
-    the image to draw on, and the feedback items with their regions.
+    the image to draw on, the feedback items with their regions, and (for essays)
+    the per-criterion scorecard shown in the panel.
     """
 
     image: ImageMeta
     items: List[AnnotationItem]
+    scorecard: List[CriterionScore] = Field(default_factory=list)

@@ -1,0 +1,198 @@
+[
+  {
+    "text": "B. Write questions for the following answers!",
+    "polygon": [
+      138,
+      85,
+      651,
+      75,
+      652,
+      99,
+      138,
+      108
+    ],
+    "confidence": 0.8815714285714286
+  },
+  {
+    "text": "1",
+    "polygon": [
+      132,
+      127,
+      163,
+      127,
+      162,
+      159,
+      131,
+      159
+    ],
+    "confidence": 0.984
+  },
+  {
+    "text": "Who works at the hospital every day?",
+    "polygon": [
+      166,
+      123,
+      929,
+      90,
+      931,
+      130,
+      166,
+      159
+    ],
+    "confidence": 0.9841428571428572
+  },
+  {
+    "text": "Doctors work at the hospital every day.",
+    "polygon": [
+      128,
+      193,
+      591,
+      189,
+      591,
+      217,
+      128,
+      220
+    ],
+    "confidence": 0.9868571428571429
+  },
+  {
+    "text": "2",
+    "polygon": [
+      124,
+      246,
+      143,
+      246,
+      143,
+      273,
+      123,
+      273
+    ],
+    "confidence": 0.746
+  },
+  {
+    "text": "Do you go to the beach in the summer?",
+    "polygon": [
+      168,
+      235,
+      936,
+      191,
+      938,
+      236,
+      169,
+      273
+    ],
+    "confidence": 0.9816666666666668
+  },
+  {
+    "text": "Yes, we go to the beach in the summer.",
+    "polygon": [
+      116,
+      309,
+      589,
+      309,
+      589,
+      336,
+      116,
+      338
+    ],
+    "confidence": 0.9814444444444442
+  },
+  {
+    "text": "3 Do you go in the summer to the beach?",
+    "polygon": [
+      109,
+      357,
+      838,
+      333,
+      840,
+      372,
+      109,
+      395
+    ],
+    "confidence": 0.9428999999999998
+  },
+  {
+    "text": "Yes, we go to the beach in the summer.",
+    "polygon": [
+      104,
+      431,
+      592,
+      434,
+      592,
+      461,
+      104,
+      458
+    ],
+    "confidence": 0.9937777777777776
+  },
+  {
+    "text": "4. Are you going to the beach in the summer?",
+    "polygon": [
+      97,
+      483,
+      1178,
+      426,
+      1181,
+      481,
+      98,
+      519
+    ],
+    "confidence": 0.9836
+  },
+  {
+    "text": "Yes, we go to the beach in the summer.",
+    "polygon": [
+      91,
+      561,
+      597,
+      567,
+      597,
+      595,
+      90,
+      590
+    ],
+    "confidence": 0.9938888888888889
+  },
+  {
+    "text": "5",
+    "polygon": [
+      84,
+      626,
+      106,
+      626,
+      106,
+      654,
+      83,
+      655
+    ],
+    "confidence": 0.995
+  },
+  {
+    "text": "Who is buying flowers?",
+    "polygon": [
+      122,
+      608,
+      604,
+      608,
+      604,
+      657,
+      122,
+      656
+    ],
+    "confidence": 0.9750000000000001
+  },
+  {
+    "text": "Sara and Dana are buying flowers.",
+    "polygon": [
+      77,
+      703,
+      533,
+      710,
+      532,
+      740,
+      76,
+      733
+    ],
+    "confidence": 0.9913333333333334
+  }
+]
