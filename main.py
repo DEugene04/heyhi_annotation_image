@@ -177,10 +177,16 @@ async def _run_annotate(
     ir = build_ir(image_bytes)
     _log_stage("LAYER 1 build_ir output (Mathpix IR)", ir)
 
+    # EXPERIMENT (Case 1): pass Mathpix's literal reading to the VLM as a spelling
+    # hint, to counter the VLM's autocorrect prior without trusting the OCR's
+    # (often wrong) word choices. Revert this commit to disable.
+    mathpix_hint = "\n".join(seg.text for seg in ir.segments)
+    _log_stage("LAYER 2 VLM Mathpix hint (input)", mathpix_hint)
+
     # LAYER 2 -- VLM reader: accurate text, no reliable positions. This is the
     # prime suspect for silent spelling correction; log it verbatim.
     try:
-        vlm_lines = transcribe_lines(image_bytes)
+        vlm_lines = transcribe_lines(image_bytes, mathpix_hint)
         _log_stage("LAYER 2 transcribe_lines output (raw VLM lines)", vlm_lines)
 
         # LAYER 3 -- Fusion: VLM words laid onto Mathpix shapes.

@@ -62,7 +62,7 @@ def test_health():
 
 def test_annotate_returns_a_payload_when_the_readers_agree(monkeypatch):
     monkeypatch.setattr(main, "build_ir", lambda _: _fake_ir())
-    monkeypatch.setattr(main, "transcribe_lines", lambda _: ["the cat", "sat down"])
+    monkeypatch.setattr(main, "transcribe_lines", lambda *_: ["the cat", "sat down"])
     monkeypatch.setattr(main, "evaluate", _fake_evaluate)
     monkeypatch.setattr(main.flc, "check", _fake_flc_check)
     response = _post()
@@ -74,7 +74,7 @@ def test_annotate_returns_a_payload_when_the_readers_agree(monkeypatch):
 
 def test_annotate_refuses_when_the_readers_disagree(monkeypatch):
     monkeypatch.setattr(main, "build_ir", lambda _: _fake_ir())
-    monkeypatch.setattr(main, "transcribe_lines", lambda _: ["only one line"])
+    monkeypatch.setattr(main, "transcribe_lines", lambda *_: ["only one line"])
     response = _post()
     assert response.status_code == main.RETAKE_STATUS
     assert response.json()["detail"] == RETAKE_WARNING
@@ -82,7 +82,7 @@ def test_annotate_refuses_when_the_readers_disagree(monkeypatch):
 
 def test_annotate_refuses_when_the_reading_is_unclear(monkeypatch):
     monkeypatch.setattr(main, "build_ir", lambda _: _fake_ir())
-    monkeypatch.setattr(main, "transcribe_lines", lambda _: ["the cat", "sat down"])
+    monkeypatch.setattr(main, "transcribe_lines", lambda *_: ["the cat", "sat down"])
     monkeypatch.setattr(main, "is_readable", lambda _: False)
     response = _post()
     assert response.status_code == main.RETAKE_STATUS

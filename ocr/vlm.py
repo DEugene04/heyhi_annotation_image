@@ -44,8 +44,26 @@ _PROMPT = (
 )
 
 
-def transcribe_lines(image_bytes: bytes) -> list[str]:
-    """Read the handwriting with GPT-5 and return one string per written line."""
+# EXPERIMENT (Case 1: Mathpix-as-hint). Appended to the prompt when a literal OCR
+# reading is supplied, to counter the model's autocorrect prior with evidence of
+# the exact letters written -- without letting the (often misread) OCR override
+# what the image actually shows.
+_HINT_TEMPLATE = (
+    "\n\nTo help with difficult handwriting, here is a literal character-level OCR "
+    "of the same page. It preserves the exact spelling that was written (including "
+    "misspellings) but it sometimes misreads letters:\n---\n{hint}\n---\n"
+    "Use it ONLY as a hint about spelling: where the image supports the OCR's exact "
+    "spelling, keep that spelling (including any misspelling). But trust the image "
+    "over the OCR whenever they conflict on which letters are actually written."
+)
+
+
+def transcribe_lines(image_bytes: bytes, mathpix_hint: str = "") -> list[str]:
+    """Read the handwriting with GPT-5 and return one string per written line.
+
+    `mathpix_hint` is the literal OCR reading of the same page; when given, it is
+    added to the prompt as a spelling hint (see _HINT_TEMPLATE).
+    """
 
     if not settings.openai_api_key:
         raise VLMError("OPENAI_API_KEY is not set (see .env).")
@@ -55,13 +73,17 @@ def transcribe_lines(image_bytes: bytes) -> list[str]:
     client = OpenAI(api_key=settings.openai_api_key)
     encoded = base64.b64encode(image_bytes).decode("ascii")
 
+    prompt = _PROMPT
+    if mathpix_hint.strip():
+        prompt += _HINT_TEMPLATE.format(hint=mathpix_hint)
+
     response = client.responses.create(
         model=settings.openai_model,
         input=[
             {
                 "role": "user",
                 "content": [
-                    {"type": "input_text", "text": _PROMPT},
+                    {"type": "input_text", "text": prompt},
                     {
                         "type": "input_image",
                         "image_url": f"data:image/jpeg;base64,{encoded}",
