@@ -26,6 +26,7 @@ from typing import Optional
 
 from fastapi import FastAPI, Form, HTTPException, UploadFile
 
+from config import settings
 from contracts.schema import AnnotationPayload
 from evaluator import flc
 from evaluator.essay.adapter import score_detail_to_scorecard
@@ -177,11 +178,20 @@ async def _run_annotate(
     ir = build_ir(image_bytes)
     _log_stage("LAYER 1 build_ir output (Mathpix IR)", ir)
 
-    # EXPERIMENT (Case 1): pass Mathpix's literal reading to the VLM as a spelling
-    # hint, to counter the VLM's autocorrect prior without trusting the OCR's
-    # (often wrong) word choices. Revert this commit to disable.
-    mathpix_hint = "\n".join(seg.text for seg in ir.segments)
-    _log_stage("LAYER 2 VLM Mathpix hint (input)", mathpix_hint)
+    # EXPERIMENT: optionally pass Mathpix's literal reading to the VLM as a
+    # spelling hint (toggle via VLM_USE_MATHPIX_HINT). The model is set via
+    # OPENAI_MODEL. Both are logged so each run records the config it used.
+    _log_stage(
+        "LAYER 2 VLM config",
+        {
+            "model": settings.openai_model,
+            "mathpix_hint_enabled": settings.vlm_use_mathpix_hint,
+        },
+    )
+    mathpix_hint = ""
+    if settings.vlm_use_mathpix_hint:
+        mathpix_hint = "\n".join(seg.text for seg in ir.segments)
+        _log_stage("LAYER 2 VLM Mathpix hint (input)", mathpix_hint)
 
     # LAYER 2 -- VLM reader: accurate text, no reliable positions. This is the
     # prime suspect for silent spelling correction; log it verbatim.

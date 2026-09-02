@@ -28,8 +28,14 @@ class Settings(BaseSettings):
     confidence_threshold: float = 0.6
 
     # VLM used to re-read the text (experiment: VLM text + Mathpix geometry).
+    # Override the model per experiment via .env: OPENAI_MODEL=<model-id>.
     openai_api_key: str = ""
     openai_model: str = "gpt-5.1"
+
+    # EXPERIMENT toggle: feed Mathpix's literal reading to the VLM as a spelling
+    # hint (see ocr/vlm.py). Set VLM_USE_MATHPIX_HINT=false in .env to disable, so
+    # the model / hint can be A/B'd without code changes.
+    vlm_use_mathpix_hint: bool = True
 
     # FLC (first-level-checking) spelling/grammar service. Base host only; the
     # client appends the /global/first-level-checking/v2 path. Overridable via
