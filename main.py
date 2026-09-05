@@ -252,9 +252,15 @@ async def _run_short_answer(
     """Short-answer strategy: mark against the answer key / rubric, highlight
     each sentence."""
 
-    # LAYER 5 -- Evaluator (idea marking) + FLC (spelling/grammar), run
-    # concurrently so the total wait is ~max(evaluator, FLC), not the sum. FLC
-    # degrades to [] on failure, so a down spell-checker never fails the request.
+    # LAYER 5 -- Evaluator (idea marking). Unlike the essay path, we do NOT run
+    # FLC here: the short-answer evaluator already produces per-sentence highlights
+    # that cover the whole answer, so FLC's spelling/grammar findings were fully
+    # redundant (0 marginal findings across 20 test answers) and, on one-word/
+    # fragment answers like fill-in-the-blanks, FLC even emitted false positives
+    # (e.g. "capitalize 'puppy'" on a correct answer). See flc_essay_eval/ and
+    # short_answer_flc_eval/ for the evidence. FLC stays on the essay path, where
+    # the evaluator produces no on-page highlights and FLC's corrections are
+    # genuinely additive.
     _log_stage(
         "LAYER 5 evaluate input",
         {
@@ -265,20 +271,13 @@ async def _run_short_answer(
             "marking_note": marking_note or "",
         },
     )
-    _log_stage(
-        "LAYER 5 FLC input",
-        {"student_composition": fused.flat_text, "question_statement": question},
-    )
-    evaluation, flc_findings = await asyncio.gather(
-        evaluate(
-            question,
-            fused.flat_text,
-            answer_key,
-            rubric=rubric or "",
-            marking_note=marking_note or "",
-            debug_mode=True,
-        ),
-        flc.check(fused.flat_text, question),
+    evaluation = await evaluate(
+        question,
+        fused.flat_text,
+        answer_key,
+        rubric=rubric or "",
+        marking_note=marking_note or "",
+        debug_mode=True,
     )
     _log_stage("LAYER 5 evaluate output (full evaluator result + prompts)", evaluation)
     _log_stage(
@@ -287,22 +286,15 @@ async def _run_short_answer(
             "total_tokens": evaluation.get("total_tokens"),
             "total_cost": evaluation.get("total_cost"),
             "models_used": evaluation.get("models_used"),
-            # FLC's dollar cost is spent in its own process and not returned, so
-            # it cannot be logged here -- only its finding count.
-            "flc_findings": len(flc_findings),
         },
     )
-    _log_stage("LAYER 5 FLC output (checking[])", flc_findings)
 
-    # LAYER 6 -- Adapters: evaluator highlights + FLC findings -> positioned
-    # feedback. FLC findings are additive (extra red spelling/grammar highlights).
+    # LAYER 6 -- Adapter: evaluator highlights -> positioned feedback.
     feedback = to_feedback(fused.flat_text, evaluation)
-    flc_feedback = flc_to_feedback(fused.flat_text, flc_findings)
     _log_stage("LAYER 6 to_feedback output (evaluator)", [f.model_dump() for f in feedback])
-    _log_stage("LAYER 6 FLC adapter output", [f.model_dump() for f in flc_feedback])
 
     # LAYER 7 -- Resolver: char spans -> polygons -> the payload the frontend draws.
-    payload = resolve_payload(fused, feedback + flc_feedback)
+    payload = resolve_payload(fused, feedback)
     _log_stage("LAYER 7 resolve_payload output (final payload)", payload)
 
     return payload

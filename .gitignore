@@ -24,6 +24,11 @@ dist/
 # Throwaway probe/test scripts kept local, not committed.
 scratch_*.py
 
+# Local FLC / answer-key evaluation runs (harness output, inspected manually).
+flc_essay_eval/
+short_answer_flc_eval/
+short_answer_nokey_eval/
+
 # Logs
 logs/
 corpus/fusion/
