@@ -144,8 +144,7 @@ class Feedback(BaseModel):
     that refers to no particular place (for example, "you skipped a step") leaves
     both ends empty and is shown in the panel on its own.
 
-    This is the shape the geometry layer reads. While the evaluator is on hold,
-    these come from fixtures instead.
+    This is the shape the geometry layer reads.
     """
 
     comment: str
