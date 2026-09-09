@@ -23,6 +23,7 @@ from typing import List, Optional, Union
 
 import config
 from evaluator.short_answer.chain import AutoMarkingChain
+from evaluator.short_answer.fitb import evaluate_fitb, maybe_parse_fitb
 from evaluator.short_answer.logic import (
     AnswerContext,
     MarkingResultContext,
@@ -130,6 +131,24 @@ async def evaluate(
         or config.settings.openai_api_key
         or config.OPENAI_API_KEY_DICT["AI_AUTOMARKING"]
     )
+
+    # Multi-blank fill-in-the-blank: split the one OCR blob into a per-blank
+    # answer and mark each blank on this same single-answer path, then sum. A
+    # single-blank FITB (or a non-FITB question) parses to None or one blank and
+    # falls straight through to the unchanged path below.
+    if isinstance(student_answer, str):
+        fitb_spec = await maybe_parse_fitb(question, answer_key, full_mark)
+        if fitb_spec is not None and fitb_spec.num_blanks >= 2:
+            return await evaluate_fitb(
+                fitb_spec,
+                student_answer,
+                subject=subject,
+                language=language,
+                marking_note=marking_note,
+                rubric=rubric,
+                api_key=api_key,
+                debug_mode=debug_mode,
+            )
 
     question_context = _build_question_context(
         question=question,
