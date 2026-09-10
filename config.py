@@ -46,6 +46,11 @@ class Settings(BaseSettings):
     # Above this many seconds we give up on FLC and mark without its findings.
     flc_timeout_seconds: float = 90.0
 
+    # EXPERIMENT toggle: draw each feedback box tight to the character span it
+    # points at (e.g. FLC's single wrong word/phrase) instead of boxing the whole
+    # line. Set TIGHT_FEEDBACK_BOXES=false in .env to revert to whole-line boxes.
+    tight_feedback_boxes: bool = True
+
 
 settings = Settings()
 

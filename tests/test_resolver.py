@@ -86,9 +86,18 @@ def test_empty_range_gives_no_region():
     assert resolve_regions(_ir(), 5, 5) == []
 
 
-def test_partial_overlap_still_selects_the_line():
-    # A range landing in the middle of line one still highlights that line.
+def test_partial_span_draws_a_box_tight_to_that_part_of_the_line():
+    # "line one" spans x 100..500 (width 400) over chars 0..8. A span over chars
+    # 2..4 covers the fraction 0.25..0.5 of the line, so the box is trimmed to
+    # x 200..300 — hugging just that part instead of boxing the whole line.
     regions = resolve_regions(_ir(), 2, 4)
+    assert len(regions) == 1
+    assert regions[0].quad == _quad(200, 100, 300, 140)
+
+
+def test_full_line_span_still_boxes_the_whole_line():
+    # A span covering exactly the whole line reproduces the full line box.
+    regions = resolve_regions(_ir(), 0, 8)
     assert len(regions) == 1
     assert regions[0].quad == _quad(100, 100, 500, 140)
 
