@@ -21,32 +21,55 @@ class VLMError(Exception):
     """Raised when the VLM cannot be called (e.g. no API key)."""
 
 
-_PROMPT = (
-    "You are transcribing a student's handwriting for a SPELLING AND GRAMMAR "
-    "assessment. A teacher needs to see the student's exact spelling, including "
-    "every mistake. Your job is to copy the letters that are actually written, "
-    "NOT to read for meaning. "
-    "Transcribe every piece of text in this image exactly as it appears — "
-    "printed and handwritten alike, including any question, instructions, or "
-    "numbering already on the page. Do not decide what is relevant: transcribe "
-    "all of it. "
-    "Copy the writing letter for letter. If a word is misspelled, or is not a "
-    "real word, keep it exactly as written — do NOT fix it. For example, if the "
-    "page says 'laazy' write 'laazy' (not 'lazy'); if it says 'outsde' write "
-    "'outsde' (not 'outside'). Never correct spelling, grammar, or punctuation, "
-    "and never translate, summarise, or add anything of your own. When you are "
-    "tempted to write the correct word, write the wrong one that is actually on "
-    "the page instead. "
-    "Output one line for each physical line on the page, breaking where the text "
-    "breaks on the page — even when a sentence continues onto the next line. "
-    "Use LaTeX for any mathematics. "
-    "Output only the transcription — no commentary, no code fences."
+# The instruction is enforced twice: the full rules and worked examples live in
+# the system prompt (_SYSTEM_PROMPT), and a condensed restatement rides with the
+# image in the user prompt (_USER_PROMPT). The autocorrect prior is strong, so the
+# examples below SHOW the required behaviour (keep the wrong spelling) rather than
+# only describing it -- few-shot demonstration is more effective than instruction.
+_SYSTEM_PROMPT = (
+    "You are a transcription engine for a SPELLING AND GRAMMAR assessment. Your "
+    "ONLY job is to copy the exact letters a student wrote, mistakes and all. A "
+    "teacher needs to see every error, so you must NEVER correct, complete, "
+    "translate, summarise, or improve anything.\n\n"
+    "Rules:\n"
+    "- Copy the writing letter for letter. Keep every misspelling, wrong tense, "
+    "missing or extra letter, and bad punctuation exactly as written.\n"
+    "- You are copying letters, NOT reading for meaning. When a word is unclear, "
+    "transcribe the letters that are actually on the page, not the word you expect.\n"
+    "- Transcribe every piece of text on the page — printed and handwritten alike, "
+    "including any question, instructions, or numbering. Do not decide what is "
+    "relevant; that is the marker's job, not yours.\n"
+    "- Output one line for each physical line on the page, breaking where the text "
+    "breaks — even when a sentence continues onto the next line.\n"
+    "- Use LaTeX for any mathematics.\n"
+    "- Output only the transcription: no commentary, no code fences, no fixes.\n\n"
+    "Examples of the exact behaviour required — keep the wrong spelling, never fix it:\n\n"
+    "  Written on the page:  The cat is verry laazy and sat outsde.\n"
+    "  CORRECT output:       The cat is verry laazy and sat outsde.\n"
+    "  WRONG output:         The cat is very lazy and sat outside.\n\n"
+    "  Written on the page:  She dont no the anser to the qeustion.\n"
+    "  CORRECT output:       She dont no the anser to the qeustion.\n"
+    "  WRONG output:         She doesn't know the answer to the question.\n\n"
+    "  Written on the page:  I recieved my award yesterday.\n"
+    "  CORRECT output:       I recieved my award yesterday.\n"
+    "  WRONG output:         I received my award yesterday.\n\n"
+    "Whenever you feel tempted to write the correct word, write the wrong one that "
+    "is actually on the page instead."
+)
+
+# Rides with the image. Restates the one rule that matters most, so the constraint
+# is present both before and alongside the task (the 2x enforcement).
+_USER_PROMPT = (
+    "Transcribe this page exactly as written, for a spelling assessment. Copy "
+    "every letter, including all misspellings and mistakes — do NOT correct, "
+    "complete, or translate anything. One line per physical line on the page. "
+    "Output only the transcription."
 )
 
 
-# EXPERIMENT (Case 1: Mathpix-as-hint). Appended to the prompt when a literal OCR
-# reading is supplied, to counter the model's autocorrect prior with evidence of
-# the exact letters written -- without letting the (often misread) OCR override
+# EXPERIMENT (Case 1: Mathpix-as-hint). Appended to the user prompt when a literal
+# OCR reading is supplied, to counter the model's autocorrect prior with evidence
+# of the exact letters written -- without letting the (often misread) OCR override
 # what the image actually shows.
 _HINT_TEMPLATE = (
     "\n\nTo help with difficult handwriting, here is a literal character-level OCR "
@@ -62,7 +85,7 @@ def transcribe_lines(image_bytes: bytes, mathpix_hint: str = "") -> list[str]:
     """Read the handwriting with GPT-5 and return one string per written line.
 
     `mathpix_hint` is the literal OCR reading of the same page; when given, it is
-    added to the prompt as a spelling hint (see _HINT_TEMPLATE).
+    appended to the user prompt as a spelling hint (see _HINT_TEMPLATE).
     """
 
     if not settings.openai_api_key:
@@ -73,17 +96,20 @@ def transcribe_lines(image_bytes: bytes, mathpix_hint: str = "") -> list[str]:
     client = OpenAI(api_key=settings.openai_api_key)
     encoded = base64.b64encode(image_bytes).decode("ascii")
 
-    prompt = _PROMPT
+    user_prompt = _USER_PROMPT
     if mathpix_hint.strip():
-        prompt += _HINT_TEMPLATE.format(hint=mathpix_hint)
+        user_prompt += _HINT_TEMPLATE.format(hint=mathpix_hint)
 
+    # The full rules + few-shot examples go in the system prompt; the user message
+    # carries the image and a condensed restatement (enforced twice on purpose).
     response = client.responses.create(
         model=settings.openai_model,
+        instructions=_SYSTEM_PROMPT,
         input=[
             {
                 "role": "user",
                 "content": [
-                    {"type": "input_text", "text": prompt},
+                    {"type": "input_text", "text": user_prompt},
                     {
                         "type": "input_image",
                         "image_url": f"data:image/jpeg;base64,{encoded}",

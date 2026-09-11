@@ -9,6 +9,7 @@ import math
 from pydantic import BaseModel, Field
 
 from tools import utils
+from evaluator.essay import image_source
 from evaluator.essay.logic import EssayMarkingPromptConstructor
 from evaluator.dynamic_llm_call import DynamicAsyncOpenAI
 
@@ -312,7 +313,19 @@ Your response should be in the following JSON format:
                 new_tag = soup.new_tag("p")
                 img.insert_before(new_tag)
 
-                img_urls.append(img['src'])
+                # Resolve the src to a value the grader can consume directly: a
+                # public URL passes through, while an s3:// reference or a local
+                # path is fetched and inlined as a base64 data URI. This is the
+                # single choke point, so prod (S3) and tests (local files) share
+                # one code path -- only the reference string differs.
+                try:
+                    src = image_source.to_data_uri(img['src'])
+                except image_source.ImageSourceError as e:
+                    print(f"Skipping unresolvable question image {img.get('src')!r}: {e}")
+                    img.decompose()
+                    continue
+
+                img_urls.append(src)
 
                 # image_description_dict = await self.get_image_description(img['src'], question_statement)
                 

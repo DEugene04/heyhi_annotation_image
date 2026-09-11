@@ -7,12 +7,27 @@ outcomes: a page the readers agree on is annotated, a page they disagree on is
 refused with the retake message, and a page read too unclearly is refused too.
 """
 
+import pytest
+
 import main
 from contracts.schema import IR, ImageMeta, Point, Segment, SegmentType
 from fastapi.testclient import TestClient
 from ocr.fusion import RETAKE_WARNING
 
 client = TestClient(main.app)
+
+
+@pytest.fixture(autouse=True)
+def _isolate_logs(tmp_path, monkeypatch):
+    """Send each test's /annotate log file to a temp dir instead of the real logs/.
+
+    `_annotate_log_file` opens a FileHandler under `main.LOG_DIR` on every request,
+    so a plain test run would otherwise litter logs/short_answer/ with 0-byte files
+    (pytest captures the log records, so they never reach the handler). Redirecting
+    LOG_DIR per test keeps the real logs/ clean.
+    """
+
+    monkeypatch.setattr(main, "LOG_DIR", tmp_path)
 
 
 def _segment(id, line, text):
